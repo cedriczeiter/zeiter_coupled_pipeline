@@ -1,0 +1,11 @@
+# Minimal dependencies for the toy example (scripts + Toy_Example.ipynb).
+eclipse-sumo==1.27.0
+traci==1.27.0
+sumolib==1.27.0
+numpy
+scipy
+pandas
+matplotlib
+# only needed to run the notebook
+jupyter
+ipykernel

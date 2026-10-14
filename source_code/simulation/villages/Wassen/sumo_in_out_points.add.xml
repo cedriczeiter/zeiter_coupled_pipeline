@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-12 13:44:39 by Eclipse SUMO netedit Version 1.23.1
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Shapes -->
+    <poly id="po_0" color="red" fill="0" layer="0.00" shape="13500.000000,20900.000000 13500.000000,24500.000000 15300.000000,24500.000000 15300.000000,20900.000000 13500.000000,20900.000000"/>
+    <poi id="poi_0" color="0,255,37" layer="202.00" x="15236.38" y="24527.14" width="20.00" height="10.00"/>
+    <poi id="poi_1" color="254,0,255" layer="202.00" x="15275.00" y="24504.53" width="20.00" height="10.00"/>
+    <poi id="poi_2" color="254,0,255" layer="202.00" x="13798.77" y="23713.08" width="20.00" height="10.00"/>
+    <poi id="poi_3" color="16,255,0" layer="202.00" x="13735.86" y="23682.71" width="20.00" height="10.00"/>
+    <poi id="poi_4" color="255,0,244" layer="202.00" x="13669.96" y="20953.84" width="20.00" height="10.00"/>
+    <poi id="poi_5" color="16,255,0" layer="202.00" x="13717.52" y="20964.82" width="20.00" height="10.00"/>
+    <poi id="poi_6" color="0,255,85" layer="202.00" x="14279.78" y="23180.07" width="20.00" height="10.00"/>
+    <poi id="poi_7" color="255,0,239" layer="202.00" x="14126.53" y="22997.80" width="20.00" height="10.00"/>
+    <poi id="poi_8" color="255,0,239" layer="202.00" x="14177.44" y="22972.58" width="20.00" height="10.00"/>
+    <poi id="poi_9" color="0,255,6" layer="202.00" x="14118.94" y="22866.27" width="20.00" height="10.00"/>
+</additional>

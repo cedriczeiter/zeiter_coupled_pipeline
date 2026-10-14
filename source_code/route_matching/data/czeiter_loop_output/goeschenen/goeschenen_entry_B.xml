@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-17 13:21:55 by Eclipse SUMO GUI Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\manon\OneDrive\Desktop\MA_Sim\network_v1.net.xml"/>
+        <route-files value="C:\Users\manon\OneDrive\Desktop\MA_Sim\defined_routes.rou.xml,C:\Users\manon\OneDrive\Desktop\MA_Sim\vehicle_types_new.xml,C:\Users\manon\OneDrive\Desktop\MA_Sim\2024-11-20_w1.5_passeZuProhib_opt_penalty50_demand.xml"/>
+        <additional-files value="C:\Users\manon\OneDrive\Desktop\MA_Sim\network_v1.add.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+</configuration>
+-->
+
+<instantE1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/instant_e1_file.xsd">
+    <instantOut id="goeschenen_entry_B" time="12507.28" state="enter" vehID="r_tun_axs_KS_____3_car_aggr2.0" speed="15.09" length="5.00" type="car_aggr2"/>
+    <instantOut id="goeschenen_entry_B" time="12507.61" state="leave" vehID="r_tun_axs_KS_____3_car_aggr2.0" speed="15.09" length="5.00" type="car_aggr2" occupancy="0.33"/>
+    <instantOut id="goeschenen_entry_B" time="12941.04" state="enter" vehID="r_tun_axs_KS_____3_car_aggr3.0" speed="16.99" length="5.00" type="car_aggr3" gap="433.43"/>
+    <instantOut id="goeschenen_entry_B" time="12941.33" state="leave" vehID="r_tun_axs_KS_____3_car_aggr3.0" speed="16.99" length="5.00" type="car_aggr3" occupancy="0.29"/>
+    <instantOut id="goeschenen_entry_B" time="13821.49" state="enter" vehID="r_tun_axs_KS_____3_car_aggr3.1" speed="16.50" length="5.00" type="car_aggr3" gap="880.15"/>
+    <instantOut id="goeschenen_entry_B" time="13821.79" state="leave" vehID="r_tun_axs_KS_____3_car_aggr3.1" speed="16.50" length="5.00" type="car_aggr3" occupancy="0.30"/>
+    <instantOut id="goeschenen_entry_B" time="14110.61" state="enter" vehID="r_tun_axs_KS_____3_car_aggr3.2" speed="15.55" length="5.00" type="car_aggr3" gap="288.82"/>
+    <instantOut id="goeschenen_entry_B" time="14110.93" state="leave" vehID="r_tun_axs_KS_____3_car_aggr3.2" speed="15.55" length="5.00" type="car_aggr3" occupancy="0.32"/>
+    <instantOut id="goeschenen_entry_B" time="58476.58" state="enter" vehID="r_tun_axs_KS_____16_car_aggr4.0" speed="16.84" length="5.00" type="car_aggr4" gap="44365.65"/>
+    <instantOut id="goeschenen_entry_B" time="58476.88" state="leave" vehID="r_tun_axs_KS_____16_car_aggr4.0" speed="16.84" length="5.00" type="car_aggr4" occupancy="0.30"/>
+    <instantOut id="goeschenen_entry_B" time="59404.33" state="enter" vehID="r_tun_axs_KS_____16_car_aggr2.0" speed="14.37" length="5.00" type="car_aggr2" gap="927.45"/>
+    <instantOut id="goeschenen_entry_B" time="59404.67" state="leave" vehID="r_tun_axs_KS_____16_car_aggr2.0" speed="14.37" length="5.00" type="car_aggr2" occupancy="0.35"/>
+    <instantOut id="goeschenen_entry_B" time="60055.60" state="enter" vehID="r_tun_axs_KS_____16_car_aggr3.0" speed="16.71" length="5.00" type="car_aggr3" gap="650.92"/>
+    <instantOut id="goeschenen_entry_B" time="60055.89" state="leave" vehID="r_tun_axs_KS_____16_car_aggr3.0" speed="16.71" length="5.00" type="car_aggr3" occupancy="0.30"/>
+    <instantOut id="goeschenen_entry_B" time="61383.11" state="enter" vehID="r_tun_axs_KS_____16_car_aggr2.1" speed="14.86" length="5.00" type="car_aggr2" gap="1327.22"/>
+    <instantOut id="goeschenen_entry_B" time="61383.45" state="leave" vehID="r_tun_axs_KS_____16_car_aggr2.1" speed="14.86" length="5.00" type="car_aggr2" occupancy="0.34"/>
+    <instantOut id="goeschenen_entry_B" time="61517.76" state="enter" vehID="r_tun_axs_KS_____16_car_aggr3.1" speed="16.53" length="5.00" type="car_aggr3" gap="134.31"/>
+    <instantOut id="goeschenen_entry_B" time="61518.00" state="stay" vehID="r_tun_axs_KS_____16_car_aggr3.1" speed="16.53" length="5.00" type="car_aggr3"/>
+    <instantOut id="goeschenen_entry_B" time="61518.06" state="leave" vehID="r_tun_axs_KS_____16_car_aggr3.1" speed="18.27" length="5.00" type="car_aggr3" occupancy="0.30"/>
+    <instantOut id="goeschenen_entry_B" time="75330.05" state="enter" vehID="r_tun_axs_KS_____20_car_aggr5.0" speed="22.46" length="5.00" type="car_aggr5" gap="13811.99"/>
+    <instantOut id="goeschenen_entry_B" time="75330.28" state="leave" vehID="r_tun_axs_KS_____20_car_aggr5.0" speed="22.46" length="5.00" type="car_aggr5" occupancy="0.22"/>
+    <instantOut id="goeschenen_entry_B" time="77150.56" state="enter" vehID="r_tun_axs_KS_____21_car_aggr3.0" speed="15.31" length="5.00" type="car_aggr3" gap="1820.29"/>
+    <instantOut id="goeschenen_entry_B" time="77150.89" state="leave" vehID="r_tun_axs_KS_____21_car_aggr3.0" speed="15.31" length="5.00" type="car_aggr3" occupancy="0.33"/>
+    <instantOut id="goeschenen_entry_B" time="77324.15" state="enter" vehID="r_tun_axs_KS_____21_small_truck.0" speed="15.62" length="6.50" type="small_truck" gap="173.27"/>
+    <instantOut id="goeschenen_entry_B" time="77324.57" state="leave" vehID="r_tun_axs_KS_____21_small_truck.0" speed="15.62" length="6.50" type="small_truck" occupancy="0.42"/>
+    <instantOut id="goeschenen_entry_B" time="78173.15" state="enter" vehID="r_tun_axs_KS_____21_car_aggr3.1" speed="16.24" length="5.00" type="car_aggr3" gap="848.58"/>
+    <instantOut id="goeschenen_entry_B" time="78173.45" state="leave" vehID="r_tun_axs_KS_____21_car_aggr3.1" speed="16.24" length="5.00" type="car_aggr3" occupancy="0.31"/>
+    <instantOut id="goeschenen_entry_B" time="78201.31" state="enter" vehID="r_tun_axs_KS_____21_car_aggr4.0" speed="17.02" length="5.00" type="car_aggr4" gap="27.86"/>
+    <instantOut id="goeschenen_entry_B" time="78201.61" state="leave" vehID="r_tun_axs_KS_____21_car_aggr4.0" speed="17.02" length="5.00" type="car_aggr4" occupancy="0.29"/>
+    <instantOut id="goeschenen_entry_B" time="78883.10" state="enter" vehID="r_tun_axs_KS_____21_car_aggr4.1" speed="16.38" length="5.00" type="car_aggr4" gap="681.49"/>
+    <instantOut id="goeschenen_entry_B" time="78883.41" state="leave" vehID="r_tun_axs_KS_____21_car_aggr4.1" speed="16.38" length="5.00" type="car_aggr4" occupancy="0.31"/>
+</instantE1>

@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-17 13:21:55 by Eclipse SUMO GUI Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\manon\OneDrive\Desktop\MA_Sim\network_v1.net.xml"/>
+        <route-files value="C:\Users\manon\OneDrive\Desktop\MA_Sim\defined_routes.rou.xml,C:\Users\manon\OneDrive\Desktop\MA_Sim\vehicle_types_new.xml,C:\Users\manon\OneDrive\Desktop\MA_Sim\2024-11-20_w1.5_passeZuProhib_opt_penalty50_demand.xml"/>
+        <additional-files value="C:\Users\manon\OneDrive\Desktop\MA_Sim\network_v1.add.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+</configuration>
+-->
+
+<instantE1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/instant_e1_file.xsd">
+    <instantOut id="wassen_exit_A" time="9459.47" state="enter" vehID="r_and_alt_1_2_car_aggr4.0" speed="16.11" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="9459.78" state="leave" vehID="r_and_alt_1_2_car_aggr4.0" speed="16.11" length="5.00" type="car_aggr4" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="11245.44" state="enter" vehID="r_was_ams_3_car_aggr2.0" speed="13.25" length="5.00" type="car_aggr2" gap="1785.65"/>
+    <instantOut id="wassen_exit_A" time="11245.82" state="leave" vehID="r_was_ams_3_car_aggr2.0" speed="13.25" length="5.00" type="car_aggr2" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="12969.92" state="enter" vehID="r_tun_axs_KS_____3_car_aggr2.0" speed="13.42" length="5.00" type="car_aggr2" gap="1724.10"/>
+    <instantOut id="wassen_exit_A" time="12970.00" state="stay" vehID="r_tun_axs_KS_____3_car_aggr2.0" speed="13.42" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="12970.28" state="leave" vehID="r_tun_axs_KS_____3_car_aggr2.0" speed="13.89" length="5.00" type="car_aggr2" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="13425.88" state="enter" vehID="r_tun_axs_KS_____3_car_aggr3.0" speed="13.29" length="5.00" type="car_aggr3" gap="455.60"/>
+    <instantOut id="wassen_exit_A" time="13426.00" state="stay" vehID="r_tun_axs_KS_____3_car_aggr3.0" speed="13.29" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="13426.26" state="leave" vehID="r_tun_axs_KS_____3_car_aggr3.0" speed="13.27" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="14230.88" state="enter" vehID="r_tun_axs_KS_____3_car_aggr3.1" speed="15.83" length="5.00" type="car_aggr3" gap="804.62"/>
+    <instantOut id="wassen_exit_A" time="14231.00" state="stay" vehID="r_tun_axs_KS_____3_car_aggr3.1" speed="15.83" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="14231.20" state="leave" vehID="r_tun_axs_KS_____3_car_aggr3.1" speed="15.92" length="5.00" type="car_aggr3" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="14506.94" state="enter" vehID="r_tun_axs_KS_____3_car_aggr3.2" speed="16.55" length="5.00" type="car_aggr3" gap="275.74"/>
+    <instantOut id="wassen_exit_A" time="14507.00" state="stay" vehID="r_tun_axs_KS_____3_car_aggr3.2" speed="16.55" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="14507.25" state="leave" vehID="r_tun_axs_KS_____3_car_aggr3.2" speed="16.11" length="5.00" type="car_aggr3" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="17072.70" state="enter" vehID="r_and_alt_1_4_car_aggr3.0" speed="16.15" length="5.00" type="car_aggr3" gap="2565.46"/>
+    <instantOut id="wassen_exit_A" time="17073.00" state="stay" vehID="r_and_alt_1_4_car_aggr3.0" speed="16.15" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="17073.01" state="leave" vehID="r_and_alt_1_4_car_aggr3.0" speed="16.70" length="5.00" type="car_aggr3" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="18663.75" state="enter" vehID="r_and_alt_1_4_car_aggr4.0" speed="15.06" length="5.00" type="car_aggr4" gap="1590.73"/>
+    <instantOut id="wassen_exit_A" time="18664.00" state="stay" vehID="r_and_alt_1_4_car_aggr4.0" speed="15.06" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="18664.07" state="leave" vehID="r_and_alt_1_4_car_aggr4.0" speed="15.86" length="5.00" type="car_aggr4" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="22598.33" state="enter" vehID="r_and_alt_1_6_car_aggr2.0" speed="15.95" length="5.00" type="car_aggr2" gap="3934.26"/>
+    <instantOut id="wassen_exit_A" time="22598.65" state="leave" vehID="r_and_alt_1_6_car_aggr2.0" speed="15.95" length="5.00" type="car_aggr2" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="22864.64" state="enter" vehID="r_and_alt_1_6_car_aggr3.0" speed="15.31" length="5.00" type="car_aggr3" gap="265.99"/>
+    <instantOut id="wassen_exit_A" time="22864.97" state="leave" vehID="r_and_alt_1_6_car_aggr3.0" speed="15.31" length="5.00" type="car_aggr3" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="23010.44" state="enter" vehID="r_and_alt_1_6_car_aggr3.1" speed="13.14" length="5.00" type="car_aggr3" gap="145.47"/>
+    <instantOut id="wassen_exit_A" time="23010.82" state="leave" vehID="r_and_alt_1_6_car_aggr3.1" speed="13.14" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="24015.42" state="enter" vehID="r_and_alt_1_6_car_aggr3.2" speed="13.11" length="5.00" type="car_aggr3" gap="1004.60"/>
+    <instantOut id="wassen_exit_A" time="24015.80" state="leave" vehID="r_and_alt_1_6_car_aggr3.2" speed="13.11" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="24679.55" state="enter" vehID="r_and_alt_1_6_small_truck.0" speed="11.67" length="6.50" type="small_truck" gap="663.76"/>
+    <instantOut id="wassen_exit_A" time="24680.00" state="stay" vehID="r_and_alt_1_6_small_truck.0" speed="11.67" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="24680.11" state="leave" vehID="r_and_alt_1_6_small_truck.0" speed="11.47" length="6.50" type="small_truck" occupancy="0.56"/>
+    <instantOut id="wassen_exit_A" time="24782.25" state="enter" vehID="r_and_alt_1_6_car_aggr4.0" speed="17.25" length="5.00" type="car_aggr4" gap="102.14"/>
+    <instantOut id="wassen_exit_A" time="24782.54" state="leave" vehID="r_and_alt_1_6_car_aggr4.0" speed="17.25" length="5.00" type="car_aggr4" occupancy="0.29"/>
+    <instantOut id="wassen_exit_A" time="25035.63" state="enter" vehID="r_and_alt_1_6_car_aggr2.1" speed="13.30" length="5.00" type="car_aggr2" gap="253.09"/>
+    <instantOut id="wassen_exit_A" time="25036.00" state="stay" vehID="r_and_alt_1_6_car_aggr2.1" speed="13.30" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="25036.01" state="leave" vehID="r_and_alt_1_6_car_aggr2.1" speed="12.89" length="5.00" type="car_aggr2" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="25206.47" state="enter" vehID="r_and_alt_1_6_car_aggr5.0" speed="16.35" length="5.00" type="car_aggr5" gap="170.46"/>
+    <instantOut id="wassen_exit_A" time="25206.78" state="leave" vehID="r_and_alt_1_6_car_aggr5.0" speed="16.35" length="5.00" type="car_aggr5" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="26401.79" state="enter" vehID="r_and_alt_1_7_car_aggr3.0" speed="13.51" length="5.00" type="car_aggr3" gap="1195.01"/>
+    <instantOut id="wassen_exit_A" time="26402.00" state="stay" vehID="r_and_alt_1_7_car_aggr3.0" speed="13.51" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="26402.17" state="leave" vehID="r_and_alt_1_7_car_aggr3.0" speed="12.46" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="26428.32" state="enter" vehID="r_and_alt_1_7_car_aggr2.0" speed="13.64" length="5.00" type="car_aggr2" gap="26.15"/>
+    <instantOut id="wassen_exit_A" time="26428.69" state="leave" vehID="r_and_alt_1_7_car_aggr2.0" speed="13.64" length="5.00" type="car_aggr2" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="26431.62" state="enter" vehID="r_and_alt_1_7_car_aggr5.0" speed="13.53" length="5.00" type="car_aggr5" gap="2.94"/>
+    <instantOut id="wassen_exit_A" time="26431.99" state="leave" vehID="r_and_alt_1_7_car_aggr5.0" speed="13.53" length="5.00" type="car_aggr5" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="26851.32" state="enter" vehID="r_and_alt_1_7_big_truck.0" speed="11.41" length="12.00" type="big_truck" gap="419.33"/>
+    <instantOut id="wassen_exit_A" time="26852.00" state="stay" vehID="r_and_alt_1_7_big_truck.0" speed="11.41" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="26852.37" state="leave" vehID="r_and_alt_1_7_big_truck.0" speed="11.51" length="12.00" type="big_truck" occupancy="1.05"/>
+    <instantOut id="wassen_exit_A" time="26914.17" state="enter" vehID="r_and_alt_1_7_car_aggr1.0" speed="13.88" length="5.00" type="car_aggr1" gap="61.80"/>
+    <instantOut id="wassen_exit_A" time="26914.53" state="leave" vehID="r_and_alt_1_7_car_aggr1.0" speed="13.88" length="5.00" type="car_aggr1" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="27088.28" state="enter" vehID="r_and_alt_1_7_big_truck.1" speed="12.21" length="12.00" type="big_truck" gap="173.75"/>
+    <instantOut id="wassen_exit_A" time="27089.00" state="stay" vehID="r_and_alt_1_7_big_truck.1" speed="12.21" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="27089.26" state="leave" vehID="r_and_alt_1_7_big_truck.1" speed="12.00" length="12.00" type="big_truck" occupancy="0.99"/>
+    <instantOut id="wassen_exit_A" time="27312.67" state="enter" vehID="r_and_alt_1_7_car_aggr1.1" speed="10.38" length="5.00" type="car_aggr1" gap="223.40"/>
+    <instantOut id="wassen_exit_A" time="27313.00" state="stay" vehID="r_and_alt_1_7_car_aggr1.1" speed="10.38" length="5.00" type="car_aggr1"/>
+    <instantOut id="wassen_exit_A" time="27313.15" state="leave" vehID="r_and_alt_1_7_car_aggr1.1" speed="10.29" length="5.00" type="car_aggr1" occupancy="0.48"/>
+    <instantOut id="wassen_exit_A" time="27316.05" state="enter" vehID="r_and_alt_1_7_car_aggr5.1" speed="10.64" length="5.00" type="car_aggr5" gap="2.90"/>
+    <instantOut id="wassen_exit_A" time="27316.52" state="leave" vehID="r_and_alt_1_7_car_aggr5.1" speed="10.64" length="5.00" type="car_aggr5" occupancy="0.47"/>
+    <instantOut id="wassen_exit_A" time="27320.81" state="enter" vehID="r_and_alt_1_7_car_aggr3.1" speed="10.50" length="5.00" type="car_aggr3" gap="4.29"/>
+    <instantOut id="wassen_exit_A" time="27321.00" state="stay" vehID="r_and_alt_1_7_car_aggr3.1" speed="10.50" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="27321.32" state="leave" vehID="r_and_alt_1_7_car_aggr3.1" speed="9.48" length="5.00" type="car_aggr3" occupancy="0.51"/>
+    <instantOut id="wassen_exit_A" time="27324.85" state="enter" vehID="r_and_alt_1_7_car_aggr4.0" speed="9.59" length="5.00" type="car_aggr4" gap="3.53"/>
+    <instantOut id="wassen_exit_A" time="27325.00" state="stay" vehID="r_and_alt_1_7_car_aggr4.0" speed="9.59" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="27325.36" state="leave" vehID="r_and_alt_1_7_car_aggr4.0" speed="9.83" length="5.00" type="car_aggr4" occupancy="0.51"/>
+    <instantOut id="wassen_exit_A" time="27328.37" state="enter" vehID="r_and_alt_1_7_car_aggr5.2" speed="10.40" length="5.00" type="car_aggr5" gap="3.02"/>
+    <instantOut id="wassen_exit_A" time="27328.86" state="leave" vehID="r_and_alt_1_7_car_aggr5.2" speed="10.40" length="5.00" type="car_aggr5" occupancy="0.48"/>
+    <instantOut id="wassen_exit_A" time="27376.37" state="enter" vehID="r_and_alt_1_7_car_aggr3.2" speed="12.77" length="5.00" type="car_aggr3" gap="47.51"/>
+    <instantOut id="wassen_exit_A" time="27376.76" state="leave" vehID="r_and_alt_1_7_car_aggr3.2" speed="12.77" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="27395.89" state="enter" vehID="r_and_alt_1_7_motorbike.0" speed="12.28" length="2.20" type="motorbike" gap="19.13"/>
+    <instantOut id="wassen_exit_A" time="27396.00" state="stay" vehID="r_and_alt_1_7_motorbike.0" speed="12.28" length="2.20" type="motorbike"/>
+    <instantOut id="wassen_exit_A" time="27396.07" state="leave" vehID="r_and_alt_1_7_motorbike.0" speed="11.97" length="2.20" type="motorbike" occupancy="0.18"/>
+    <instantOut id="wassen_exit_A" time="27529.18" state="enter" vehID="r_and_alt_1_7_car_aggr3.3" speed="12.01" length="5.00" type="car_aggr3" gap="133.11"/>
+    <instantOut id="wassen_exit_A" time="27529.60" state="leave" vehID="r_and_alt_1_7_car_aggr3.3" speed="12.01" length="5.00" type="car_aggr3" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="27619.80" state="enter" vehID="r_and_alt_1_7_car_aggr1.2" speed="11.47" length="5.00" type="car_aggr1" gap="90.20"/>
+    <instantOut id="wassen_exit_A" time="27620.00" state="stay" vehID="r_and_alt_1_7_car_aggr1.2" speed="11.47" length="5.00" type="car_aggr1"/>
+    <instantOut id="wassen_exit_A" time="27620.24" state="leave" vehID="r_and_alt_1_7_car_aggr1.2" speed="11.31" length="5.00" type="car_aggr1" occupancy="0.44"/>
+    <instantOut id="wassen_exit_A" time="27680.72" state="enter" vehID="r_and_alt_1_7_car_aggr1.3" speed="11.39" length="5.00" type="car_aggr1" gap="60.48"/>
+    <instantOut id="wassen_exit_A" time="27681.00" state="stay" vehID="r_and_alt_1_7_car_aggr1.3" speed="11.39" length="5.00" type="car_aggr1"/>
+    <instantOut id="wassen_exit_A" time="27681.15" state="leave" vehID="r_and_alt_1_7_car_aggr1.3" speed="11.52" length="5.00" type="car_aggr1" occupancy="0.44"/>
+    <instantOut id="wassen_exit_A" time="27744.15" state="enter" vehID="r_and_alt_1_7_big_truck.2" speed="11.95" length="12.00" type="big_truck" gap="63.00"/>
+    <instantOut id="wassen_exit_A" time="27745.00" state="stay" vehID="r_and_alt_1_7_big_truck.2" speed="11.95" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="27745.16" state="leave" vehID="r_and_alt_1_7_big_truck.2" speed="11.98" length="12.00" type="big_truck" occupancy="1.00"/>
+    <instantOut id="wassen_exit_A" time="27748.59" state="enter" vehID="r_and_alt_1_7_motorbike.1" speed="11.87" length="2.20" type="motorbike" gap="3.44"/>
+    <instantOut id="wassen_exit_A" time="27748.78" state="leave" vehID="r_and_alt_1_7_motorbike.1" speed="11.87" length="2.20" type="motorbike" occupancy="0.19"/>
+    <instantOut id="wassen_exit_A" time="27751.63" state="enter" vehID="r_and_alt_1_7_car_aggr5.3" speed="11.81" length="5.00" type="car_aggr5" gap="2.85"/>
+    <instantOut id="wassen_exit_A" time="27752.00" state="stay" vehID="r_and_alt_1_7_car_aggr5.3" speed="11.81" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="27752.05" state="leave" vehID="r_and_alt_1_7_car_aggr5.3" speed="12.20" length="5.00" type="car_aggr5" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="27755.57" state="enter" vehID="r_and_alt_1_7_motorbike.2" speed="12.29" length="2.20" type="motorbike" gap="3.52"/>
+    <instantOut id="wassen_exit_A" time="27755.75" state="leave" vehID="r_and_alt_1_7_motorbike.2" speed="12.29" length="2.20" type="motorbike" occupancy="0.18"/>
+    <instantOut id="wassen_exit_A" time="27760.20" state="enter" vehID="r_and_alt_1_7_car_aggr3.4" speed="11.53" length="5.00" type="car_aggr3" gap="4.45"/>
+    <instantOut id="wassen_exit_A" time="27760.63" state="leave" vehID="r_and_alt_1_7_car_aggr3.4" speed="11.53" length="5.00" type="car_aggr3" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="27965.60" state="enter" vehID="r_and_alt_1_7_car_aggr1.4" speed="11.95" length="5.00" type="car_aggr1" gap="204.96"/>
+    <instantOut id="wassen_exit_A" time="27966.00" state="stay" vehID="r_and_alt_1_7_car_aggr1.4" speed="11.95" length="5.00" type="car_aggr1"/>
+    <instantOut id="wassen_exit_A" time="27966.02" state="leave" vehID="r_and_alt_1_7_car_aggr1.4" speed="12.03" length="5.00" type="car_aggr1" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="28035.86" state="enter" vehID="r_and_alt_1_7_car_aggr1.5" speed="12.45" length="5.00" type="car_aggr1" gap="69.85"/>
+    <instantOut id="wassen_exit_A" time="28036.00" state="stay" vehID="r_and_alt_1_7_car_aggr1.5" speed="12.45" length="5.00" type="car_aggr1"/>
+    <instantOut id="wassen_exit_A" time="28036.26" state="leave" vehID="r_and_alt_1_7_car_aggr1.5" speed="12.60" length="5.00" type="car_aggr1" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="28044.89" state="enter" vehID="r_and_alt_1_7_car_aggr3.5" speed="15.52" length="5.00" type="car_aggr3" gap="8.63"/>
+    <instantOut id="wassen_exit_A" time="28045.00" state="stay" vehID="r_and_alt_1_7_car_aggr3.5" speed="15.52" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="28045.20" state="leave" vehID="r_and_alt_1_7_car_aggr3.5" speed="16.69" length="5.00" type="car_aggr3" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="28325.82" state="enter" vehID="r_and_alt_1_7_car_aggr1.6" speed="11.48" length="5.00" type="car_aggr1" gap="280.62"/>
+    <instantOut id="wassen_exit_A" time="28326.00" state="stay" vehID="r_and_alt_1_7_car_aggr1.6" speed="11.48" length="5.00" type="car_aggr1"/>
+    <instantOut id="wassen_exit_A" time="28326.25" state="leave" vehID="r_and_alt_1_7_car_aggr1.6" speed="11.65" length="5.00" type="car_aggr1" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="28667.59" state="enter" vehID="r_and_alt_1_7_car_aggr5.4" speed="10.23" length="5.00" type="car_aggr5" gap="341.35"/>
+    <instantOut id="wassen_exit_A" time="28668.00" state="stay" vehID="r_and_alt_1_7_car_aggr5.4" speed="10.23" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="28668.08" state="leave" vehID="r_and_alt_1_7_car_aggr5.4" speed="10.52" length="5.00" type="car_aggr5" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="28671.11" state="enter" vehID="r_and_alt_1_7_car_aggr5.5" speed="10.14" length="5.00" type="car_aggr5" gap="3.03"/>
+    <instantOut id="wassen_exit_A" time="28671.61" state="leave" vehID="r_and_alt_1_7_car_aggr5.5" speed="10.14" length="5.00" type="car_aggr5" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="28675.33" state="enter" vehID="r_and_alt_1_7_car_aggr4.1" speed="10.03" length="5.00" type="car_aggr4" gap="3.73"/>
+    <instantOut id="wassen_exit_A" time="28675.83" state="leave" vehID="r_and_alt_1_7_car_aggr4.1" speed="10.03" length="5.00" type="car_aggr4" occupancy="0.50"/>
+    <instantOut id="wassen_exit_A" time="28773.05" state="enter" vehID="r_and_alt_1_7_car_aggr1.7" speed="12.22" length="5.00" type="car_aggr1" gap="97.21"/>
+    <instantOut id="wassen_exit_A" time="28773.46" state="leave" vehID="r_and_alt_1_7_car_aggr1.7" speed="12.22" length="5.00" type="car_aggr1" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="28776.94" state="enter" vehID="r_and_alt_1_7_car_aggr4.2" speed="12.07" length="5.00" type="car_aggr4" gap="3.48"/>
+    <instantOut id="wassen_exit_A" time="28777.00" state="stay" vehID="r_and_alt_1_7_car_aggr4.2" speed="12.07" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="28777.34" state="leave" vehID="r_and_alt_1_7_car_aggr4.2" speed="12.39" length="5.00" type="car_aggr4" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="28939.18" state="enter" vehID="r_and_alt_1_7_small_truck.0" speed="11.35" length="6.50" type="small_truck" gap="161.83"/>
+    <instantOut id="wassen_exit_A" time="28939.75" state="leave" vehID="r_and_alt_1_7_small_truck.0" speed="11.35" length="6.50" type="small_truck" occupancy="0.57"/>
+    <instantOut id="wassen_exit_A" time="29056.11" state="enter" vehID="r_and_alt_1_7_car_aggr4.3" speed="15.75" length="5.00" type="car_aggr4" gap="116.36"/>
+    <instantOut id="wassen_exit_A" time="29056.42" state="leave" vehID="r_and_alt_1_7_car_aggr4.3" speed="15.75" length="5.00" type="car_aggr4" occupancy="0.32"/>
+    <instantOut id="wassen_exit_A" time="29130.04" state="enter" vehID="r_and_alt_1_7_car_aggr4.4" speed="14.42" length="5.00" type="car_aggr4" gap="73.62"/>
+    <instantOut id="wassen_exit_A" time="29130.39" state="leave" vehID="r_and_alt_1_7_car_aggr4.4" speed="14.42" length="5.00" type="car_aggr4" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="29162.17" state="enter" vehID="r_and_alt_1_7_car_aggr3.6" speed="13.26" length="5.00" type="car_aggr3" gap="31.78"/>
+    <instantOut id="wassen_exit_A" time="29162.55" state="leave" vehID="r_and_alt_1_7_car_aggr3.6" speed="13.26" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="29166.56" state="enter" vehID="r_and_alt_1_7_car_aggr3.7" speed="14.10" length="5.00" type="car_aggr3" gap="4.02"/>
+    <instantOut id="wassen_exit_A" time="29166.92" state="leave" vehID="r_and_alt_1_7_car_aggr3.7" speed="14.10" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="29169.72" state="enter" vehID="r_and_alt_1_7_car_aggr5.6" speed="14.34" length="5.00" type="car_aggr5" gap="2.80"/>
+    <instantOut id="wassen_exit_A" time="29170.00" state="stay" vehID="r_and_alt_1_7_car_aggr5.6" speed="14.34" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="29170.08" state="leave" vehID="r_and_alt_1_7_car_aggr5.6" speed="12.31" length="5.00" type="car_aggr5" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="29268.85" state="enter" vehID="r_and_alt_1_7_car_aggr2.1" speed="15.73" length="5.00" type="car_aggr2" gap="98.76"/>
+    <instantOut id="wassen_exit_A" time="29269.00" state="stay" vehID="r_and_alt_1_7_car_aggr2.1" speed="15.73" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="29269.16" state="leave" vehID="r_and_alt_1_7_car_aggr2.1" speed="16.34" length="5.00" type="car_aggr2" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="29507.35" state="enter" vehID="r_and_alt_1_8_car_aggr5.0" speed="17.53" length="5.00" type="car_aggr5" gap="238.19"/>
+    <instantOut id="wassen_exit_A" time="29507.63" state="leave" vehID="r_and_alt_1_8_car_aggr5.0" speed="17.53" length="5.00" type="car_aggr5" occupancy="0.29"/>
+    <instantOut id="wassen_exit_A" time="30097.45" state="enter" vehID="r_and_alt_1_8_car_aggr4.0" speed="16.34" length="5.00" type="car_aggr4" gap="589.81"/>
+    <instantOut id="wassen_exit_A" time="30097.75" state="leave" vehID="r_and_alt_1_8_car_aggr4.0" speed="16.34" length="5.00" type="car_aggr4" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="30182.60" state="enter" vehID="r_and_alt_1_8_car_aggr3.0" speed="13.23" length="5.00" type="car_aggr3" gap="84.85"/>
+    <instantOut id="wassen_exit_A" time="30182.98" state="leave" vehID="r_and_alt_1_8_car_aggr3.0" speed="13.23" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="30186.88" state="enter" vehID="r_and_alt_1_8_car_aggr3.1" speed="13.33" length="5.00" type="car_aggr3" gap="3.90"/>
+    <instantOut id="wassen_exit_A" time="30187.00" state="stay" vehID="r_and_alt_1_8_car_aggr3.1" speed="13.33" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="30187.25" state="leave" vehID="r_and_alt_1_8_car_aggr3.1" speed="13.52" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="30321.13" state="enter" vehID="r_and_alt_1_8_big_truck.0" speed="12.49" length="12.00" type="big_truck" gap="133.88"/>
+    <instantOut id="wassen_exit_A" time="30322.00" state="stay" vehID="r_and_alt_1_8_big_truck.0" speed="12.49" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="30322.09" state="leave" vehID="r_and_alt_1_8_big_truck.0" speed="12.93" length="12.00" type="big_truck" occupancy="0.96"/>
+    <instantOut id="wassen_exit_A" time="30613.68" state="enter" vehID="r_and_alt_1_8_small_truck.0" speed="13.18" length="6.50" type="small_truck" gap="291.59"/>
+    <instantOut id="wassen_exit_A" time="30614.00" state="stay" vehID="r_and_alt_1_8_small_truck.0" speed="13.18" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="30614.18" state="leave" vehID="r_and_alt_1_8_small_truck.0" speed="12.87" length="6.50" type="small_truck" occupancy="0.50"/>
+    <instantOut id="wassen_exit_A" time="30656.36" state="enter" vehID="r_and_alt_1_8_car_aggr3.2" speed="13.02" length="5.00" type="car_aggr3" gap="42.18"/>
+    <instantOut id="wassen_exit_A" time="30656.75" state="leave" vehID="r_and_alt_1_8_car_aggr3.2" speed="13.02" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="30659.58" state="enter" vehID="r_and_alt_1_8_car_aggr5.1" speed="13.68" length="5.00" type="car_aggr5" gap="2.84"/>
+    <instantOut id="wassen_exit_A" time="30659.95" state="leave" vehID="r_and_alt_1_8_car_aggr5.1" speed="13.68" length="5.00" type="car_aggr5" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="30884.86" state="enter" vehID="r_and_alt_1_8_car_aggr3.3" speed="13.18" length="5.00" type="car_aggr3" gap="224.91"/>
+    <instantOut id="wassen_exit_A" time="30885.00" state="stay" vehID="r_and_alt_1_8_car_aggr3.3" speed="13.18" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="30885.23" state="leave" vehID="r_and_alt_1_8_car_aggr3.3" speed="13.37" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="30957.95" state="enter" vehID="r_and_alt_1_8_car_aggr3.4" speed="16.38" length="5.00" type="car_aggr3" gap="72.72"/>
+    <instantOut id="wassen_exit_A" time="30958.00" state="stay" vehID="r_and_alt_1_8_car_aggr3.4" speed="16.38" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="30958.25" state="leave" vehID="r_and_alt_1_8_car_aggr3.4" speed="16.53" length="5.00" type="car_aggr3" occupancy="0.30"/>
+    <instantOut id="wassen_exit_A" time="31337.87" state="enter" vehID="r_and_alt_1_8_big_truck.1" speed="11.48" length="12.00" type="big_truck" gap="379.62"/>
+    <instantOut id="wassen_exit_A" time="31338.00" state="stay" vehID="r_and_alt_1_8_big_truck.1" speed="11.48" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="31338.91" state="leave" vehID="r_and_alt_1_8_big_truck.1" speed="11.60" length="12.00" type="big_truck" occupancy="1.04"/>
+    <instantOut id="wassen_exit_A" time="31837.50" state="enter" vehID="r_and_alt_1_8_car_aggr1.0" speed="10.47" length="5.00" type="car_aggr1" gap="498.59"/>
+    <instantOut id="wassen_exit_A" time="31837.97" state="leave" vehID="r_and_alt_1_8_car_aggr1.0" speed="10.47" length="5.00" type="car_aggr1" occupancy="0.48"/>
+    <instantOut id="wassen_exit_A" time="31842.19" state="enter" vehID="r_and_alt_1_8_car_aggr3.5" speed="10.04" length="5.00" type="car_aggr3" gap="4.22"/>
+    <instantOut id="wassen_exit_A" time="31842.69" state="leave" vehID="r_and_alt_1_8_car_aggr3.5" speed="10.04" length="5.00" type="car_aggr3" occupancy="0.50"/>
+    <instantOut id="wassen_exit_A" time="31846.25" state="enter" vehID="r_and_alt_1_8_small_truck.1" speed="9.59" length="6.50" type="small_truck" gap="3.56"/>
+    <instantOut id="wassen_exit_A" time="31846.93" state="leave" vehID="r_and_alt_1_8_small_truck.1" speed="9.59" length="6.50" type="small_truck" occupancy="0.68"/>
+    <instantOut id="wassen_exit_A" time="31871.15" state="enter" vehID="r_and_alt_1_8_car_aggr3.6" speed="13.82" length="5.00" type="car_aggr3" gap="24.22"/>
+    <instantOut id="wassen_exit_A" time="31871.51" state="leave" vehID="r_and_alt_1_8_car_aggr3.6" speed="13.82" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="31987.44" state="enter" vehID="r_and_alt_1_8_small_truck.2" speed="14.16" length="6.50" type="small_truck" gap="115.92"/>
+    <instantOut id="wassen_exit_A" time="31987.90" state="leave" vehID="r_and_alt_1_8_small_truck.2" speed="14.16" length="6.50" type="small_truck" occupancy="0.46"/>
+    <instantOut id="wassen_exit_A" time="32039.03" state="enter" vehID="r_and_alt_1_8_car_aggr1.1" speed="12.95" length="5.00" type="car_aggr1" gap="51.13"/>
+    <instantOut id="wassen_exit_A" time="32039.41" state="leave" vehID="r_and_alt_1_8_car_aggr1.1" speed="12.95" length="5.00" type="car_aggr1" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="32098.14" state="enter" vehID="r_and_alt_1_8_small_truck.3" speed="14.46" length="6.50" type="small_truck" gap="58.73"/>
+    <instantOut id="wassen_exit_A" time="32098.59" state="leave" vehID="r_and_alt_1_8_small_truck.3" speed="14.46" length="6.50" type="small_truck" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="32366.95" state="enter" vehID="r_and_alt_1_8_car_aggr3.7" speed="14.66" length="5.00" type="car_aggr3" gap="268.36"/>
+    <instantOut id="wassen_exit_A" time="32367.00" state="stay" vehID="r_and_alt_1_8_car_aggr3.7" speed="14.66" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="32367.30" state="leave" vehID="r_and_alt_1_8_car_aggr3.7" speed="14.32" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="32371.29" state="enter" vehID="r_and_alt_1_8_car_aggr3.8" speed="14.46" length="5.00" type="car_aggr3" gap="3.99"/>
+    <instantOut id="wassen_exit_A" time="32371.64" state="leave" vehID="r_and_alt_1_8_car_aggr3.8" speed="14.46" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="32626.53" state="enter" vehID="r_and_alt_1_8_big_truck.2" speed="11.85" length="12.00" type="big_truck" gap="254.89"/>
+    <instantOut id="wassen_exit_A" time="32627.00" state="stay" vehID="r_and_alt_1_8_big_truck.2" speed="11.85" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="32627.54" state="leave" vehID="r_and_alt_1_8_big_truck.2" speed="11.76" length="12.00" type="big_truck" occupancy="1.02"/>
+    <instantOut id="wassen_exit_A" time="32952.37" state="enter" vehID="r_and_alt_1_8_car_aggr2.0" speed="11.79" length="5.00" type="car_aggr2" gap="324.82"/>
+    <instantOut id="wassen_exit_A" time="32952.79" state="leave" vehID="r_and_alt_1_8_car_aggr2.0" speed="11.79" length="5.00" type="car_aggr2" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="33012.27" state="enter" vehID="r_and_alt_1_8_car_aggr3.9" speed="14.64" length="5.00" type="car_aggr3" gap="59.48"/>
+    <instantOut id="wassen_exit_A" time="33012.61" state="leave" vehID="r_and_alt_1_8_car_aggr3.9" speed="14.64" length="5.00" type="car_aggr3" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="33113.34" state="enter" vehID="r_and_alt_1_8_car_aggr3.10" speed="14.05" length="5.00" type="car_aggr3" gap="100.73"/>
+    <instantOut id="wassen_exit_A" time="33113.69" state="leave" vehID="r_and_alt_1_8_car_aggr3.10" speed="14.05" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="33369.84" state="enter" vehID="r_and_alt_1_8_car_aggr2.1" speed="11.29" length="5.00" type="car_aggr2" gap="256.15"/>
+    <instantOut id="wassen_exit_A" time="33370.00" state="stay" vehID="r_and_alt_1_8_car_aggr2.1" speed="11.29" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="33370.27" state="leave" vehID="r_and_alt_1_8_car_aggr2.1" speed="11.87" length="5.00" type="car_aggr2" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="33375.26" state="enter" vehID="r_and_alt_1_9_car_aggr2.0" speed="11.85" length="5.00" type="car_aggr2" gap="4.98"/>
+    <instantOut id="wassen_exit_A" time="33375.68" state="leave" vehID="r_and_alt_1_9_car_aggr2.0" speed="11.85" length="5.00" type="car_aggr2" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="33588.49" state="enter" vehID="r_and_alt_1_9_car_aggr2.1" speed="14.78" length="5.00" type="car_aggr2" gap="212.81"/>
+    <instantOut id="wassen_exit_A" time="33588.83" state="leave" vehID="r_and_alt_1_9_car_aggr2.1" speed="14.78" length="5.00" type="car_aggr2" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="33595.93" state="enter" vehID="r_and_alt_1_9_car_aggr2.2" speed="14.79" length="5.00" type="car_aggr2" gap="7.10"/>
+    <instantOut id="wassen_exit_A" time="33596.00" state="stay" vehID="r_and_alt_1_9_car_aggr2.2" speed="14.79" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="33596.27" state="leave" vehID="r_and_alt_1_9_car_aggr2.2" speed="14.82" length="5.00" type="car_aggr2" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="33999.36" state="enter" vehID="r_and_alt_1_9_car_aggr2.3" speed="11.86" length="5.00" type="car_aggr2" gap="403.09"/>
+    <instantOut id="wassen_exit_A" time="33999.78" state="leave" vehID="r_and_alt_1_9_car_aggr2.3" speed="11.86" length="5.00" type="car_aggr2" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="34027.38" state="enter" vehID="r_and_alt_1_9_car_aggr3.0" speed="12.29" length="5.00" type="car_aggr3" gap="27.60"/>
+    <instantOut id="wassen_exit_A" time="34027.79" state="leave" vehID="r_and_alt_1_9_car_aggr3.0" speed="12.29" length="5.00" type="car_aggr3" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="34344.76" state="enter" vehID="r_and_alt_1_9_small_truck.0" speed="11.70" length="6.50" type="small_truck" gap="316.97"/>
+    <instantOut id="wassen_exit_A" time="34345.00" state="stay" vehID="r_and_alt_1_9_small_truck.0" speed="11.70" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="34345.31" state="leave" vehID="r_and_alt_1_9_small_truck.0" speed="11.86" length="6.50" type="small_truck" occupancy="0.55"/>
+    <instantOut id="wassen_exit_A" time="34351.30" state="enter" vehID="r_and_alt_1_9_car_aggr1.0" speed="12.20" length="5.00" type="car_aggr1" gap="6.00"/>
+    <instantOut id="wassen_exit_A" time="34351.71" state="leave" vehID="r_and_alt_1_9_car_aggr1.0" speed="12.20" length="5.00" type="car_aggr1" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="34709.59" state="enter" vehID="r_and_alt_1_9_car_aggr4.0" speed="12.12" length="5.00" type="car_aggr4" gap="357.88"/>
+    <instantOut id="wassen_exit_A" time="34710.00" state="stay" vehID="r_and_alt_1_9_car_aggr4.0" speed="12.12" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="34710.00" state="leave" vehID="r_and_alt_1_9_car_aggr4.0" speed="12.91" length="5.00" type="car_aggr4" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="34713.38" state="enter" vehID="r_and_alt_1_9_motorbike.0" speed="12.54" length="2.20" type="motorbike" gap="3.38"/>
+    <instantOut id="wassen_exit_A" time="34713.55" state="leave" vehID="r_and_alt_1_9_motorbike.0" speed="12.54" length="2.20" type="motorbike" occupancy="0.18"/>
+    <instantOut id="wassen_exit_A" time="34720.77" state="enter" vehID="r_and_alt_1_9_car_aggr5.0" speed="16.90" length="5.00" type="car_aggr5" gap="7.21"/>
+    <instantOut id="wassen_exit_A" time="34721.00" state="stay" vehID="r_and_alt_1_9_car_aggr5.0" speed="16.90" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="34721.07" state="leave" vehID="r_and_alt_1_9_car_aggr5.0" speed="16.38" length="5.00" type="car_aggr5" occupancy="0.30"/>
+    <instantOut id="wassen_exit_A" time="34960.79" state="enter" vehID="r_and_alt_1_9_small_truck.1" speed="14.79" length="6.50" type="small_truck" gap="239.73"/>
+    <instantOut id="wassen_exit_A" time="34961.00" state="stay" vehID="r_and_alt_1_9_small_truck.1" speed="14.79" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="34961.23" state="leave" vehID="r_and_alt_1_9_small_truck.1" speed="14.75" length="6.50" type="small_truck" occupancy="0.44"/>
+    <instantOut id="wassen_exit_A" time="35321.86" state="enter" vehID="r_and_alt_1_9_car_aggr2.4" speed="14.01" length="5.00" type="car_aggr2" gap="360.62"/>
+    <instantOut id="wassen_exit_A" time="35322.00" state="stay" vehID="r_and_alt_1_9_car_aggr2.4" speed="14.01" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="35322.20" state="leave" vehID="r_and_alt_1_9_car_aggr2.4" speed="14.77" length="5.00" type="car_aggr2" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="36089.32" state="enter" vehID="r_and_alt_1_9_car_aggr4.1" speed="11.84" length="5.00" type="car_aggr4" gap="767.12"/>
+    <instantOut id="wassen_exit_A" time="36089.74" state="leave" vehID="r_and_alt_1_9_car_aggr4.1" speed="11.84" length="5.00" type="car_aggr4" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="36204.24" state="enter" vehID="r_and_alt_1_9_small_truck.2" speed="12.58" length="6.50" type="small_truck" gap="114.49"/>
+    <instantOut id="wassen_exit_A" time="36204.75" state="leave" vehID="r_and_alt_1_9_small_truck.2" speed="12.58" length="6.50" type="small_truck" occupancy="0.52"/>
+    <instantOut id="wassen_exit_A" time="36208.78" state="enter" vehID="r_and_alt_1_9_car_aggr3.1" speed="12.29" length="5.00" type="car_aggr3" gap="4.02"/>
+    <instantOut id="wassen_exit_A" time="36209.00" state="stay" vehID="r_and_alt_1_9_car_aggr3.1" speed="12.29" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="36209.18" state="leave" vehID="r_and_alt_1_9_car_aggr3.1" speed="12.26" length="5.00" type="car_aggr3" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="36214.52" state="enter" vehID="r_and_alt_1_9_car_aggr2.5" speed="12.62" length="5.00" type="car_aggr2" gap="5.34"/>
+    <instantOut id="wassen_exit_A" time="36214.92" state="leave" vehID="r_and_alt_1_9_car_aggr2.5" speed="12.62" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="36436.15" state="enter" vehID="r_and_alt_1_9_big_truck.0" speed="11.77" length="12.00" type="big_truck" gap="221.24"/>
+    <instantOut id="wassen_exit_A" time="36437.00" state="stay" vehID="r_and_alt_1_9_big_truck.0" speed="11.77" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="36437.17" state="leave" vehID="r_and_alt_1_9_big_truck.0" speed="12.12" length="12.00" type="big_truck" occupancy="1.01"/>
+    <instantOut id="wassen_exit_A" time="37220.97" state="enter" vehID="r_and_alt_1_10_car_aggr1.0" speed="10.66" length="5.00" type="car_aggr1" gap="783.81"/>
+    <instantOut id="wassen_exit_A" time="37221.00" state="stay" vehID="r_and_alt_1_10_car_aggr1.0" speed="10.66" length="5.00" type="car_aggr1"/>
+    <instantOut id="wassen_exit_A" time="37221.46" state="leave" vehID="r_and_alt_1_10_car_aggr1.0" speed="10.24" length="5.00" type="car_aggr1" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="37225.71" state="enter" vehID="r_and_alt_1_10_car_aggr3.0" speed="10.36" length="5.00" type="car_aggr3" gap="4.25"/>
+    <instantOut id="wassen_exit_A" time="37226.00" state="stay" vehID="r_and_alt_1_10_car_aggr3.0" speed="10.36" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="37226.18" state="leave" vehID="r_and_alt_1_10_car_aggr3.0" speed="10.88" length="5.00" type="car_aggr3" occupancy="0.47"/>
+    <instantOut id="wassen_exit_A" time="37229.05" state="enter" vehID="r_and_alt_1_10_car_aggr5.0" speed="10.46" length="5.00" type="car_aggr5" gap="2.87"/>
+    <instantOut id="wassen_exit_A" time="37229.53" state="leave" vehID="r_and_alt_1_10_car_aggr5.0" speed="10.46" length="5.00" type="car_aggr5" occupancy="0.48"/>
+    <instantOut id="wassen_exit_A" time="37502.76" state="enter" vehID="r_and_alt_1_10_small_truck.0" speed="12.99" length="6.50" type="small_truck" gap="273.23"/>
+    <instantOut id="wassen_exit_A" time="37503.00" state="stay" vehID="r_and_alt_1_10_small_truck.0" speed="12.99" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="37503.25" state="leave" vehID="r_and_alt_1_10_small_truck.0" speed="13.44" length="6.50" type="small_truck" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="37506.70" state="enter" vehID="r_and_alt_1_10_car_aggr4.0" speed="12.90" length="5.00" type="car_aggr4" gap="3.45"/>
+    <instantOut id="wassen_exit_A" time="37507.00" state="stay" vehID="r_and_alt_1_10_car_aggr4.0" speed="12.90" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="37507.09" state="leave" vehID="r_and_alt_1_10_car_aggr4.0" speed="13.14" length="5.00" type="car_aggr4" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="37575.08" state="enter" vehID="r_and_alt_1_10_car_aggr2.0" speed="13.25" length="5.00" type="car_aggr2" gap="68.00"/>
+    <instantOut id="wassen_exit_A" time="37575.46" state="leave" vehID="r_and_alt_1_10_car_aggr2.0" speed="13.25" length="5.00" type="car_aggr2" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="37580.49" state="enter" vehID="r_and_alt_1_10_car_aggr2.1" speed="13.66" length="5.00" type="car_aggr2" gap="5.02"/>
+    <instantOut id="wassen_exit_A" time="37580.85" state="leave" vehID="r_and_alt_1_10_car_aggr2.1" speed="13.66" length="5.00" type="car_aggr2" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="37655.49" state="enter" vehID="r_and_alt_1_10_small_truck.1" speed="13.13" length="6.50" type="small_truck" gap="74.64"/>
+    <instantOut id="wassen_exit_A" time="37655.99" state="leave" vehID="r_and_alt_1_10_small_truck.1" speed="13.13" length="6.50" type="small_truck" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="37659.38" state="enter" vehID="r_and_alt_1_10_car_aggr4.1" speed="13.61" length="5.00" type="car_aggr4" gap="3.40"/>
+    <instantOut id="wassen_exit_A" time="37659.75" state="leave" vehID="r_and_alt_1_10_car_aggr4.1" speed="13.61" length="5.00" type="car_aggr4" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="37707.98" state="enter" vehID="r_and_alt_1_10_car_aggr3.1" speed="14.65" length="5.00" type="car_aggr3" gap="48.23"/>
+    <instantOut id="wassen_exit_A" time="37708.00" state="stay" vehID="r_and_alt_1_10_car_aggr3.1" speed="14.65" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="37708.32" state="leave" vehID="r_and_alt_1_10_car_aggr3.1" speed="14.67" length="5.00" type="car_aggr3" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="37877.35" state="enter" vehID="r_and_alt_1_10_car_aggr4.2" speed="16.07" length="5.00" type="car_aggr4" gap="169.03"/>
+    <instantOut id="wassen_exit_A" time="37877.66" state="leave" vehID="r_and_alt_1_10_car_aggr4.2" speed="16.07" length="5.00" type="car_aggr4" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="37909.02" state="enter" vehID="r_and_alt_1_10_car_aggr3.2" speed="15.04" length="5.00" type="car_aggr3" gap="31.36"/>
+    <instantOut id="wassen_exit_A" time="37909.35" state="leave" vehID="r_and_alt_1_10_car_aggr3.2" speed="15.04" length="5.00" type="car_aggr3" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="37912.63" state="enter" vehID="r_and_alt_1_10_car_aggr4.3" speed="15.49" length="5.00" type="car_aggr4" gap="3.28"/>
+    <instantOut id="wassen_exit_A" time="37912.95" state="leave" vehID="r_and_alt_1_10_car_aggr4.3" speed="15.49" length="5.00" type="car_aggr4" occupancy="0.32"/>
+    <instantOut id="wassen_exit_A" time="38109.31" state="enter" vehID="r_and_alt_1_10_small_truck.2" speed="14.61" length="6.50" type="small_truck" gap="196.36"/>
+    <instantOut id="wassen_exit_A" time="38109.76" state="leave" vehID="r_and_alt_1_10_small_truck.2" speed="14.61" length="6.50" type="small_truck" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="38300.11" state="enter" vehID="r_and_alt_1_10_car_aggr3.3" speed="16.32" length="5.00" type="car_aggr3" gap="190.35"/>
+    <instantOut id="wassen_exit_A" time="38300.41" state="leave" vehID="r_and_alt_1_10_car_aggr3.3" speed="16.32" length="5.00" type="car_aggr3" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="38587.80" state="enter" vehID="r_and_alt_1_10_car_aggr4.4" speed="13.82" length="5.00" type="car_aggr4" gap="287.38"/>
+    <instantOut id="wassen_exit_A" time="38588.00" state="stay" vehID="r_and_alt_1_10_car_aggr4.4" speed="13.82" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="38588.15" state="leave" vehID="r_and_alt_1_10_car_aggr4.4" speed="14.05" length="5.00" type="car_aggr4" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="38645.47" state="enter" vehID="r_and_alt_1_10_car_aggr2.2" speed="12.88" length="5.00" type="car_aggr2" gap="57.32"/>
+    <instantOut id="wassen_exit_A" time="38645.86" state="leave" vehID="r_and_alt_1_10_car_aggr2.2" speed="12.88" length="5.00" type="car_aggr2" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="38770.05" state="enter" vehID="r_and_alt_1_10_car_aggr2.3" speed="15.07" length="5.00" type="car_aggr2" gap="124.19"/>
+    <instantOut id="wassen_exit_A" time="38770.38" state="leave" vehID="r_and_alt_1_10_car_aggr2.3" speed="15.07" length="5.00" type="car_aggr2" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="38841.39" state="enter" vehID="r_and_alt_1_10_car_aggr1.1" speed="15.17" length="5.00" type="car_aggr1" gap="71.01"/>
+    <instantOut id="wassen_exit_A" time="38841.72" state="leave" vehID="r_and_alt_1_10_car_aggr1.1" speed="15.17" length="5.00" type="car_aggr1" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="39159.37" state="enter" vehID="r_and_alt_1_10_car_aggr2.4" speed="11.41" length="5.00" type="car_aggr2" gap="317.65"/>
+    <instantOut id="wassen_exit_A" time="39159.81" state="leave" vehID="r_and_alt_1_10_car_aggr2.4" speed="11.41" length="5.00" type="car_aggr2" occupancy="0.44"/>
+    <instantOut id="wassen_exit_A" time="39537.86" state="enter" vehID="r_and_alt_1_10_small_truck.3" speed="13.09" length="6.50" type="small_truck" gap="378.05"/>
+    <instantOut id="wassen_exit_A" time="39538.00" state="stay" vehID="r_and_alt_1_10_small_truck.3" speed="13.09" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="39538.36" state="leave" vehID="r_and_alt_1_10_small_truck.3" speed="12.91" length="6.50" type="small_truck" occupancy="0.50"/>
+    <instantOut id="wassen_exit_A" time="39541.91" state="enter" vehID="r_and_alt_1_10_car_aggr4.5" speed="13.27" length="5.00" type="car_aggr4" gap="3.55"/>
+    <instantOut id="wassen_exit_A" time="39542.00" state="stay" vehID="r_and_alt_1_10_car_aggr4.5" speed="13.27" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="39542.30" state="leave" vehID="r_and_alt_1_10_car_aggr4.5" speed="12.60" length="5.00" type="car_aggr4" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="39699.63" state="enter" vehID="r_and_alt_1_10_car_aggr4.6" speed="13.28" length="5.00" type="car_aggr4" gap="157.33"/>
+    <instantOut id="wassen_exit_A" time="39700.00" state="stay" vehID="r_and_alt_1_10_car_aggr4.6" speed="13.28" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="39700.01" state="leave" vehID="r_and_alt_1_10_car_aggr4.6" speed="13.23" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="39703.39" state="enter" vehID="r_and_alt_1_10_car_aggr4.7" speed="12.28" length="5.00" type="car_aggr4" gap="3.38"/>
+    <instantOut id="wassen_exit_A" time="39703.80" state="leave" vehID="r_and_alt_1_10_car_aggr4.7" speed="12.28" length="5.00" type="car_aggr4" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="39754.46" state="enter" vehID="r_and_alt_1_10_car_aggr2.5" speed="14.11" length="5.00" type="car_aggr2" gap="50.66"/>
+    <instantOut id="wassen_exit_A" time="39754.81" state="leave" vehID="r_and_alt_1_10_car_aggr2.5" speed="14.11" length="5.00" type="car_aggr2" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="39990.38" state="enter" vehID="r_and_alt_1_10_car_aggr3.4" speed="12.76" length="5.00" type="car_aggr3" gap="235.57"/>
+    <instantOut id="wassen_exit_A" time="39990.77" state="leave" vehID="r_and_alt_1_10_car_aggr3.4" speed="12.76" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="40023.74" state="enter" vehID="r_and_alt_1_10_small_truck.4" speed="14.95" length="6.50" type="small_truck" gap="32.97"/>
+    <instantOut id="wassen_exit_A" time="40024.00" state="stay" vehID="r_and_alt_1_10_small_truck.4" speed="14.95" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="40024.18" state="leave" vehID="r_and_alt_1_10_small_truck.4" speed="14.80" length="6.50" type="small_truck" occupancy="0.44"/>
+    <instantOut id="wassen_exit_A" time="40082.31" state="enter" vehID="r_and_alt_1_10_car_aggr2.6" speed="14.82" length="5.00" type="car_aggr2" gap="58.13"/>
+    <instantOut id="wassen_exit_A" time="40082.64" state="leave" vehID="r_and_alt_1_10_car_aggr2.6" speed="14.82" length="5.00" type="car_aggr2" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="40173.55" state="enter" vehID="r_and_alt_1_10_car_aggr3.5" speed="15.41" length="5.00" type="car_aggr3" gap="90.91"/>
+    <instantOut id="wassen_exit_A" time="40173.88" state="leave" vehID="r_and_alt_1_10_car_aggr3.5" speed="15.41" length="5.00" type="car_aggr3" occupancy="0.32"/>
+    <instantOut id="wassen_exit_A" time="40544.00" state="enter" vehID="r_and_alt_1_10_big_truck.0" speed="13.31" length="12.00" type="big_truck" gap="370.12"/>
+    <instantOut id="wassen_exit_A" time="40544.00" state="stay" vehID="r_and_alt_1_10_big_truck.0" speed="13.31" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="40544.90" state="leave" vehID="r_and_alt_1_10_big_truck.0" speed="13.24" length="12.00" type="big_truck" occupancy="0.91"/>
+    <instantOut id="wassen_exit_A" time="40548.91" state="enter" vehID="r_and_alt_1_11_car_aggr3.0" speed="13.18" length="5.00" type="car_aggr3" gap="4.01"/>
+    <instantOut id="wassen_exit_A" time="40549.00" state="stay" vehID="r_and_alt_1_11_car_aggr3.0" speed="13.18" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="40549.29" state="leave" vehID="r_and_alt_1_11_car_aggr3.0" speed="13.17" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="40552.30" state="enter" vehID="r_and_alt_1_11_car_aggr5.0" speed="14.12" length="5.00" type="car_aggr5" gap="3.00"/>
+    <instantOut id="wassen_exit_A" time="40552.65" state="leave" vehID="r_and_alt_1_11_car_aggr5.0" speed="14.12" length="5.00" type="car_aggr5" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="40556.41" state="enter" vehID="r_and_alt_1_11_car_aggr4.0" speed="13.71" length="5.00" type="car_aggr4" gap="3.76"/>
+    <instantOut id="wassen_exit_A" time="40556.77" state="leave" vehID="r_and_alt_1_11_car_aggr4.0" speed="13.71" length="5.00" type="car_aggr4" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="40764.11" state="enter" vehID="r_and_alt_1_11_small_truck.0" speed="12.91" length="6.50" type="small_truck" gap="207.34"/>
+    <instantOut id="wassen_exit_A" time="40764.62" state="leave" vehID="r_and_alt_1_11_small_truck.0" speed="12.91" length="6.50" type="small_truck" occupancy="0.50"/>
+    <instantOut id="wassen_exit_A" time="40768.05" state="enter" vehID="r_and_alt_1_11_car_aggr4.1" speed="13.62" length="5.00" type="car_aggr4" gap="3.43"/>
+    <instantOut id="wassen_exit_A" time="40768.41" state="leave" vehID="r_and_alt_1_11_car_aggr4.1" speed="13.62" length="5.00" type="car_aggr4" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="40993.98" state="enter" vehID="r_and_alt_1_11_small_truck.1" speed="13.59" length="6.50" type="small_truck" gap="225.57"/>
+    <instantOut id="wassen_exit_A" time="40994.00" state="stay" vehID="r_and_alt_1_11_small_truck.1" speed="13.59" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="40994.45" state="leave" vehID="r_and_alt_1_11_small_truck.1" speed="13.97" length="6.50" type="small_truck" occupancy="0.47"/>
+    <instantOut id="wassen_exit_A" time="41014.48" state="enter" vehID="r_and_alt_1_11_small_truck.2" speed="13.76" length="6.50" type="small_truck" gap="20.03"/>
+    <instantOut id="wassen_exit_A" time="41014.95" state="leave" vehID="r_and_alt_1_11_small_truck.2" speed="13.76" length="6.50" type="small_truck" occupancy="0.47"/>
+    <instantOut id="wassen_exit_A" time="41018.24" state="enter" vehID="r_and_alt_1_11_small_truck.3" speed="13.08" length="6.50" type="small_truck" gap="3.29"/>
+    <instantOut id="wassen_exit_A" time="41018.74" state="leave" vehID="r_and_alt_1_11_small_truck.3" speed="13.08" length="6.50" type="small_truck" occupancy="0.50"/>
+    <instantOut id="wassen_exit_A" time="41062.97" state="enter" vehID="r_and_alt_1_11_car_aggr1.0" speed="14.97" length="5.00" type="car_aggr1" gap="44.23"/>
+    <instantOut id="wassen_exit_A" time="41063.00" state="stay" vehID="r_and_alt_1_11_car_aggr1.0" speed="14.97" length="5.00" type="car_aggr1"/>
+    <instantOut id="wassen_exit_A" time="41063.31" state="leave" vehID="r_and_alt_1_11_car_aggr1.0" speed="14.75" length="5.00" type="car_aggr1" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="41093.73" state="enter" vehID="r_and_alt_1_11_car_aggr3.1" speed="13.76" length="5.00" type="car_aggr3" gap="30.42"/>
+    <instantOut id="wassen_exit_A" time="41094.00" state="stay" vehID="r_and_alt_1_11_car_aggr3.1" speed="13.76" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="41094.09" state="leave" vehID="r_and_alt_1_11_car_aggr3.1" speed="14.12" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="41165.43" state="enter" vehID="r_and_alt_1_11_big_truck.0" speed="13.29" length="12.00" type="big_truck" gap="71.34"/>
+    <instantOut id="wassen_exit_A" time="41166.00" state="stay" vehID="r_and_alt_1_11_big_truck.0" speed="13.29" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="41166.34" state="leave" vehID="r_and_alt_1_11_big_truck.0" speed="13.18" length="12.00" type="big_truck" occupancy="0.91"/>
+    <instantOut id="wassen_exit_A" time="41197.54" state="enter" vehID="r_and_alt_1_11_car_aggr5.1" speed="12.69" length="5.00" type="car_aggr5" gap="31.20"/>
+    <instantOut id="wassen_exit_A" time="41197.93" state="leave" vehID="r_and_alt_1_11_car_aggr5.1" speed="12.69" length="5.00" type="car_aggr5" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="41267.12" state="enter" vehID="r_and_alt_1_11_car_aggr1.1" speed="12.13" length="5.00" type="car_aggr1" gap="69.19"/>
+    <instantOut id="wassen_exit_A" time="41267.53" state="leave" vehID="r_and_alt_1_11_car_aggr1.1" speed="12.13" length="5.00" type="car_aggr1" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="41273.01" state="enter" vehID="r_and_alt_1_11_car_aggr1.2" speed="12.50" length="5.00" type="car_aggr1" gap="5.48"/>
+    <instantOut id="wassen_exit_A" time="41273.41" state="leave" vehID="r_and_alt_1_11_car_aggr1.2" speed="12.50" length="5.00" type="car_aggr1" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="41353.00" state="enter" vehID="r_and_alt_1_11_car_aggr3.2" speed="12.94" length="5.00" type="car_aggr3" gap="79.59"/>
+    <instantOut id="wassen_exit_A" time="41353.39" state="leave" vehID="r_and_alt_1_11_car_aggr3.2" speed="12.94" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="41405.45" state="enter" vehID="r_and_alt_1_11_car_aggr3.3" speed="13.39" length="5.00" type="car_aggr3" gap="52.07"/>
+    <instantOut id="wassen_exit_A" time="41405.83" state="leave" vehID="r_and_alt_1_11_car_aggr3.3" speed="13.39" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="41828.89" state="enter" vehID="r_and_alt_1_11_car_aggr2.0" speed="11.15" length="5.00" type="car_aggr2" gap="423.06"/>
+    <instantOut id="wassen_exit_A" time="41829.00" state="stay" vehID="r_and_alt_1_11_car_aggr2.0" speed="11.15" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="41829.33" state="leave" vehID="r_and_alt_1_11_car_aggr2.0" speed="11.61" length="5.00" type="car_aggr2" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="41884.90" state="enter" vehID="r_and_alt_1_11_car_aggr2.1" speed="12.30" length="5.00" type="car_aggr2" gap="55.57"/>
+    <instantOut id="wassen_exit_A" time="41885.00" state="stay" vehID="r_and_alt_1_11_car_aggr2.1" speed="12.30" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="41885.29" state="leave" vehID="r_and_alt_1_11_car_aggr2.1" speed="12.98" length="5.00" type="car_aggr2" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="41966.17" state="enter" vehID="r_and_alt_1_11_car_aggr3.4" speed="12.83" length="5.00" type="car_aggr3" gap="80.88"/>
+    <instantOut id="wassen_exit_A" time="41966.56" state="leave" vehID="r_and_alt_1_11_car_aggr3.4" speed="12.83" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="41969.47" state="enter" vehID="r_and_alt_1_11_car_aggr5.2" speed="13.83" length="5.00" type="car_aggr5" gap="2.92"/>
+    <instantOut id="wassen_exit_A" time="41969.83" state="leave" vehID="r_and_alt_1_11_car_aggr5.2" speed="13.83" length="5.00" type="car_aggr5" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="42536.71" state="enter" vehID="r_and_alt_1_11_car_aggr2.2" speed="12.38" length="5.00" type="car_aggr2" gap="566.88"/>
+    <instantOut id="wassen_exit_A" time="42537.00" state="stay" vehID="r_and_alt_1_11_car_aggr2.2" speed="12.38" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="42537.11" state="leave" vehID="r_and_alt_1_11_car_aggr2.2" speed="12.94" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="42669.65" state="enter" vehID="r_and_alt_1_11_car_aggr3.5" speed="12.14" length="5.00" type="car_aggr3" gap="132.54"/>
+    <instantOut id="wassen_exit_A" time="42670.00" state="stay" vehID="r_and_alt_1_11_car_aggr3.5" speed="12.14" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="42670.06" state="leave" vehID="r_and_alt_1_11_car_aggr3.5" speed="12.92" length="5.00" type="car_aggr3" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="42676.39" state="enter" vehID="r_and_alt_1_11_car_aggr1.3" speed="12.28" length="5.00" type="car_aggr1" gap="6.34"/>
+    <instantOut id="wassen_exit_A" time="42676.80" state="leave" vehID="r_and_alt_1_11_car_aggr1.3" speed="12.28" length="5.00" type="car_aggr1" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="42680.24" state="enter" vehID="r_and_alt_1_11_car_aggr4.2" speed="11.96" length="5.00" type="car_aggr4" gap="3.44"/>
+    <instantOut id="wassen_exit_A" time="42680.66" state="leave" vehID="r_and_alt_1_11_car_aggr4.2" speed="11.96" length="5.00" type="car_aggr4" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="42684.89" state="enter" vehID="r_and_alt_1_11_car_aggr3.6" speed="12.29" length="5.00" type="car_aggr3" gap="4.22"/>
+    <instantOut id="wassen_exit_A" time="42685.00" state="stay" vehID="r_and_alt_1_11_car_aggr3.6" speed="12.29" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="42685.28" state="leave" vehID="r_and_alt_1_11_car_aggr3.6" speed="12.86" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="42690.55" state="enter" vehID="r_and_alt_1_11_car_aggr2.3" speed="13.19" length="5.00" type="car_aggr2" gap="5.27"/>
+    <instantOut id="wassen_exit_A" time="42690.93" state="leave" vehID="r_and_alt_1_11_car_aggr2.3" speed="13.19" length="5.00" type="car_aggr2" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="42985.44" state="enter" vehID="r_and_alt_1_11_big_truck.1" speed="10.72" length="12.00" type="big_truck" gap="294.51"/>
+    <instantOut id="wassen_exit_A" time="42986.00" state="stay" vehID="r_and_alt_1_11_big_truck.1" speed="10.72" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="42986.55" state="leave" vehID="r_and_alt_1_11_big_truck.1" speed="10.79" length="12.00" type="big_truck" occupancy="1.12"/>
+    <instantOut id="wassen_exit_A" time="42990.02" state="enter" vehID="r_and_alt_1_11_car_aggr4.3" speed="10.93" length="5.00" type="car_aggr4" gap="3.47"/>
+    <instantOut id="wassen_exit_A" time="42990.48" state="leave" vehID="r_and_alt_1_11_car_aggr4.3" speed="10.93" length="5.00" type="car_aggr4" occupancy="0.46"/>
+    <instantOut id="wassen_exit_A" time="42994.76" state="enter" vehID="r_and_alt_1_11_car_aggr3.7" speed="10.48" length="5.00" type="car_aggr3" gap="4.28"/>
+    <instantOut id="wassen_exit_A" time="42995.00" state="stay" vehID="r_and_alt_1_11_car_aggr3.7" speed="10.48" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="42995.25" state="leave" vehID="r_and_alt_1_11_car_aggr3.7" speed="9.99" length="5.00" type="car_aggr3" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="43322.47" state="enter" vehID="r_and_alt_1_11_car_aggr2.4" speed="12.37" length="5.00" type="car_aggr2" gap="327.22"/>
+    <instantOut id="wassen_exit_A" time="43322.87" state="leave" vehID="r_and_alt_1_11_car_aggr2.4" speed="12.37" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="43326.82" state="enter" vehID="r_and_alt_1_11_car_aggr3.8" speed="12.48" length="5.00" type="car_aggr3" gap="3.95"/>
+    <instantOut id="wassen_exit_A" time="43327.00" state="stay" vehID="r_and_alt_1_11_car_aggr3.8" speed="12.48" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="43327.22" state="leave" vehID="r_and_alt_1_11_car_aggr3.8" speed="12.46" length="5.00" type="car_aggr3" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="43330.74" state="enter" vehID="r_and_alt_1_11_small_truck.4" speed="11.83" length="6.50" type="small_truck" gap="3.52"/>
+    <instantOut id="wassen_exit_A" time="43331.00" state="stay" vehID="r_and_alt_1_11_small_truck.4" speed="11.83" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="43331.28" state="leave" vehID="r_and_alt_1_11_small_truck.4" speed="12.27" length="6.50" type="small_truck" occupancy="0.54"/>
+    <instantOut id="wassen_exit_A" time="43445.49" state="enter" vehID="r_and_alt_1_11_big_truck.2" speed="12.23" length="12.00" type="big_truck" gap="114.20"/>
+    <instantOut id="wassen_exit_A" time="43446.00" state="stay" vehID="r_and_alt_1_11_big_truck.2" speed="12.23" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="43446.48" state="leave" vehID="r_and_alt_1_11_big_truck.2" speed="11.78" length="12.00" type="big_truck" occupancy="1.00"/>
+    <instantOut id="wassen_exit_A" time="43490.80" state="enter" vehID="r_and_alt_1_11_small_truck.5" speed="13.42" length="6.50" type="small_truck" gap="44.32"/>
+    <instantOut id="wassen_exit_A" time="43491.00" state="stay" vehID="r_and_alt_1_11_small_truck.5" speed="13.42" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="43491.30" state="leave" vehID="r_and_alt_1_11_small_truck.5" speed="13.05" length="6.50" type="small_truck" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="43727.92" state="enter" vehID="r_and_alt_1_11_car_aggr2.5" speed="13.89" length="5.00" type="car_aggr2" gap="236.63"/>
+    <instantOut id="wassen_exit_A" time="43728.00" state="stay" vehID="r_and_alt_1_11_car_aggr2.5" speed="13.89" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="43728.27" state="leave" vehID="r_and_alt_1_11_car_aggr2.5" speed="14.62" length="5.00" type="car_aggr2" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="43881.93" state="enter" vehID="r_and_alt_1_11_car_aggr3.9" speed="12.24" length="5.00" type="car_aggr3" gap="153.66"/>
+    <instantOut id="wassen_exit_A" time="43882.00" state="stay" vehID="r_and_alt_1_11_car_aggr3.9" speed="12.24" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="43882.32" state="leave" vehID="r_and_alt_1_11_car_aggr3.9" speed="12.75" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="43885.85" state="enter" vehID="r_and_alt_1_11_small_truck.6" speed="12.47" length="6.50" type="small_truck" gap="3.52"/>
+    <instantOut id="wassen_exit_A" time="43886.00" state="stay" vehID="r_and_alt_1_11_small_truck.6" speed="12.47" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="43886.36" state="leave" vehID="r_and_alt_1_11_small_truck.6" speed="12.84" length="6.50" type="small_truck" occupancy="0.51"/>
+    <instantOut id="wassen_exit_A" time="43889.62" state="enter" vehID="r_and_alt_1_11_small_truck.7" speed="12.04" length="6.50" type="small_truck" gap="3.27"/>
+    <instantOut id="wassen_exit_A" time="43890.00" state="stay" vehID="r_and_alt_1_11_small_truck.7" speed="12.04" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="43890.16" state="leave" vehID="r_and_alt_1_11_small_truck.7" speed="12.45" length="6.50" type="small_truck" occupancy="0.53"/>
+    <instantOut id="wassen_exit_A" time="43991.26" state="enter" vehID="r_and_alt_1_11_big_truck.3" speed="13.32" length="12.00" type="big_truck" gap="101.11"/>
+    <instantOut id="wassen_exit_A" time="43992.00" state="stay" vehID="r_and_alt_1_11_big_truck.3" speed="13.32" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="43992.17" state="leave" vehID="r_and_alt_1_11_big_truck.3" speed="12.83" length="12.00" type="big_truck" occupancy="0.91"/>
+    <instantOut id="wassen_exit_A" time="43995.46" state="enter" vehID="r_and_alt_1_11_small_truck.8" speed="13.84" length="6.50" type="small_truck" gap="3.29"/>
+    <instantOut id="wassen_exit_A" time="43995.93" state="leave" vehID="r_and_alt_1_11_small_truck.8" speed="13.84" length="6.50" type="small_truck" occupancy="0.47"/>
+    <instantOut id="wassen_exit_A" time="44302.18" state="enter" vehID="r_and_alt_1_11_car_aggr3.10" speed="10.32" length="5.00" type="car_aggr3" gap="306.25"/>
+    <instantOut id="wassen_exit_A" time="44302.66" state="leave" vehID="r_and_alt_1_11_car_aggr3.10" speed="10.32" length="5.00" type="car_aggr3" occupancy="0.48"/>
+    <instantOut id="wassen_exit_A" time="44306.76" state="enter" vehID="r_and_alt_1_11_car_aggr3.11" speed="10.18" length="5.00" type="car_aggr3" gap="4.09"/>
+    <instantOut id="wassen_exit_A" time="44307.00" state="stay" vehID="r_and_alt_1_11_car_aggr3.11" speed="10.18" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="44307.25" state="leave" vehID="r_and_alt_1_11_car_aggr3.11" speed="10.05" length="5.00" type="car_aggr3" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="44311.34" state="enter" vehID="r_and_alt_1_12_car_aggr3.0" speed="10.26" length="5.00" type="car_aggr3" gap="4.09"/>
+    <instantOut id="wassen_exit_A" time="44311.82" state="leave" vehID="r_and_alt_1_12_car_aggr3.0" speed="10.26" length="5.00" type="car_aggr3" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="44315.79" state="enter" vehID="r_and_alt_1_12_car_aggr3.1" speed="10.80" length="5.00" type="car_aggr3" gap="3.96"/>
+    <instantOut id="wassen_exit_A" time="44316.00" state="stay" vehID="r_and_alt_1_12_car_aggr3.1" speed="10.80" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="44316.27" state="leave" vehID="r_and_alt_1_12_car_aggr3.1" speed="10.14" length="5.00" type="car_aggr3" occupancy="0.48"/>
+    <instantOut id="wassen_exit_A" time="44364.07" state="enter" vehID="r_and_alt_1_12_car_aggr2.0" speed="14.56" length="5.00" type="car_aggr2" gap="47.81"/>
+    <instantOut id="wassen_exit_A" time="44364.42" state="leave" vehID="r_and_alt_1_12_car_aggr2.0" speed="14.56" length="5.00" type="car_aggr2" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="44694.62" state="enter" vehID="r_and_alt_1_12_car_aggr3.2" speed="11.06" length="5.00" type="car_aggr3" gap="330.20"/>
+    <instantOut id="wassen_exit_A" time="44695.00" state="stay" vehID="r_and_alt_1_12_car_aggr3.2" speed="11.06" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="44695.07" state="leave" vehID="r_and_alt_1_12_car_aggr3.2" speed="11.48" length="5.00" type="car_aggr3" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="44700.40" state="enter" vehID="r_and_alt_1_12_car_aggr2.1" speed="11.11" length="5.00" type="car_aggr2" gap="5.33"/>
+    <instantOut id="wassen_exit_A" time="44700.85" state="leave" vehID="r_and_alt_1_12_car_aggr2.1" speed="11.11" length="5.00" type="car_aggr2" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="44828.69" state="enter" vehID="r_and_alt_1_12_big_truck.0" speed="12.28" length="12.00" type="big_truck" gap="127.84"/>
+    <instantOut id="wassen_exit_A" time="44829.00" state="stay" vehID="r_and_alt_1_12_big_truck.0" speed="12.28" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="44829.67" state="leave" vehID="r_and_alt_1_12_big_truck.0" speed="12.25" length="12.00" type="big_truck" occupancy="0.98"/>
+    <instantOut id="wassen_exit_A" time="44834.62" state="enter" vehID="r_and_alt_1_12_car_aggr2.2" speed="12.52" length="5.00" type="car_aggr2" gap="4.95"/>
+    <instantOut id="wassen_exit_A" time="44835.00" state="stay" vehID="r_and_alt_1_12_car_aggr2.2" speed="12.52" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="44835.02" state="leave" vehID="r_and_alt_1_12_car_aggr2.2" speed="11.77" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="44840.05" state="enter" vehID="r_and_alt_1_12_car_aggr2.3" speed="12.60" length="5.00" type="car_aggr2" gap="5.03"/>
+    <instantOut id="wassen_exit_A" time="44840.45" state="leave" vehID="r_and_alt_1_12_car_aggr2.3" speed="12.60" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="45030.33" state="enter" vehID="r_and_alt_1_12_car_aggr3.3" speed="14.62" length="5.00" type="car_aggr3" gap="189.88"/>
+    <instantOut id="wassen_exit_A" time="45030.67" state="leave" vehID="r_and_alt_1_12_car_aggr3.3" speed="14.62" length="5.00" type="car_aggr3" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="45356.70" state="enter" vehID="r_and_alt_1_12_car_aggr3.4" speed="11.73" length="5.00" type="car_aggr3" gap="326.03"/>
+    <instantOut id="wassen_exit_A" time="45357.00" state="stay" vehID="r_and_alt_1_12_car_aggr3.4" speed="11.73" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="45357.12" state="leave" vehID="r_and_alt_1_12_car_aggr3.4" speed="12.60" length="5.00" type="car_aggr3" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="45369.96" state="enter" vehID="r_and_alt_1_12_big_truck.1" speed="13.11" length="12.00" type="big_truck" gap="12.84"/>
+    <instantOut id="wassen_exit_A" time="45370.00" state="stay" vehID="r_and_alt_1_12_big_truck.1" speed="13.11" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="45370.89" state="leave" vehID="r_and_alt_1_12_big_truck.1" speed="12.87" length="12.00" type="big_truck" occupancy="0.93"/>
+    <instantOut id="wassen_exit_A" time="45374.32" state="enter" vehID="r_and_alt_1_12_car_aggr4.0" speed="13.27" length="5.00" type="car_aggr4" gap="3.43"/>
+    <instantOut id="wassen_exit_A" time="45374.69" state="leave" vehID="r_and_alt_1_12_car_aggr4.0" speed="13.27" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="45699.51" state="enter" vehID="r_and_alt_1_12_car_aggr3.5" speed="11.03" length="5.00" type="car_aggr3" gap="324.82"/>
+    <instantOut id="wassen_exit_A" time="45699.97" state="leave" vehID="r_and_alt_1_12_car_aggr3.5" speed="11.03" length="5.00" type="car_aggr3" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="45790.87" state="enter" vehID="r_and_alt_1_12_big_truck.2" speed="12.16" length="12.00" type="big_truck" gap="90.90"/>
+    <instantOut id="wassen_exit_A" time="45791.00" state="stay" vehID="r_and_alt_1_12_big_truck.2" speed="12.16" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="45791.85" state="leave" vehID="r_and_alt_1_12_big_truck.2" speed="12.33" length="12.00" type="big_truck" occupancy="0.97"/>
+    <instantOut id="wassen_exit_A" time="45819.42" state="enter" vehID="r_and_alt_1_12_car_aggr4.1" speed="13.30" length="5.00" type="car_aggr4" gap="27.57"/>
+    <instantOut id="wassen_exit_A" time="45819.79" state="leave" vehID="r_and_alt_1_12_car_aggr4.1" speed="13.30" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="46060.91" state="enter" vehID="r_and_alt_1_12_car_aggr2.4" speed="10.89" length="5.00" type="car_aggr2" gap="241.12"/>
+    <instantOut id="wassen_exit_A" time="46061.00" state="stay" vehID="r_and_alt_1_12_car_aggr2.4" speed="10.89" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="46061.38" state="leave" vehID="r_and_alt_1_12_car_aggr2.4" speed="10.59" length="5.00" type="car_aggr2" occupancy="0.47"/>
+    <instantOut id="wassen_exit_A" time="46152.71" state="enter" vehID="r_and_alt_1_12_car_aggr2.5" speed="11.09" length="5.00" type="car_aggr2" gap="91.33"/>
+    <instantOut id="wassen_exit_A" time="46153.00" state="stay" vehID="r_and_alt_1_12_car_aggr2.5" speed="11.09" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="46153.16" state="leave" vehID="r_and_alt_1_12_car_aggr2.5" speed="11.06" length="5.00" type="car_aggr2" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="46156.39" state="enter" vehID="r_and_alt_1_12_small_truck.0" speed="10.57" length="6.50" type="small_truck" gap="3.22"/>
+    <instantOut id="wassen_exit_A" time="46157.00" state="stay" vehID="r_and_alt_1_12_small_truck.0" speed="10.57" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="46157.00" state="leave" vehID="r_and_alt_1_12_small_truck.0" speed="11.08" length="6.50" type="small_truck" occupancy="0.61"/>
+    <instantOut id="wassen_exit_A" time="46183.78" state="enter" vehID="r_and_alt_1_12_car_aggr3.6" speed="14.31" length="5.00" type="car_aggr3" gap="26.78"/>
+    <instantOut id="wassen_exit_A" time="46184.00" state="stay" vehID="r_and_alt_1_12_car_aggr3.6" speed="14.31" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="46184.13" state="leave" vehID="r_and_alt_1_12_car_aggr3.6" speed="14.50" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="46188.01" state="enter" vehID="r_and_alt_1_12_car_aggr3.7" speed="14.70" length="5.00" type="car_aggr3" gap="3.88"/>
+    <instantOut id="wassen_exit_A" time="46188.35" state="leave" vehID="r_and_alt_1_12_car_aggr3.7" speed="14.70" length="5.00" type="car_aggr3" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="46191.14" state="enter" vehID="r_and_alt_1_12_car_aggr5.0" speed="14.71" length="5.00" type="car_aggr5" gap="2.80"/>
+    <instantOut id="wassen_exit_A" time="46191.48" state="leave" vehID="r_and_alt_1_12_car_aggr5.0" speed="14.71" length="5.00" type="car_aggr5" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="46859.34" state="enter" vehID="r_and_alt_1_12_big_truck.3" speed="10.87" length="12.00" type="big_truck" gap="667.86"/>
+    <instantOut id="wassen_exit_A" time="46860.00" state="stay" vehID="r_and_alt_1_12_big_truck.3" speed="10.87" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="46860.42" state="leave" vehID="r_and_alt_1_12_big_truck.3" speed="11.48" length="12.00" type="big_truck" occupancy="1.08"/>
+    <instantOut id="wassen_exit_A" time="46863.49" state="enter" vehID="r_and_alt_1_12_car_aggr5.1" speed="10.84" length="5.00" type="car_aggr5" gap="3.07"/>
+    <instantOut id="wassen_exit_A" time="46863.95" state="leave" vehID="r_and_alt_1_12_car_aggr5.1" speed="10.84" length="5.00" type="car_aggr5" occupancy="0.46"/>
+    <instantOut id="wassen_exit_A" time="46868.35" state="enter" vehID="r_and_alt_1_12_car_aggr3.8" speed="11.10" length="5.00" type="car_aggr3" gap="4.40"/>
+    <instantOut id="wassen_exit_A" time="46868.80" state="leave" vehID="r_and_alt_1_12_car_aggr3.8" speed="11.10" length="5.00" type="car_aggr3" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="47184.51" state="enter" vehID="r_and_alt_1_12_car_aggr2.6" speed="11.90" length="5.00" type="car_aggr2" gap="315.71"/>
+    <instantOut id="wassen_exit_A" time="47184.93" state="leave" vehID="r_and_alt_1_12_car_aggr2.6" speed="11.90" length="5.00" type="car_aggr2" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="47246.19" state="enter" vehID="r_and_alt_1_12_car_aggr4.2" speed="12.12" length="5.00" type="car_aggr4" gap="61.27"/>
+    <instantOut id="wassen_exit_A" time="47246.61" state="leave" vehID="r_and_alt_1_12_car_aggr4.2" speed="12.12" length="5.00" type="car_aggr4" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="47249.47" state="enter" vehID="r_and_alt_1_12_car_aggr5.2" speed="11.91" length="5.00" type="car_aggr5" gap="2.87"/>
+    <instantOut id="wassen_exit_A" time="47249.89" state="leave" vehID="r_and_alt_1_12_car_aggr5.2" speed="11.91" length="5.00" type="car_aggr5" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="47256.70" state="enter" vehID="r_and_alt_1_12_car_aggr1.0" speed="12.07" length="5.00" type="car_aggr1" gap="6.81"/>
+    <instantOut id="wassen_exit_A" time="47257.00" state="stay" vehID="r_and_alt_1_12_car_aggr1.0" speed="12.07" length="5.00" type="car_aggr1"/>
+    <instantOut id="wassen_exit_A" time="47257.12" state="leave" vehID="r_and_alt_1_12_car_aggr1.0" speed="12.11" length="5.00" type="car_aggr1" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="47304.05" state="enter" vehID="r_and_alt_1_12_car_aggr2.7" speed="13.96" length="5.00" type="car_aggr2" gap="46.94"/>
+    <instantOut id="wassen_exit_A" time="47304.41" state="leave" vehID="r_and_alt_1_12_car_aggr2.7" speed="13.96" length="5.00" type="car_aggr2" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="47468.68" state="enter" vehID="r_and_alt_1_12_car_aggr3.9" speed="13.45" length="5.00" type="car_aggr3" gap="164.27"/>
+    <instantOut id="wassen_exit_A" time="47469.00" state="stay" vehID="r_and_alt_1_12_car_aggr3.9" speed="13.45" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="47469.05" state="leave" vehID="r_and_alt_1_12_car_aggr3.9" speed="13.74" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="47713.54" state="enter" vehID="r_and_alt_1_13_car_aggr4.0" speed="14.73" length="5.00" type="car_aggr4" gap="244.49"/>
+    <instantOut id="wassen_exit_A" time="47713.88" state="leave" vehID="r_and_alt_1_13_car_aggr4.0" speed="14.73" length="5.00" type="car_aggr4" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="48214.56" state="enter" vehID="r_and_alt_1_13_car_aggr2.0" speed="11.08" length="5.00" type="car_aggr2" gap="500.68"/>
+    <instantOut id="wassen_exit_A" time="48215.00" state="stay" vehID="r_and_alt_1_13_car_aggr2.0" speed="11.08" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="48215.01" state="leave" vehID="r_and_alt_1_13_car_aggr2.0" speed="11.25" length="5.00" type="car_aggr2" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="48221.01" state="enter" vehID="r_and_alt_1_13_car_aggr1.0" speed="11.01" length="5.00" type="car_aggr1" gap="6.00"/>
+    <instantOut id="wassen_exit_A" time="48221.46" state="leave" vehID="r_and_alt_1_13_car_aggr1.0" speed="11.01" length="5.00" type="car_aggr1" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="48225.36" state="enter" vehID="r_and_alt_1_13_car_aggr3.0" speed="10.83" length="5.00" type="car_aggr3" gap="3.90"/>
+    <instantOut id="wassen_exit_A" time="48225.82" state="leave" vehID="r_and_alt_1_13_car_aggr3.0" speed="10.83" length="5.00" type="car_aggr3" occupancy="0.46"/>
+    <instantOut id="wassen_exit_A" time="48855.31" state="enter" vehID="r_and_alt_1_13_car_aggr5.0" speed="16.44" length="5.00" type="car_aggr5" gap="629.49"/>
+    <instantOut id="wassen_exit_A" time="48855.61" state="leave" vehID="r_and_alt_1_13_car_aggr5.0" speed="16.44" length="5.00" type="car_aggr5" occupancy="0.30"/>
+    <instantOut id="wassen_exit_A" time="48938.10" state="enter" vehID="r_and_alt_1_13_car_aggr4.1" speed="16.60" length="5.00" type="car_aggr4" gap="82.49"/>
+    <instantOut id="wassen_exit_A" time="48938.40" state="leave" vehID="r_and_alt_1_13_car_aggr4.1" speed="16.60" length="5.00" type="car_aggr4" occupancy="0.30"/>
+    <instantOut id="wassen_exit_A" time="49058.87" state="enter" vehID="r_and_alt_1_13_car_aggr2.1" speed="14.63" length="5.00" type="car_aggr2" gap="120.47"/>
+    <instantOut id="wassen_exit_A" time="49059.00" state="stay" vehID="r_and_alt_1_13_car_aggr2.1" speed="14.63" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="49059.22" state="leave" vehID="r_and_alt_1_13_car_aggr2.1" speed="14.11" length="5.00" type="car_aggr2" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="49165.44" state="enter" vehID="r_and_alt_1_13_car_aggr3.1" speed="12.70" length="5.00" type="car_aggr3" gap="106.23"/>
+    <instantOut id="wassen_exit_A" time="49165.84" state="leave" vehID="r_and_alt_1_13_car_aggr3.1" speed="12.70" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="49169.79" state="enter" vehID="r_and_alt_1_13_car_aggr3.2" speed="12.34" length="5.00" type="car_aggr3" gap="3.96"/>
+    <instantOut id="wassen_exit_A" time="49170.00" state="stay" vehID="r_and_alt_1_13_car_aggr3.2" speed="12.34" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="49170.19" state="leave" vehID="r_and_alt_1_13_car_aggr3.2" speed="13.00" length="5.00" type="car_aggr3" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="49304.50" state="enter" vehID="r_and_alt_1_13_big_truck.0" speed="12.72" length="12.00" type="big_truck" gap="134.31"/>
+    <instantOut id="wassen_exit_A" time="49305.00" state="stay" vehID="r_and_alt_1_13_big_truck.0" speed="12.72" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="49305.45" state="leave" vehID="r_and_alt_1_13_big_truck.0" speed="12.60" length="12.00" type="big_truck" occupancy="0.95"/>
+    <instantOut id="wassen_exit_A" time="49339.29" state="enter" vehID="r_and_alt_1_13_car_aggr5.1" speed="14.43" length="5.00" type="car_aggr5" gap="33.84"/>
+    <instantOut id="wassen_exit_A" time="49339.63" state="leave" vehID="r_and_alt_1_13_car_aggr5.1" speed="14.43" length="5.00" type="car_aggr5" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="49350.15" state="enter" vehID="r_and_alt_1_13_motorbike.0" speed="15.05" length="2.20" type="motorbike" gap="10.52"/>
+    <instantOut id="wassen_exit_A" time="49350.30" state="leave" vehID="r_and_alt_1_13_motorbike.0" speed="15.05" length="2.20" type="motorbike" occupancy="0.15"/>
+    <instantOut id="wassen_exit_A" time="49663.48" state="enter" vehID="r_and_alt_1_13_car_aggr3.3" speed="13.20" length="5.00" type="car_aggr3" gap="313.18"/>
+    <instantOut id="wassen_exit_A" time="49663.86" state="leave" vehID="r_and_alt_1_13_car_aggr3.3" speed="13.20" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="49888.68" state="enter" vehID="r_and_alt_1_13_car_aggr2.2" speed="12.59" length="5.00" type="car_aggr2" gap="224.83"/>
+    <instantOut id="wassen_exit_A" time="49889.00" state="stay" vehID="r_and_alt_1_13_car_aggr2.2" speed="12.59" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="49889.08" state="leave" vehID="r_and_alt_1_13_car_aggr2.2" speed="12.88" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="49926.83" state="enter" vehID="r_and_alt_1_13_car_aggr2.3" speed="14.43" length="5.00" type="car_aggr2" gap="37.75"/>
+    <instantOut id="wassen_exit_A" time="49927.00" state="stay" vehID="r_and_alt_1_13_car_aggr2.3" speed="14.43" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="49927.16" state="leave" vehID="r_and_alt_1_13_car_aggr2.3" speed="15.23" length="5.00" type="car_aggr2" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="50144.69" state="enter" vehID="r_and_alt_1_13_motorbike.1" speed="14.26" length="2.20" type="motorbike" gap="217.53"/>
+    <instantOut id="wassen_exit_A" time="50144.84" state="leave" vehID="r_and_alt_1_13_motorbike.1" speed="14.26" length="2.20" type="motorbike" occupancy="0.15"/>
+    <instantOut id="wassen_exit_A" time="50351.31" state="enter" vehID="r_and_alt_1_13_car_aggr3.4" speed="13.35" length="5.00" type="car_aggr3" gap="206.47"/>
+    <instantOut id="wassen_exit_A" time="50351.68" state="leave" vehID="r_and_alt_1_13_car_aggr3.4" speed="13.35" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="50619.80" state="enter" vehID="r_and_alt_1_13_car_aggr4.2" speed="13.08" length="5.00" type="car_aggr4" gap="268.12"/>
+    <instantOut id="wassen_exit_A" time="50620.00" state="stay" vehID="r_and_alt_1_13_car_aggr4.2" speed="13.08" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="50620.18" state="leave" vehID="r_and_alt_1_13_car_aggr4.2" speed="13.55" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="50668.23" state="enter" vehID="r_and_alt_1_13_car_aggr1.1" speed="15.08" length="5.00" type="car_aggr1" gap="48.05"/>
+    <instantOut id="wassen_exit_A" time="50668.56" state="leave" vehID="r_and_alt_1_13_car_aggr1.1" speed="15.08" length="5.00" type="car_aggr1" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="50714.30" state="enter" vehID="r_and_alt_1_13_small_truck.0" speed="15.34" length="6.50" type="small_truck" gap="45.74"/>
+    <instantOut id="wassen_exit_A" time="50714.72" state="leave" vehID="r_and_alt_1_13_small_truck.0" speed="15.34" length="6.50" type="small_truck" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="51100.97" state="enter" vehID="r_and_alt_1_13_car_aggr4.3" speed="11.39" length="5.00" type="car_aggr4" gap="386.24"/>
+    <instantOut id="wassen_exit_A" time="51101.00" state="stay" vehID="r_and_alt_1_13_car_aggr4.3" speed="11.39" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="51101.43" state="leave" vehID="r_and_alt_1_13_car_aggr4.3" speed="10.85" length="5.00" type="car_aggr4" occupancy="0.46"/>
+    <instantOut id="wassen_exit_A" time="51106.22" state="enter" vehID="r_and_alt_1_13_big_truck.1" speed="11.00" length="12.00" type="big_truck" gap="4.79"/>
+    <instantOut id="wassen_exit_A" time="51107.00" state="stay" vehID="r_and_alt_1_13_big_truck.1" speed="11.00" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="51107.31" state="leave" vehID="r_and_alt_1_13_big_truck.1" speed="10.92" length="12.00" type="big_truck" occupancy="1.09"/>
+    <instantOut id="wassen_exit_A" time="51186.27" state="enter" vehID="r_and_alt_1_13_small_truck.1" speed="12.07" length="6.50" type="small_truck" gap="78.96"/>
+    <instantOut id="wassen_exit_A" time="51186.80" state="leave" vehID="r_and_alt_1_13_small_truck.1" speed="12.07" length="6.50" type="small_truck" occupancy="0.54"/>
+    <instantOut id="wassen_exit_A" time="51592.02" state="enter" vehID="r_and_alt_1_14_car_aggr2.0" speed="10.69" length="5.00" type="car_aggr2" gap="405.22"/>
+    <instantOut id="wassen_exit_A" time="51592.49" state="leave" vehID="r_and_alt_1_14_car_aggr2.0" speed="10.69" length="5.00" type="car_aggr2" occupancy="0.47"/>
+    <instantOut id="wassen_exit_A" time="51596.53" state="enter" vehID="r_and_alt_1_14_car_aggr3.0" speed="11.18" length="5.00" type="car_aggr3" gap="4.04"/>
+    <instantOut id="wassen_exit_A" time="51596.97" state="leave" vehID="r_and_alt_1_14_car_aggr3.0" speed="11.18" length="5.00" type="car_aggr3" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="51601.01" state="enter" vehID="r_and_alt_1_14_car_aggr3.1" speed="11.14" length="5.00" type="car_aggr3" gap="4.04"/>
+    <instantOut id="wassen_exit_A" time="51601.46" state="leave" vehID="r_and_alt_1_14_car_aggr3.1" speed="11.14" length="5.00" type="car_aggr3" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="51606.89" state="enter" vehID="r_and_alt_1_14_car_aggr2.1" speed="10.45" length="5.00" type="car_aggr2" gap="5.43"/>
+    <instantOut id="wassen_exit_A" time="51607.00" state="stay" vehID="r_and_alt_1_14_car_aggr2.1" speed="10.45" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="51607.37" state="leave" vehID="r_and_alt_1_14_car_aggr2.1" speed="10.39" length="5.00" type="car_aggr2" occupancy="0.48"/>
+    <instantOut id="wassen_exit_A" time="51844.01" state="enter" vehID="r_and_alt_1_14_big_truck.0" speed="12.95" length="12.00" type="big_truck" gap="236.64"/>
+    <instantOut id="wassen_exit_A" time="51844.94" state="leave" vehID="r_and_alt_1_14_big_truck.0" speed="12.95" length="12.00" type="big_truck" occupancy="0.93"/>
+    <instantOut id="wassen_exit_A" time="51848.43" state="enter" vehID="r_and_alt_1_14_car_aggr4.0" speed="12.60" length="5.00" type="car_aggr4" gap="3.49"/>
+    <instantOut id="wassen_exit_A" time="51848.82" state="leave" vehID="r_and_alt_1_14_car_aggr4.0" speed="12.60" length="5.00" type="car_aggr4" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="51952.92" state="enter" vehID="r_and_alt_1_14_car_aggr5.0" speed="15.00" length="5.00" type="car_aggr5" gap="104.10"/>
+    <instantOut id="wassen_exit_A" time="51953.00" state="stay" vehID="r_and_alt_1_14_car_aggr5.0" speed="15.00" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="51953.27" state="leave" vehID="r_and_alt_1_14_car_aggr5.0" speed="14.12" length="5.00" type="car_aggr5" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="52076.95" state="enter" vehID="r_and_alt_1_14_motorbike.0" speed="14.21" length="2.20" type="motorbike" gap="123.68"/>
+    <instantOut id="wassen_exit_A" time="52077.00" state="stay" vehID="r_and_alt_1_14_motorbike.0" speed="14.21" length="2.20" type="motorbike"/>
+    <instantOut id="wassen_exit_A" time="52077.10" state="leave" vehID="r_and_alt_1_14_motorbike.0" speed="15.07" length="2.20" type="motorbike" occupancy="0.15"/>
+    <instantOut id="wassen_exit_A" time="52183.38" state="enter" vehID="r_and_alt_1_14_car_aggr3.2" speed="16.51" length="5.00" type="car_aggr3" gap="106.28"/>
+    <instantOut id="wassen_exit_A" time="52183.68" state="leave" vehID="r_and_alt_1_14_car_aggr3.2" speed="16.51" length="5.00" type="car_aggr3" occupancy="0.30"/>
+    <instantOut id="wassen_exit_A" time="52220.08" state="enter" vehID="r_and_alt_1_14_car_aggr3.3" speed="14.85" length="5.00" type="car_aggr3" gap="36.40"/>
+    <instantOut id="wassen_exit_A" time="52220.42" state="leave" vehID="r_and_alt_1_14_car_aggr3.3" speed="14.85" length="5.00" type="car_aggr3" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="52545.46" state="enter" vehID="r_and_alt_1_14_car_aggr2.2" speed="12.99" length="5.00" type="car_aggr2" gap="325.04"/>
+    <instantOut id="wassen_exit_A" time="52545.84" state="leave" vehID="r_and_alt_1_14_car_aggr2.2" speed="12.99" length="5.00" type="car_aggr2" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="52549.83" state="enter" vehID="r_and_alt_1_14_car_aggr3.4" speed="12.36" length="5.00" type="car_aggr3" gap="3.99"/>
+    <instantOut id="wassen_exit_A" time="52550.00" state="stay" vehID="r_and_alt_1_14_car_aggr3.4" speed="12.36" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="52550.23" state="leave" vehID="r_and_alt_1_14_car_aggr3.4" speed="12.73" length="5.00" type="car_aggr3" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="52555.60" state="enter" vehID="r_and_alt_1_14_car_aggr2.3" speed="12.51" length="5.00" type="car_aggr2" gap="5.37"/>
+    <instantOut id="wassen_exit_A" time="52556.00" state="leave" vehID="r_and_alt_1_14_car_aggr2.3" speed="12.51" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="52558.86" state="enter" vehID="r_and_alt_1_14_car_aggr5.1" speed="12.27" length="5.00" type="car_aggr5" gap="2.86"/>
+    <instantOut id="wassen_exit_A" time="52559.00" state="stay" vehID="r_and_alt_1_14_car_aggr5.1" speed="12.27" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="52559.25" state="leave" vehID="r_and_alt_1_14_car_aggr5.1" speed="13.02" length="5.00" type="car_aggr5" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="52695.03" state="enter" vehID="r_and_alt_1_14_car_aggr3.5" speed="13.26" length="5.00" type="car_aggr3" gap="135.78"/>
+    <instantOut id="wassen_exit_A" time="52695.41" state="leave" vehID="r_and_alt_1_14_car_aggr3.5" speed="13.26" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="52778.65" state="enter" vehID="r_and_alt_1_14_small_truck.0" speed="12.34" length="6.50" type="small_truck" gap="83.25"/>
+    <instantOut id="wassen_exit_A" time="52779.00" state="stay" vehID="r_and_alt_1_14_small_truck.0" speed="12.34" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="52779.18" state="leave" vehID="r_and_alt_1_14_small_truck.0" speed="12.37" length="6.50" type="small_truck" occupancy="0.53"/>
+    <instantOut id="wassen_exit_A" time="52782.68" state="enter" vehID="r_and_alt_1_14_car_aggr4.1" speed="13.15" length="5.00" type="car_aggr4" gap="3.50"/>
+    <instantOut id="wassen_exit_A" time="52783.00" state="stay" vehID="r_and_alt_1_14_car_aggr4.1" speed="13.15" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="52783.06" state="leave" vehID="r_and_alt_1_14_car_aggr4.1" speed="13.16" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="52810.32" state="enter" vehID="r_and_alt_1_14_car_aggr3.6" speed="13.70" length="5.00" type="car_aggr3" gap="27.26"/>
+    <instantOut id="wassen_exit_A" time="52810.69" state="leave" vehID="r_and_alt_1_14_car_aggr3.6" speed="13.70" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="53101.14" state="enter" vehID="r_and_alt_1_14_car_aggr5.2" speed="12.07" length="5.00" type="car_aggr5" gap="290.45"/>
+    <instantOut id="wassen_exit_A" time="53101.55" state="leave" vehID="r_and_alt_1_14_car_aggr5.2" speed="12.07" length="5.00" type="car_aggr5" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="53105.96" state="enter" vehID="r_and_alt_1_14_car_aggr3.7" speed="12.44" length="5.00" type="car_aggr3" gap="4.41"/>
+    <instantOut id="wassen_exit_A" time="53106.00" state="stay" vehID="r_and_alt_1_14_car_aggr3.7" speed="12.44" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="53106.36" state="leave" vehID="r_and_alt_1_14_car_aggr3.7" speed="12.26" length="5.00" type="car_aggr3" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="53163.60" state="enter" vehID="r_and_alt_1_14_car_aggr3.8" speed="12.77" length="5.00" type="car_aggr3" gap="57.24"/>
+    <instantOut id="wassen_exit_A" time="53163.99" state="leave" vehID="r_and_alt_1_14_car_aggr3.8" speed="12.77" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="53228.35" state="enter" vehID="r_and_alt_1_14_car_aggr3.9" speed="12.05" length="5.00" type="car_aggr3" gap="64.36"/>
+    <instantOut id="wassen_exit_A" time="53228.77" state="leave" vehID="r_and_alt_1_14_car_aggr3.9" speed="12.05" length="5.00" type="car_aggr3" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="53234.00" state="enter" vehID="r_and_alt_1_14_car_aggr2.4" speed="11.63" length="5.00" type="car_aggr2" gap="5.24"/>
+    <instantOut id="wassen_exit_A" time="53234.43" state="leave" vehID="r_and_alt_1_14_car_aggr2.4" speed="11.63" length="5.00" type="car_aggr2" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="53379.22" state="enter" vehID="r_and_alt_1_14_car_aggr3.10" speed="13.87" length="5.00" type="car_aggr3" gap="144.79"/>
+    <instantOut id="wassen_exit_A" time="53379.58" state="leave" vehID="r_and_alt_1_14_car_aggr3.10" speed="13.87" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="53383.53" state="enter" vehID="r_and_alt_1_14_car_aggr3.11" speed="13.92" length="5.00" type="car_aggr3" gap="3.95"/>
+    <instantOut id="wassen_exit_A" time="53383.89" state="leave" vehID="r_and_alt_1_14_car_aggr3.11" speed="13.92" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="53513.78" state="enter" vehID="r_and_alt_1_14_motorbike.1" speed="13.20" length="2.20" type="motorbike" gap="129.89"/>
+    <instantOut id="wassen_exit_A" time="53513.95" state="leave" vehID="r_and_alt_1_14_motorbike.1" speed="13.20" length="2.20" type="motorbike" occupancy="0.17"/>
+    <instantOut id="wassen_exit_A" time="53518.30" state="enter" vehID="r_and_alt_1_14_car_aggr3.12" speed="11.77" length="5.00" type="car_aggr3" gap="4.35"/>
+    <instantOut id="wassen_exit_A" time="53518.72" state="leave" vehID="r_and_alt_1_14_car_aggr3.12" speed="11.77" length="5.00" type="car_aggr3" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="53551.95" state="enter" vehID="r_and_alt_1_14_big_truck.1" speed="12.83" length="12.00" type="big_truck" gap="33.23"/>
+    <instantOut id="wassen_exit_A" time="53552.00" state="stay" vehID="r_and_alt_1_14_big_truck.1" speed="12.83" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="53552.88" state="leave" vehID="r_and_alt_1_14_big_truck.1" speed="12.84" length="12.00" type="big_truck" occupancy="0.93"/>
+    <instantOut id="wassen_exit_A" time="53574.96" state="enter" vehID="r_and_alt_1_14_car_aggr5.3" speed="13.80" length="5.00" type="car_aggr5" gap="22.08"/>
+    <instantOut id="wassen_exit_A" time="53575.00" state="stay" vehID="r_and_alt_1_14_car_aggr5.3" speed="13.80" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="53575.31" state="leave" vehID="r_and_alt_1_14_car_aggr5.3" speed="14.31" length="5.00" type="car_aggr5" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="53579.80" state="enter" vehID="r_and_alt_1_14_car_aggr3.13" speed="13.14" length="5.00" type="car_aggr3" gap="4.49"/>
+    <instantOut id="wassen_exit_A" time="53580.00" state="stay" vehID="r_and_alt_1_14_car_aggr3.13" speed="13.14" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="53580.17" state="leave" vehID="r_and_alt_1_14_car_aggr3.13" speed="14.18" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="53990.61" state="enter" vehID="r_and_alt_1_14_car_aggr3.14" speed="13.91" length="5.00" type="car_aggr3" gap="410.45"/>
+    <instantOut id="wassen_exit_A" time="53990.97" state="leave" vehID="r_and_alt_1_14_car_aggr3.14" speed="13.91" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="54095.14" state="enter" vehID="r_and_alt_1_14_small_truck.1" speed="13.23" length="6.50" type="small_truck" gap="104.17"/>
+    <instantOut id="wassen_exit_A" time="54095.63" state="leave" vehID="r_and_alt_1_14_small_truck.1" speed="13.23" length="6.50" type="small_truck" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="54468.34" state="enter" vehID="r_and_alt_1_14_car_aggr4.2" speed="9.77" length="5.00" type="car_aggr4" gap="372.71"/>
+    <instantOut id="wassen_exit_A" time="54468.85" state="leave" vehID="r_and_alt_1_14_car_aggr4.2" speed="9.77" length="5.00" type="car_aggr4" occupancy="0.51"/>
+    <instantOut id="wassen_exit_A" time="54480.30" state="enter" vehID="r_and_alt_1_14_big_truck.2" speed="12.18" length="12.00" type="big_truck" gap="11.45"/>
+    <instantOut id="wassen_exit_A" time="54481.00" state="stay" vehID="r_and_alt_1_14_big_truck.2" speed="12.18" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="54481.29" state="leave" vehID="r_and_alt_1_14_big_truck.2" speed="11.85" length="12.00" type="big_truck" occupancy="0.99"/>
+    <instantOut id="wassen_exit_A" time="54484.80" state="enter" vehID="r_and_alt_1_14_car_aggr4.3" speed="12.26" length="5.00" type="car_aggr4" gap="3.51"/>
+    <instantOut id="wassen_exit_A" time="54485.00" state="stay" vehID="r_and_alt_1_14_car_aggr4.3" speed="12.26" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="54485.23" state="leave" vehID="r_and_alt_1_14_car_aggr4.3" speed="11.36" length="5.00" type="car_aggr4" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="54488.19" state="enter" vehID="r_and_alt_1_14_car_aggr5.4" speed="12.56" length="5.00" type="car_aggr5" gap="2.97"/>
+    <instantOut id="wassen_exit_A" time="54488.59" state="leave" vehID="r_and_alt_1_14_car_aggr5.4" speed="12.56" length="5.00" type="car_aggr5" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="54620.68" state="enter" vehID="r_and_alt_1_14_big_truck.3" speed="12.28" length="12.00" type="big_truck" gap="132.09"/>
+    <instantOut id="wassen_exit_A" time="54621.00" state="stay" vehID="r_and_alt_1_14_big_truck.3" speed="12.28" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="54621.67" state="leave" vehID="r_and_alt_1_14_big_truck.3" speed="12.01" length="12.00" type="big_truck" occupancy="0.99"/>
+    <instantOut id="wassen_exit_A" time="54625.10" state="enter" vehID="r_and_alt_1_14_car_aggr4.4" speed="11.43" length="5.00" type="car_aggr4" gap="3.43"/>
+    <instantOut id="wassen_exit_A" time="54625.54" state="leave" vehID="r_and_alt_1_14_car_aggr4.4" speed="11.43" length="5.00" type="car_aggr4" occupancy="0.44"/>
+    <instantOut id="wassen_exit_A" time="54629.81" state="enter" vehID="r_and_alt_1_14_car_aggr3.15" speed="12.60" length="5.00" type="car_aggr3" gap="4.27"/>
+    <instantOut id="wassen_exit_A" time="54630.00" state="stay" vehID="r_and_alt_1_14_car_aggr3.15" speed="12.60" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="54630.22" state="leave" vehID="r_and_alt_1_14_car_aggr3.15" speed="11.71" length="5.00" type="car_aggr3" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="54849.49" state="enter" vehID="r_and_alt_1_14_car_aggr3.16" speed="12.89" length="5.00" type="car_aggr3" gap="219.27"/>
+    <instantOut id="wassen_exit_A" time="54849.88" state="leave" vehID="r_and_alt_1_14_car_aggr3.16" speed="12.89" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="54853.82" state="enter" vehID="r_and_alt_1_14_car_aggr3.17" speed="12.33" length="5.00" type="car_aggr3" gap="3.94"/>
+    <instantOut id="wassen_exit_A" time="54854.00" state="stay" vehID="r_and_alt_1_14_car_aggr3.17" speed="12.33" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="54854.21" state="leave" vehID="r_and_alt_1_14_car_aggr3.17" speed="13.45" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="54857.09" state="enter" vehID="r_and_alt_1_14_car_aggr5.5" speed="13.13" length="5.00" type="car_aggr5" gap="2.89"/>
+    <instantOut id="wassen_exit_A" time="54857.47" state="leave" vehID="r_and_alt_1_14_car_aggr5.5" speed="13.13" length="5.00" type="car_aggr5" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="55159.50" state="enter" vehID="r_and_alt_1_15_car_aggr5.0" speed="14.44" length="5.00" type="car_aggr5" gap="302.02"/>
+    <instantOut id="wassen_exit_A" time="55159.84" state="leave" vehID="r_and_alt_1_15_car_aggr5.0" speed="14.44" length="5.00" type="car_aggr5" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="55162.71" state="enter" vehID="r_and_alt_1_15_car_aggr5.1" speed="14.40" length="5.00" type="car_aggr5" gap="2.86"/>
+    <instantOut id="wassen_exit_A" time="55163.00" state="stay" vehID="r_and_alt_1_15_car_aggr5.1" speed="14.40" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="55163.05" state="leave" vehID="r_and_alt_1_15_car_aggr5.1" speed="14.24" length="5.00" type="car_aggr5" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="55198.66" state="enter" vehID="r_and_alt_1_15_car_aggr5.2" speed="15.73" length="5.00" type="car_aggr5" gap="35.61"/>
+    <instantOut id="wassen_exit_A" time="55198.98" state="leave" vehID="r_and_alt_1_15_car_aggr5.2" speed="15.73" length="5.00" type="car_aggr5" occupancy="0.32"/>
+    <instantOut id="wassen_exit_A" time="55336.39" state="enter" vehID="r_and_alt_1_15_car_aggr3.0" speed="14.39" length="5.00" type="car_aggr3" gap="137.41"/>
+    <instantOut id="wassen_exit_A" time="55336.74" state="leave" vehID="r_and_alt_1_15_car_aggr3.0" speed="14.39" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="55450.81" state="enter" vehID="r_and_alt_1_15_car_aggr4.0" speed="12.94" length="5.00" type="car_aggr4" gap="114.07"/>
+    <instantOut id="wassen_exit_A" time="55451.00" state="stay" vehID="r_and_alt_1_15_car_aggr4.0" speed="12.94" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="55451.19" state="leave" vehID="r_and_alt_1_15_car_aggr4.0" speed="13.16" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="55456.78" state="enter" vehID="r_and_alt_1_15_car_aggr2.0" speed="12.32" length="5.00" type="car_aggr2" gap="5.58"/>
+    <instantOut id="wassen_exit_A" time="55457.00" state="stay" vehID="r_and_alt_1_15_car_aggr2.0" speed="12.32" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="55457.18" state="leave" vehID="r_and_alt_1_15_car_aggr2.0" speed="12.80" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="55664.45" state="enter" vehID="r_and_alt_1_15_car_aggr3.1" speed="12.96" length="5.00" type="car_aggr3" gap="207.28"/>
+    <instantOut id="wassen_exit_A" time="55664.84" state="leave" vehID="r_and_alt_1_15_car_aggr3.1" speed="12.96" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="55667.80" state="enter" vehID="r_and_alt_1_15_car_aggr5.3" speed="12.61" length="5.00" type="car_aggr5" gap="2.96"/>
+    <instantOut id="wassen_exit_A" time="55668.00" state="stay" vehID="r_and_alt_1_15_car_aggr5.3" speed="12.61" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="55668.21" state="leave" vehID="r_and_alt_1_15_car_aggr5.3" speed="11.90" length="5.00" type="car_aggr5" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="56076.68" state="enter" vehID="r_and_alt_1_15_big_truck.0" speed="11.74" length="12.00" type="big_truck" gap="408.47"/>
+    <instantOut id="wassen_exit_A" time="56077.00" state="stay" vehID="r_and_alt_1_15_big_truck.0" speed="11.74" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="56077.70" state="leave" vehID="r_and_alt_1_15_big_truck.0" speed="11.79" length="12.00" type="big_truck" occupancy="1.02"/>
+    <instantOut id="wassen_exit_A" time="56096.55" state="enter" vehID="r_and_alt_1_15_car_aggr2.1" speed="14.18" length="5.00" type="car_aggr2" gap="18.86"/>
+    <instantOut id="wassen_exit_A" time="56096.91" state="leave" vehID="r_and_alt_1_15_car_aggr2.1" speed="14.18" length="5.00" type="car_aggr2" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="56101.77" state="enter" vehID="r_and_alt_1_15_car_aggr2.2" speed="13.65" length="5.00" type="car_aggr2" gap="4.87"/>
+    <instantOut id="wassen_exit_A" time="56102.00" state="stay" vehID="r_and_alt_1_15_car_aggr2.2" speed="13.65" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="56102.14" state="leave" vehID="r_and_alt_1_15_car_aggr2.2" speed="14.11" length="5.00" type="car_aggr2" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="56563.38" state="enter" vehID="r_and_alt_1_15_car_aggr3.2" speed="14.27" length="5.00" type="car_aggr3" gap="461.25"/>
+    <instantOut id="wassen_exit_A" time="56563.73" state="leave" vehID="r_and_alt_1_15_car_aggr3.2" speed="14.27" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="56665.37" state="enter" vehID="r_and_alt_1_15_car_aggr2.3" speed="15.36" length="5.00" type="car_aggr2" gap="101.64"/>
+    <instantOut id="wassen_exit_A" time="56665.70" state="leave" vehID="r_and_alt_1_15_car_aggr2.3" speed="15.36" length="5.00" type="car_aggr2" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="56986.00" state="enter" vehID="r_and_alt_1_15_car_aggr2.4" speed="12.55" length="5.00" type="car_aggr2" gap="320.30"/>
+    <instantOut id="wassen_exit_A" time="56986.00" state="stay" vehID="r_and_alt_1_15_car_aggr2.4" speed="12.55" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="56986.39" state="leave" vehID="r_and_alt_1_15_car_aggr2.4" speed="12.62" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="56994.79" state="enter" vehID="r_and_alt_1_15_car_aggr4.1" speed="14.46" length="5.00" type="car_aggr4" gap="8.39"/>
+    <instantOut id="wassen_exit_A" time="56995.00" state="stay" vehID="r_and_alt_1_15_car_aggr4.1" speed="14.46" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="56995.13" state="leave" vehID="r_and_alt_1_15_car_aggr4.1" speed="15.02" length="5.00" type="car_aggr4" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="57381.75" state="enter" vehID="r_and_alt_1_15_small_truck.0" speed="13.54" length="6.50" type="small_truck" gap="386.63"/>
+    <instantOut id="wassen_exit_A" time="57382.00" state="stay" vehID="r_and_alt_1_15_small_truck.0" speed="13.54" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="57382.25" state="leave" vehID="r_and_alt_1_15_small_truck.0" speed="12.90" length="6.50" type="small_truck" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="57386.20" state="enter" vehID="r_and_alt_1_15_car_aggr3.3" speed="13.50" length="5.00" type="car_aggr3" gap="3.95"/>
+    <instantOut id="wassen_exit_A" time="57386.57" state="leave" vehID="r_and_alt_1_15_car_aggr3.3" speed="13.50" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="57454.51" state="enter" vehID="r_and_alt_1_15_car_aggr3.4" speed="13.84" length="5.00" type="car_aggr3" gap="67.94"/>
+    <instantOut id="wassen_exit_A" time="57454.87" state="leave" vehID="r_and_alt_1_15_car_aggr3.4" speed="13.84" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="57776.77" state="enter" vehID="r_and_alt_1_15_car_aggr3.5" speed="13.93" length="5.00" type="car_aggr3" gap="321.90"/>
+    <instantOut id="wassen_exit_A" time="57777.00" state="stay" vehID="r_and_alt_1_15_car_aggr3.5" speed="13.93" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="57777.13" state="leave" vehID="r_and_alt_1_15_car_aggr3.5" speed="13.64" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="57930.30" state="enter" vehID="r_and_alt_1_15_big_truck.1" speed="11.94" length="12.00" type="big_truck" gap="153.17"/>
+    <instantOut id="wassen_exit_A" time="57931.00" state="stay" vehID="r_and_alt_1_15_big_truck.1" speed="11.94" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="57931.30" state="leave" vehID="r_and_alt_1_15_big_truck.1" speed="12.34" length="12.00" type="big_truck" occupancy="0.99"/>
+    <instantOut id="wassen_exit_A" time="57969.91" state="enter" vehID="r_and_alt_1_15_car_aggr4.2" speed="12.39" length="5.00" type="car_aggr4" gap="38.61"/>
+    <instantOut id="wassen_exit_A" time="57970.00" state="stay" vehID="r_and_alt_1_15_car_aggr4.2" speed="12.39" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="57970.28" state="leave" vehID="r_and_alt_1_15_car_aggr4.2" speed="13.55" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="57973.66" state="enter" vehID="r_and_alt_1_15_car_aggr4.3" speed="13.15" length="5.00" type="car_aggr4" gap="3.37"/>
+    <instantOut id="wassen_exit_A" time="57974.00" state="stay" vehID="r_and_alt_1_15_car_aggr4.3" speed="13.15" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="57974.04" state="leave" vehID="r_and_alt_1_15_car_aggr4.3" speed="12.31" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="57992.95" state="enter" vehID="r_and_alt_1_15_car_aggr2.5" speed="13.33" length="5.00" type="car_aggr2" gap="18.92"/>
+    <instantOut id="wassen_exit_A" time="57993.00" state="stay" vehID="r_and_alt_1_15_car_aggr2.5" speed="13.33" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="57993.32" state="leave" vehID="r_and_alt_1_15_car_aggr2.5" speed="13.56" length="5.00" type="car_aggr2" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="58145.24" state="enter" vehID="r_and_alt_1_15_car_aggr5.4" speed="14.60" length="5.00" type="car_aggr5" gap="151.92"/>
+    <instantOut id="wassen_exit_A" time="58145.58" state="leave" vehID="r_and_alt_1_15_car_aggr5.4" speed="14.60" length="5.00" type="car_aggr5" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="58454.19" state="enter" vehID="r_and_alt_1_15_small_truck.1" speed="12.31" length="6.50" type="small_truck" gap="308.61"/>
+    <instantOut id="wassen_exit_A" time="58454.72" state="leave" vehID="r_and_alt_1_15_small_truck.1" speed="12.31" length="6.50" type="small_truck" occupancy="0.53"/>
+    <instantOut id="wassen_exit_A" time="58459.75" state="enter" vehID="r_and_alt_1_15_car_aggr2.6" speed="12.05" length="5.00" type="car_aggr2" gap="5.03"/>
+    <instantOut id="wassen_exit_A" time="58460.00" state="stay" vehID="r_and_alt_1_15_car_aggr2.6" speed="12.05" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="58460.15" state="leave" vehID="r_and_alt_1_15_car_aggr2.6" speed="13.03" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="58537.39" state="enter" vehID="r_and_alt_1_16_car_aggr5.0" speed="14.00" length="5.00" type="car_aggr5" gap="77.24"/>
+    <instantOut id="wassen_exit_A" time="58537.75" state="leave" vehID="r_and_alt_1_16_car_aggr5.0" speed="14.00" length="5.00" type="car_aggr5" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="58701.01" state="enter" vehID="r_and_alt_1_16_car_aggr3.0" speed="13.59" length="5.00" type="car_aggr3" gap="163.26"/>
+    <instantOut id="wassen_exit_A" time="58701.38" state="leave" vehID="r_and_alt_1_16_car_aggr3.0" speed="13.59" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="58705.42" state="enter" vehID="r_and_alt_1_16_car_aggr3.1" speed="12.75" length="5.00" type="car_aggr3" gap="4.04"/>
+    <instantOut id="wassen_exit_A" time="58705.81" state="leave" vehID="r_and_alt_1_16_car_aggr3.1" speed="12.75" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="58709.19" state="enter" vehID="r_and_alt_1_16_car_aggr4.0" speed="12.91" length="5.00" type="car_aggr4" gap="3.38"/>
+    <instantOut id="wassen_exit_A" time="58709.58" state="leave" vehID="r_and_alt_1_16_car_aggr4.0" speed="12.91" length="5.00" type="car_aggr4" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="58752.41" state="enter" vehID="r_and_alt_1_16_car_aggr5.1" speed="14.77" length="5.00" type="car_aggr5" gap="42.84"/>
+    <instantOut id="wassen_exit_A" time="58752.75" state="leave" vehID="r_and_alt_1_16_car_aggr5.1" speed="14.77" length="5.00" type="car_aggr5" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="58893.60" state="enter" vehID="r_tun_axs_KS_____16_car_aggr4.0" speed="15.48" length="5.00" type="car_aggr4" gap="140.85"/>
+    <instantOut id="wassen_exit_A" time="58893.92" state="leave" vehID="r_tun_axs_KS_____16_car_aggr4.0" speed="15.48" length="5.00" type="car_aggr4" occupancy="0.32"/>
+    <instantOut id="wassen_exit_A" time="59215.38" state="enter" vehID="r_and_alt_1_16_car_aggr4.1" speed="15.46" length="5.00" type="car_aggr4" gap="321.46"/>
+    <instantOut id="wassen_exit_A" time="59215.71" state="leave" vehID="r_and_alt_1_16_car_aggr4.1" speed="15.46" length="5.00" type="car_aggr4" occupancy="0.32"/>
+    <instantOut id="wassen_exit_A" time="59343.24" state="enter" vehID="r_and_alt_1_16_car_aggr3.2" speed="13.14" length="5.00" type="car_aggr3" gap="127.53"/>
+    <instantOut id="wassen_exit_A" time="59343.62" state="leave" vehID="r_and_alt_1_16_car_aggr3.2" speed="13.14" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="59407.59" state="enter" vehID="r_and_alt_1_16_car_aggr1.0" speed="14.97" length="5.00" type="car_aggr1" gap="63.97"/>
+    <instantOut id="wassen_exit_A" time="59407.92" state="leave" vehID="r_and_alt_1_16_car_aggr1.0" speed="14.97" length="5.00" type="car_aggr1" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="59547.94" state="enter" vehID="r_and_alt_1_16_car_aggr5.2" speed="13.62" length="5.00" type="car_aggr5" gap="140.02"/>
+    <instantOut id="wassen_exit_A" time="59548.00" state="stay" vehID="r_and_alt_1_16_car_aggr5.2" speed="13.62" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="59548.29" state="leave" vehID="r_and_alt_1_16_car_aggr5.2" speed="14.60" length="5.00" type="car_aggr5" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="59724.46" state="enter" vehID="r_and_alt_1_16_car_aggr2.0" speed="11.74" length="5.00" type="car_aggr2" gap="176.17"/>
+    <instantOut id="wassen_exit_A" time="59724.88" state="leave" vehID="r_and_alt_1_16_car_aggr2.0" speed="11.74" length="5.00" type="car_aggr2" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="59789.11" state="enter" vehID="r_and_alt_1_16_small_truck.0" speed="14.98" length="6.50" type="small_truck" gap="64.23"/>
+    <instantOut id="wassen_exit_A" time="59789.55" state="leave" vehID="r_and_alt_1_16_small_truck.0" speed="14.98" length="6.50" type="small_truck" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="59915.18" state="enter" vehID="r_tun_axs_KS_____16_car_aggr2.0" speed="12.07" length="5.00" type="car_aggr2" gap="125.64"/>
+    <instantOut id="wassen_exit_A" time="59915.60" state="leave" vehID="r_tun_axs_KS_____16_car_aggr2.0" speed="12.07" length="5.00" type="car_aggr2" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="60006.69" state="enter" vehID="r_and_alt_1_16_car_aggr4.2" speed="16.27" length="5.00" type="car_aggr4" gap="91.09"/>
+    <instantOut id="wassen_exit_A" time="60006.99" state="leave" vehID="r_and_alt_1_16_car_aggr4.2" speed="16.27" length="5.00" type="car_aggr4" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="60091.23" state="enter" vehID="r_and_alt_1_16_small_truck.1" speed="14.44" length="6.50" type="small_truck" gap="84.23"/>
+    <instantOut id="wassen_exit_A" time="60091.68" state="leave" vehID="r_and_alt_1_16_small_truck.1" speed="14.44" length="6.50" type="small_truck" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="60293.41" state="enter" vehID="r_and_alt_1_16_car_aggr5.3" speed="14.57" length="5.00" type="car_aggr5" gap="201.73"/>
+    <instantOut id="wassen_exit_A" time="60293.75" state="leave" vehID="r_and_alt_1_16_car_aggr5.3" speed="14.57" length="5.00" type="car_aggr5" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="60297.52" state="enter" vehID="r_and_alt_1_16_car_aggr4.3" speed="14.10" length="5.00" type="car_aggr4" gap="3.76"/>
+    <instantOut id="wassen_exit_A" time="60297.87" state="leave" vehID="r_and_alt_1_16_car_aggr4.3" speed="14.10" length="5.00" type="car_aggr4" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="60335.83" state="enter" vehID="r_and_alt_1_16_car_aggr5.4" speed="20.26" length="5.00" type="car_aggr5" gap="37.96"/>
+    <instantOut id="wassen_exit_A" time="60336.00" state="stay" vehID="r_and_alt_1_16_car_aggr5.4" speed="20.26" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="60336.08" state="leave" vehID="r_and_alt_1_16_car_aggr5.4" speed="19.62" length="5.00" type="car_aggr5" occupancy="0.25"/>
+    <instantOut id="wassen_exit_A" time="60490.37" state="enter" vehID="r_tun_axs_KS_____16_car_aggr3.0" speed="14.94" length="5.00" type="car_aggr3" gap="154.28"/>
+    <instantOut id="wassen_exit_A" time="60490.70" state="leave" vehID="r_tun_axs_KS_____16_car_aggr3.0" speed="14.94" length="5.00" type="car_aggr3" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="60778.44" state="enter" vehID="r_and_alt_1_16_big_truck.0" speed="11.65" length="12.00" type="big_truck" gap="287.74"/>
+    <instantOut id="wassen_exit_A" time="60779.00" state="stay" vehID="r_and_alt_1_16_big_truck.0" speed="11.65" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="60779.48" state="leave" vehID="r_and_alt_1_16_big_truck.0" speed="11.54" length="12.00" type="big_truck" occupancy="1.03"/>
+    <instantOut id="wassen_exit_A" time="60884.39" state="enter" vehID="r_and_alt_1_16_car_aggr3.3" speed="12.06" length="5.00" type="car_aggr3" gap="104.92"/>
+    <instantOut id="wassen_exit_A" time="60884.81" state="leave" vehID="r_and_alt_1_16_car_aggr3.3" speed="12.06" length="5.00" type="car_aggr3" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="60889.34" state="enter" vehID="r_and_alt_1_16_big_truck.1" speed="11.66" length="12.00" type="big_truck" gap="4.53"/>
+    <instantOut id="wassen_exit_A" time="60890.00" state="stay" vehID="r_and_alt_1_16_big_truck.1" speed="11.66" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="60890.36" state="leave" vehID="r_and_alt_1_16_big_truck.1" speed="11.89" length="12.00" type="big_truck" occupancy="1.02"/>
+    <instantOut id="wassen_exit_A" time="60913.70" state="enter" vehID="r_and_alt_1_16_car_aggr2.1" speed="15.40" length="5.00" type="car_aggr2" gap="23.34"/>
+    <instantOut id="wassen_exit_A" time="60914.00" state="stay" vehID="r_and_alt_1_16_car_aggr2.1" speed="15.40" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="60914.02" state="leave" vehID="r_and_alt_1_16_car_aggr2.1" speed="15.03" length="5.00" type="car_aggr2" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="61071.13" state="enter" vehID="r_and_alt_1_16_car_aggr4.4" speed="12.44" length="5.00" type="car_aggr4" gap="157.10"/>
+    <instantOut id="wassen_exit_A" time="61071.53" state="leave" vehID="r_and_alt_1_16_car_aggr4.4" speed="12.44" length="5.00" type="car_aggr4" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="61075.38" state="enter" vehID="r_and_alt_1_16_small_truck.2" speed="12.83" length="6.50" type="small_truck" gap="3.85"/>
+    <instantOut id="wassen_exit_A" time="61075.89" state="leave" vehID="r_and_alt_1_16_small_truck.2" speed="12.83" length="6.50" type="small_truck" occupancy="0.51"/>
+    <instantOut id="wassen_exit_A" time="61080.80" state="enter" vehID="r_and_alt_1_16_car_aggr2.2" speed="12.45" length="5.00" type="car_aggr2" gap="4.91"/>
+    <instantOut id="wassen_exit_A" time="61081.00" state="stay" vehID="r_and_alt_1_16_car_aggr2.2" speed="12.45" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="61081.20" state="leave" vehID="r_and_alt_1_16_car_aggr2.2" speed="12.55" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="61137.98" state="enter" vehID="r_and_alt_1_16_car_aggr3.4" speed="17.34" length="5.00" type="car_aggr3" gap="56.78"/>
+    <instantOut id="wassen_exit_A" time="61138.00" state="stay" vehID="r_and_alt_1_16_car_aggr3.4" speed="17.34" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="61138.27" state="leave" vehID="r_and_alt_1_16_car_aggr3.4" speed="17.33" length="5.00" type="car_aggr3" occupancy="0.29"/>
+    <instantOut id="wassen_exit_A" time="61635.88" state="enter" vehID="r_and_alt_1_16_car_aggr2.3" speed="11.41" length="5.00" type="car_aggr2" gap="497.61"/>
+    <instantOut id="wassen_exit_A" time="61636.00" state="stay" vehID="r_and_alt_1_16_car_aggr2.3" speed="11.41" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="61636.31" state="leave" vehID="r_and_alt_1_16_car_aggr2.3" speed="11.80" length="5.00" type="car_aggr2" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="61888.85" state="enter" vehID="r_tun_axs_KS_____16_car_aggr2.1" speed="12.82" length="5.00" type="car_aggr2" gap="252.54"/>
+    <instantOut id="wassen_exit_A" time="61889.00" state="stay" vehID="r_tun_axs_KS_____16_car_aggr2.1" speed="12.82" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="61889.24" state="leave" vehID="r_tun_axs_KS_____16_car_aggr2.1" speed="12.69" length="5.00" type="car_aggr2" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="61892.54" state="enter" vehID="r_and_alt_1_16_small_truck.3" speed="12.15" length="6.50" type="small_truck" gap="3.30"/>
+    <instantOut id="wassen_exit_A" time="61893.00" state="stay" vehID="r_and_alt_1_16_small_truck.3" speed="12.15" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="61893.07" state="leave" vehID="r_and_alt_1_16_small_truck.3" speed="13.10" length="6.50" type="small_truck" occupancy="0.53"/>
+    <instantOut id="wassen_exit_A" time="61899.83" state="enter" vehID="r_and_alt_1_16_small_truck.4" speed="14.26" length="6.50" type="small_truck" gap="6.76"/>
+    <instantOut id="wassen_exit_A" time="61900.00" state="stay" vehID="r_and_alt_1_16_small_truck.4" speed="14.26" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="61900.28" state="leave" vehID="r_and_alt_1_16_small_truck.4" speed="14.69" length="6.50" type="small_truck" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="61911.35" state="enter" vehID="r_tun_axs_KS_____16_car_aggr3.1" speed="16.67" length="5.00" type="car_aggr3" gap="11.08"/>
+    <instantOut id="wassen_exit_A" time="61911.65" state="leave" vehID="r_tun_axs_KS_____16_car_aggr3.1" speed="16.67" length="5.00" type="car_aggr3" occupancy="0.30"/>
+    <instantOut id="wassen_exit_A" time="62011.16" state="enter" vehID="r_and_alt_1_16_car_aggr3.5" speed="13.73" length="5.00" type="car_aggr3" gap="99.51"/>
+    <instantOut id="wassen_exit_A" time="62011.52" state="leave" vehID="r_and_alt_1_16_car_aggr3.5" speed="13.73" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="62014.85" state="enter" vehID="r_and_alt_1_16_car_aggr4.5" speed="13.79" length="5.00" type="car_aggr4" gap="3.33"/>
+    <instantOut id="wassen_exit_A" time="62015.00" state="stay" vehID="r_and_alt_1_16_car_aggr4.5" speed="13.79" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="62015.22" state="leave" vehID="r_and_alt_1_16_car_aggr4.5" speed="13.45" length="5.00" type="car_aggr4" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="62036.75" state="enter" vehID="r_and_alt_1_17_car_aggr3.0" speed="15.07" length="5.00" type="car_aggr3" gap="21.53"/>
+    <instantOut id="wassen_exit_A" time="62037.00" state="stay" vehID="r_and_alt_1_17_car_aggr3.0" speed="15.07" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="62037.08" state="leave" vehID="r_and_alt_1_17_car_aggr3.0" speed="16.10" length="5.00" type="car_aggr3" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="62116.57" state="enter" vehID="r_and_alt_1_17_small_truck.0" speed="14.38" length="6.50" type="small_truck" gap="79.49"/>
+    <instantOut id="wassen_exit_A" time="62117.00" state="stay" vehID="r_and_alt_1_17_small_truck.0" speed="14.38" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="62117.02" state="leave" vehID="r_and_alt_1_17_small_truck.0" speed="14.45" length="6.50" type="small_truck" occupancy="0.45"/>
+    <instantOut id="wassen_exit_A" time="62144.99" state="enter" vehID="r_and_alt_1_17_car_aggr4.0" speed="15.02" length="5.00" type="car_aggr4" gap="27.97"/>
+    <instantOut id="wassen_exit_A" time="62145.00" state="stay" vehID="r_and_alt_1_17_car_aggr4.0" speed="15.02" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="62145.33" state="leave" vehID="r_and_alt_1_17_car_aggr4.0" speed="14.76" length="5.00" type="car_aggr4" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="62330.55" state="enter" vehID="r_and_alt_1_17_small_truck.1" speed="13.60" length="6.50" type="small_truck" gap="185.22"/>
+    <instantOut id="wassen_exit_A" time="62331.00" state="stay" vehID="r_and_alt_1_17_small_truck.1" speed="13.60" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="62331.02" state="leave" vehID="r_and_alt_1_17_small_truck.1" speed="13.76" length="6.50" type="small_truck" occupancy="0.48"/>
+    <instantOut id="wassen_exit_A" time="62334.87" state="enter" vehID="r_and_alt_1_17_car_aggr3.1" speed="13.92" length="5.00" type="car_aggr3" gap="3.85"/>
+    <instantOut id="wassen_exit_A" time="62335.00" state="stay" vehID="r_and_alt_1_17_car_aggr3.1" speed="13.92" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="62335.25" state="leave" vehID="r_and_alt_1_17_car_aggr3.1" speed="13.02" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="62338.80" state="enter" vehID="r_and_alt_1_17_car_aggr4.1" speed="13.53" length="5.00" type="car_aggr4" gap="3.55"/>
+    <instantOut id="wassen_exit_A" time="62339.00" state="stay" vehID="r_and_alt_1_17_car_aggr4.1" speed="13.53" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="62339.17" state="leave" vehID="r_and_alt_1_17_car_aggr4.1" speed="13.20" length="5.00" type="car_aggr4" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="62436.54" state="enter" vehID="r_and_alt_1_17_car_aggr1.0" speed="12.63" length="5.00" type="car_aggr1" gap="97.37"/>
+    <instantOut id="wassen_exit_A" time="62436.94" state="leave" vehID="r_and_alt_1_17_car_aggr1.0" speed="12.63" length="5.00" type="car_aggr1" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="62601.98" state="enter" vehID="r_and_alt_1_17_car_aggr3.2" speed="11.14" length="5.00" type="car_aggr3" gap="165.04"/>
+    <instantOut id="wassen_exit_A" time="62602.00" state="stay" vehID="r_and_alt_1_17_car_aggr3.2" speed="11.14" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="62602.44" state="leave" vehID="r_and_alt_1_17_car_aggr3.2" speed="10.85" length="5.00" type="car_aggr3" occupancy="0.46"/>
+    <instantOut id="wassen_exit_A" time="62606.40" state="enter" vehID="r_and_alt_1_17_car_aggr3.3" speed="10.84" length="5.00" type="car_aggr3" gap="3.96"/>
+    <instantOut id="wassen_exit_A" time="62606.87" state="leave" vehID="r_and_alt_1_17_car_aggr3.3" speed="10.84" length="5.00" type="car_aggr3" occupancy="0.46"/>
+    <instantOut id="wassen_exit_A" time="62808.06" state="enter" vehID="r_and_alt_1_17_car_aggr5.0" speed="13.60" length="5.00" type="car_aggr5" gap="201.20"/>
+    <instantOut id="wassen_exit_A" time="62808.43" state="leave" vehID="r_and_alt_1_17_car_aggr5.0" speed="13.60" length="5.00" type="car_aggr5" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="62899.87" state="enter" vehID="r_and_alt_1_17_car_aggr3.4" speed="13.14" length="5.00" type="car_aggr3" gap="91.44"/>
+    <instantOut id="wassen_exit_A" time="62900.00" state="stay" vehID="r_and_alt_1_17_car_aggr3.4" speed="13.14" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="62900.25" state="leave" vehID="r_and_alt_1_17_car_aggr3.4" speed="13.05" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="62988.53" state="enter" vehID="r_and_alt_1_17_car_aggr2.0" speed="13.33" length="5.00" type="car_aggr2" gap="88.28"/>
+    <instantOut id="wassen_exit_A" time="62988.90" state="leave" vehID="r_and_alt_1_17_car_aggr2.0" speed="13.33" length="5.00" type="car_aggr2" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="63123.19" state="enter" vehID="r_and_alt_1_17_car_aggr2.1" speed="11.78" length="5.00" type="car_aggr2" gap="134.29"/>
+    <instantOut id="wassen_exit_A" time="63123.62" state="leave" vehID="r_and_alt_1_17_car_aggr2.1" speed="11.78" length="5.00" type="car_aggr2" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="63134.47" state="enter" vehID="r_and_alt_1_17_car_aggr3.5" speed="12.45" length="5.00" type="car_aggr3" gap="10.85"/>
+    <instantOut id="wassen_exit_A" time="63134.87" state="leave" vehID="r_and_alt_1_17_car_aggr3.5" speed="12.45" length="5.00" type="car_aggr3" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="63138.83" state="enter" vehID="r_and_alt_1_17_car_aggr3.6" speed="13.00" length="5.00" type="car_aggr3" gap="3.96"/>
+    <instantOut id="wassen_exit_A" time="63139.00" state="stay" vehID="r_and_alt_1_17_car_aggr3.6" speed="13.00" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="63139.23" state="leave" vehID="r_and_alt_1_17_car_aggr3.6" speed="11.95" length="5.00" type="car_aggr3" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="63177.19" state="enter" vehID="r_and_alt_1_17_small_truck.2" speed="13.22" length="6.50" type="small_truck" gap="37.96"/>
+    <instantOut id="wassen_exit_A" time="63177.69" state="leave" vehID="r_and_alt_1_17_small_truck.2" speed="13.22" length="6.50" type="small_truck" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="63181.25" state="enter" vehID="r_and_alt_1_17_car_aggr4.2" speed="14.33" length="5.00" type="car_aggr4" gap="3.56"/>
+    <instantOut id="wassen_exit_A" time="63181.60" state="leave" vehID="r_and_alt_1_17_car_aggr4.2" speed="14.33" length="5.00" type="car_aggr4" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="63243.94" state="enter" vehID="r_and_alt_1_17_car_aggr3.7" speed="14.37" length="5.00" type="car_aggr3" gap="62.34"/>
+    <instantOut id="wassen_exit_A" time="63244.00" state="stay" vehID="r_and_alt_1_17_car_aggr3.7" speed="14.37" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="63244.30" state="leave" vehID="r_and_alt_1_17_car_aggr3.7" speed="13.60" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="63270.61" state="enter" vehID="r_and_alt_1_17_car_aggr3.8" speed="16.56" length="5.00" type="car_aggr3" gap="26.30"/>
+    <instantOut id="wassen_exit_A" time="63270.91" state="leave" vehID="r_and_alt_1_17_car_aggr3.8" speed="16.56" length="5.00" type="car_aggr3" occupancy="0.30"/>
+    <instantOut id="wassen_exit_A" time="63444.44" state="enter" vehID="r_and_alt_1_17_small_truck.3" speed="13.37" length="6.50" type="small_truck" gap="173.53"/>
+    <instantOut id="wassen_exit_A" time="63444.92" state="leave" vehID="r_and_alt_1_17_small_truck.3" speed="13.37" length="6.50" type="small_truck" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="63485.79" state="enter" vehID="r_and_alt_1_17_small_truck.4" speed="13.63" length="6.50" type="small_truck" gap="40.87"/>
+    <instantOut id="wassen_exit_A" time="63486.00" state="stay" vehID="r_and_alt_1_17_small_truck.4" speed="13.63" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="63486.27" state="leave" vehID="r_and_alt_1_17_small_truck.4" speed="13.39" length="6.50" type="small_truck" occupancy="0.48"/>
+    <instantOut id="wassen_exit_A" time="63489.72" state="enter" vehID="r_and_alt_1_17_car_aggr4.3" speed="13.84" length="5.00" type="car_aggr4" gap="3.45"/>
+    <instantOut id="wassen_exit_A" time="63490.00" state="stay" vehID="r_and_alt_1_17_car_aggr4.3" speed="13.84" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="63490.09" state="leave" vehID="r_and_alt_1_17_car_aggr4.3" speed="13.08" length="5.00" type="car_aggr4" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="63532.62" state="enter" vehID="r_and_alt_1_17_car_aggr2.2" speed="14.76" length="5.00" type="car_aggr2" gap="42.53"/>
+    <instantOut id="wassen_exit_A" time="63532.96" state="leave" vehID="r_and_alt_1_17_car_aggr2.2" speed="14.76" length="5.00" type="car_aggr2" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="63826.25" state="enter" vehID="r_and_alt_1_17_car_aggr2.3" speed="12.89" length="5.00" type="car_aggr2" gap="293.30"/>
+    <instantOut id="wassen_exit_A" time="63826.64" state="leave" vehID="r_and_alt_1_17_car_aggr2.3" speed="12.89" length="5.00" type="car_aggr2" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="63830.03" state="enter" vehID="r_and_alt_1_17_car_aggr4.4" speed="14.13" length="5.00" type="car_aggr4" gap="3.38"/>
+    <instantOut id="wassen_exit_A" time="63830.38" state="leave" vehID="r_and_alt_1_17_car_aggr4.4" speed="14.13" length="5.00" type="car_aggr4" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="63834.51" state="enter" vehID="r_and_alt_1_17_car_aggr3.9" speed="13.52" length="5.00" type="car_aggr3" gap="4.13"/>
+    <instantOut id="wassen_exit_A" time="63834.88" state="leave" vehID="r_and_alt_1_17_car_aggr3.9" speed="13.52" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="64004.49" state="enter" vehID="r_and_alt_1_17_car_aggr1.1" speed="13.28" length="5.00" type="car_aggr1" gap="169.62"/>
+    <instantOut id="wassen_exit_A" time="64004.87" state="leave" vehID="r_and_alt_1_17_car_aggr1.1" speed="13.28" length="5.00" type="car_aggr1" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="64367.93" state="enter" vehID="r_and_alt_1_17_car_aggr2.4" speed="9.65" length="5.00" type="car_aggr2" gap="363.06"/>
+    <instantOut id="wassen_exit_A" time="64368.00" state="stay" vehID="r_and_alt_1_17_car_aggr2.4" speed="9.65" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="64368.42" state="leave" vehID="r_and_alt_1_17_car_aggr2.4" speed="10.50" length="5.00" type="car_aggr2" occupancy="0.48"/>
+    <instantOut id="wassen_exit_A" time="64371.72" state="enter" vehID="r_and_alt_1_17_small_truck.5" speed="9.84" length="6.50" type="small_truck" gap="3.30"/>
+    <instantOut id="wassen_exit_A" time="64372.00" state="stay" vehID="r_and_alt_1_17_small_truck.5" speed="9.84" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="64372.37" state="leave" vehID="r_and_alt_1_17_small_truck.5" speed="10.00" length="6.50" type="small_truck" occupancy="0.65"/>
+    <instantOut id="wassen_exit_A" time="64376.45" state="enter" vehID="r_and_alt_1_17_car_aggr3.10" speed="10.02" length="5.00" type="car_aggr3" gap="4.07"/>
+    <instantOut id="wassen_exit_A" time="64376.95" state="leave" vehID="r_and_alt_1_17_car_aggr3.10" speed="10.02" length="5.00" type="car_aggr3" occupancy="0.50"/>
+    <instantOut id="wassen_exit_A" time="64380.93" state="enter" vehID="r_and_alt_1_17_car_aggr3.11" speed="9.67" length="5.00" type="car_aggr3" gap="3.99"/>
+    <instantOut id="wassen_exit_A" time="64381.00" state="stay" vehID="r_and_alt_1_17_car_aggr3.11" speed="9.67" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="64381.44" state="leave" vehID="r_and_alt_1_17_car_aggr3.11" speed="9.96" length="5.00" type="car_aggr3" occupancy="0.50"/>
+    <instantOut id="wassen_exit_A" time="64385.01" state="enter" vehID="r_and_alt_1_17_small_truck.6" speed="9.43" length="6.50" type="small_truck" gap="3.57"/>
+    <instantOut id="wassen_exit_A" time="64385.70" state="leave" vehID="r_and_alt_1_17_small_truck.6" speed="9.43" length="6.50" type="small_truck" occupancy="0.69"/>
+    <instantOut id="wassen_exit_A" time="64389.79" state="enter" vehID="r_and_alt_1_17_car_aggr3.12" speed="10.18" length="5.00" type="car_aggr3" gap="4.09"/>
+    <instantOut id="wassen_exit_A" time="64390.00" state="stay" vehID="r_and_alt_1_17_car_aggr3.12" speed="10.18" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="64390.27" state="leave" vehID="r_and_alt_1_17_car_aggr3.12" speed="10.41" length="5.00" type="car_aggr3" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="64393.29" state="enter" vehID="r_and_alt_1_17_car_aggr5.1" speed="10.57" length="5.00" type="car_aggr5" gap="3.01"/>
+    <instantOut id="wassen_exit_A" time="64393.76" state="leave" vehID="r_and_alt_1_17_car_aggr5.1" speed="10.57" length="5.00" type="car_aggr5" occupancy="0.47"/>
+    <instantOut id="wassen_exit_A" time="64486.11" state="enter" vehID="r_and_alt_1_17_car_aggr3.13" speed="10.87" length="5.00" type="car_aggr3" gap="92.35"/>
+    <instantOut id="wassen_exit_A" time="64486.57" state="leave" vehID="r_and_alt_1_17_car_aggr3.13" speed="10.87" length="5.00" type="car_aggr3" occupancy="0.46"/>
+    <instantOut id="wassen_exit_A" time="64491.83" state="enter" vehID="r_and_alt_1_17_car_aggr2.5" speed="11.61" length="5.00" type="car_aggr2" gap="5.26"/>
+    <instantOut id="wassen_exit_A" time="64492.00" state="stay" vehID="r_and_alt_1_17_car_aggr2.5" speed="11.61" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="64492.27" state="leave" vehID="r_and_alt_1_17_car_aggr2.5" speed="11.23" length="5.00" type="car_aggr2" occupancy="0.44"/>
+    <instantOut id="wassen_exit_A" time="64495.80" state="enter" vehID="r_and_alt_1_17_car_aggr4.5" speed="10.73" length="5.00" type="car_aggr4" gap="3.53"/>
+    <instantOut id="wassen_exit_A" time="64496.00" state="stay" vehID="r_and_alt_1_17_car_aggr4.5" speed="10.73" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="64496.24" state="leave" vehID="r_and_alt_1_17_car_aggr4.5" speed="11.67" length="5.00" type="car_aggr4" occupancy="0.44"/>
+    <instantOut id="wassen_exit_A" time="64499.64" state="enter" vehID="r_and_alt_1_17_car_aggr4.6" speed="10.73" length="5.00" type="car_aggr4" gap="3.40"/>
+    <instantOut id="wassen_exit_A" time="64500.00" state="stay" vehID="r_and_alt_1_17_car_aggr4.6" speed="10.73" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="64500.11" state="leave" vehID="r_and_alt_1_17_car_aggr4.6" speed="10.77" length="5.00" type="car_aggr4" occupancy="0.47"/>
+    <instantOut id="wassen_exit_A" time="64565.74" state="enter" vehID="r_and_alt_1_17_car_aggr2.6" speed="11.49" length="5.00" type="car_aggr2" gap="65.63"/>
+    <instantOut id="wassen_exit_A" time="64566.00" state="stay" vehID="r_and_alt_1_17_car_aggr2.6" speed="11.49" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="64566.17" state="leave" vehID="r_and_alt_1_17_car_aggr2.6" speed="12.19" length="5.00" type="car_aggr2" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="64571.19" state="enter" vehID="r_and_alt_1_17_car_aggr2.7" speed="11.76" length="5.00" type="car_aggr2" gap="5.02"/>
+    <instantOut id="wassen_exit_A" time="64571.61" state="leave" vehID="r_and_alt_1_17_car_aggr2.7" speed="11.76" length="5.00" type="car_aggr2" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="64596.54" state="enter" vehID="r_and_alt_1_17_small_truck.7" speed="13.89" length="6.50" type="small_truck" gap="24.93"/>
+    <instantOut id="wassen_exit_A" time="64597.00" state="stay" vehID="r_and_alt_1_17_small_truck.7" speed="13.89" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="64597.01" state="leave" vehID="r_and_alt_1_17_small_truck.7" speed="13.62" length="6.50" type="small_truck" occupancy="0.47"/>
+    <instantOut id="wassen_exit_A" time="64600.47" state="enter" vehID="r_and_alt_1_17_car_aggr4.7" speed="13.31" length="5.00" type="car_aggr4" gap="3.46"/>
+    <instantOut id="wassen_exit_A" time="64600.84" state="leave" vehID="r_and_alt_1_17_car_aggr4.7" speed="13.31" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="64910.10" state="enter" vehID="r_and_alt_1_17_car_aggr2.8" speed="13.25" length="5.00" type="car_aggr2" gap="309.25"/>
+    <instantOut id="wassen_exit_A" time="64910.47" state="leave" vehID="r_and_alt_1_17_car_aggr2.8" speed="13.25" length="5.00" type="car_aggr2" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="64932.93" state="enter" vehID="r_and_alt_1_17_small_truck.8" speed="12.57" length="6.50" type="small_truck" gap="22.46"/>
+    <instantOut id="wassen_exit_A" time="64933.00" state="stay" vehID="r_and_alt_1_17_small_truck.8" speed="12.57" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="64933.44" state="leave" vehID="r_and_alt_1_17_small_truck.8" speed="12.89" length="6.50" type="small_truck" occupancy="0.51"/>
+    <instantOut id="wassen_exit_A" time="64937.37" state="enter" vehID="r_and_alt_1_17_car_aggr3.14" speed="13.03" length="5.00" type="car_aggr3" gap="3.93"/>
+    <instantOut id="wassen_exit_A" time="64937.76" state="leave" vehID="r_and_alt_1_17_car_aggr3.14" speed="13.03" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="65184.82" state="enter" vehID="r_and_alt_1_17_car_aggr1.2" speed="12.87" length="5.00" type="car_aggr1" gap="247.06"/>
+    <instantOut id="wassen_exit_A" time="65185.00" state="stay" vehID="r_and_alt_1_17_car_aggr1.2" speed="12.87" length="5.00" type="car_aggr1"/>
+    <instantOut id="wassen_exit_A" time="65185.20" state="leave" vehID="r_and_alt_1_17_car_aggr1.2" speed="13.22" length="5.00" type="car_aggr1" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="65188.44" state="enter" vehID="r_and_alt_1_17_small_truck.9" speed="13.21" length="6.50" type="small_truck" gap="3.24"/>
+    <instantOut id="wassen_exit_A" time="65188.94" state="leave" vehID="r_and_alt_1_17_small_truck.9" speed="13.21" length="6.50" type="small_truck" occupancy="0.49"/>
+    <instantOut id="wassen_exit_A" time="65364.59" state="enter" vehID="r_and_alt_1_17_big_truck.0" speed="12.49" length="12.00" type="big_truck" gap="175.65"/>
+    <instantOut id="wassen_exit_A" time="65365.00" state="stay" vehID="r_and_alt_1_17_big_truck.0" speed="12.49" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="65365.56" state="leave" vehID="r_and_alt_1_17_big_truck.0" speed="12.33" length="12.00" type="big_truck" occupancy="0.97"/>
+    <instantOut id="wassen_exit_A" time="65443.42" state="enter" vehID="r_and_alt_1_17_car_aggr3.15" speed="11.63" length="5.00" type="car_aggr3" gap="77.86"/>
+    <instantOut id="wassen_exit_A" time="65443.85" state="leave" vehID="r_and_alt_1_17_car_aggr3.15" speed="11.63" length="5.00" type="car_aggr3" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="65446.69" state="enter" vehID="r_and_alt_1_17_car_aggr5.2" speed="12.23" length="5.00" type="car_aggr5" gap="2.84"/>
+    <instantOut id="wassen_exit_A" time="65447.00" state="stay" vehID="r_and_alt_1_17_car_aggr5.2" speed="12.23" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="65447.10" state="leave" vehID="r_and_alt_1_17_car_aggr5.2" speed="11.20" length="5.00" type="car_aggr5" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="65474.08" state="enter" vehID="r_and_alt_1_17_car_aggr3.16" speed="14.20" length="5.00" type="car_aggr3" gap="26.97"/>
+    <instantOut id="wassen_exit_A" time="65474.43" state="leave" vehID="r_and_alt_1_17_car_aggr3.16" speed="14.20" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="65478.41" state="enter" vehID="r_and_alt_1_17_car_aggr3.17" speed="12.92" length="5.00" type="car_aggr3" gap="3.98"/>
+    <instantOut id="wassen_exit_A" time="65478.79" state="leave" vehID="r_and_alt_1_17_car_aggr3.17" speed="12.92" length="5.00" type="car_aggr3" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="65602.28" state="enter" vehID="r_and_alt_1_17_car_aggr1.3" speed="14.69" length="5.00" type="car_aggr1" gap="123.49"/>
+    <instantOut id="wassen_exit_A" time="65602.62" state="leave" vehID="r_and_alt_1_17_car_aggr1.3" speed="14.69" length="5.00" type="car_aggr1" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="65925.91" state="enter" vehID="r_and_alt_1_18_big_truck.0" speed="10.71" length="12.00" type="big_truck" gap="323.29"/>
+    <instantOut id="wassen_exit_A" time="65926.00" state="stay" vehID="r_and_alt_1_18_big_truck.0" speed="10.71" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="65927.00" state="leave" vehID="r_and_alt_1_18_big_truck.0" speed="11.09" length="12.00" type="big_truck" occupancy="1.09"/>
+    <instantOut id="wassen_exit_A" time="65929.88" state="enter" vehID="r_and_alt_1_18_car_aggr5.0" speed="11.43" length="5.00" type="car_aggr5" gap="2.88"/>
+    <instantOut id="wassen_exit_A" time="65930.00" state="stay" vehID="r_and_alt_1_18_car_aggr5.0" speed="11.43" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="65930.32" state="leave" vehID="r_and_alt_1_18_car_aggr5.0" speed="11.26" length="5.00" type="car_aggr5" occupancy="0.44"/>
+    <instantOut id="wassen_exit_A" time="65964.12" state="enter" vehID="r_and_alt_1_18_big_truck.1" speed="13.80" length="12.00" type="big_truck" gap="33.80"/>
+    <instantOut id="wassen_exit_A" time="65964.99" state="leave" vehID="r_and_alt_1_18_big_truck.1" speed="13.80" length="12.00" type="big_truck" occupancy="0.87"/>
+    <instantOut id="wassen_exit_A" time="65968.95" state="enter" vehID="r_and_alt_1_18_car_aggr3.0" speed="13.07" length="5.00" type="car_aggr3" gap="3.96"/>
+    <instantOut id="wassen_exit_A" time="65969.00" state="stay" vehID="r_and_alt_1_18_car_aggr3.0" speed="13.07" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="65969.32" state="leave" vehID="r_and_alt_1_18_car_aggr3.0" speed="13.77" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="65973.30" state="enter" vehID="r_and_alt_1_18_car_aggr3.1" speed="14.37" length="5.00" type="car_aggr3" gap="3.98"/>
+    <instantOut id="wassen_exit_A" time="65973.65" state="leave" vehID="r_and_alt_1_18_car_aggr3.1" speed="14.37" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="66187.54" state="enter" vehID="r_and_alt_1_18_big_truck.2" speed="11.07" length="12.00" type="big_truck" gap="213.89"/>
+    <instantOut id="wassen_exit_A" time="66188.00" state="stay" vehID="r_and_alt_1_18_big_truck.2" speed="11.07" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="66188.61" state="leave" vehID="r_and_alt_1_18_big_truck.2" speed="11.35" length="12.00" type="big_truck" occupancy="1.07"/>
+    <instantOut id="wassen_exit_A" time="66192.03" state="enter" vehID="r_and_alt_1_18_car_aggr4.0" speed="11.33" length="5.00" type="car_aggr4" gap="3.42"/>
+    <instantOut id="wassen_exit_A" time="66192.47" state="leave" vehID="r_and_alt_1_18_car_aggr4.0" speed="11.33" length="5.00" type="car_aggr4" occupancy="0.44"/>
+    <instantOut id="wassen_exit_A" time="66362.59" state="enter" vehID="r_and_alt_1_18_small_truck.0" speed="12.88" length="6.50" type="small_truck" gap="170.12"/>
+    <instantOut id="wassen_exit_A" time="66363.00" state="stay" vehID="r_and_alt_1_18_small_truck.0" speed="12.88" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="66363.10" state="leave" vehID="r_and_alt_1_18_small_truck.0" speed="12.05" length="6.50" type="small_truck" occupancy="0.51"/>
+    <instantOut id="wassen_exit_A" time="66366.58" state="enter" vehID="r_and_alt_1_18_car_aggr4.1" speed="12.50" length="5.00" type="car_aggr4" gap="3.48"/>
+    <instantOut id="wassen_exit_A" time="66366.98" state="leave" vehID="r_and_alt_1_18_car_aggr4.1" speed="12.50" length="5.00" type="car_aggr4" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="66537.58" state="enter" vehID="r_and_alt_1_18_car_aggr2.0" speed="12.20" length="5.00" type="car_aggr2" gap="170.59"/>
+    <instantOut id="wassen_exit_A" time="66537.99" state="leave" vehID="r_and_alt_1_18_car_aggr2.0" speed="12.20" length="5.00" type="car_aggr2" occupancy="0.41"/>
+    <instantOut id="wassen_exit_A" time="66540.94" state="enter" vehID="r_and_alt_1_18_car_aggr5.1" speed="12.28" length="5.00" type="car_aggr5" gap="2.95"/>
+    <instantOut id="wassen_exit_A" time="66541.00" state="stay" vehID="r_and_alt_1_18_car_aggr5.1" speed="12.28" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="66541.36" state="leave" vehID="r_and_alt_1_18_car_aggr5.1" speed="11.83" length="5.00" type="car_aggr5" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="66777.68" state="enter" vehID="r_and_alt_1_18_motorbike.0" speed="12.24" length="2.20" type="motorbike" gap="236.32"/>
+    <instantOut id="wassen_exit_A" time="66777.86" state="leave" vehID="r_and_alt_1_18_motorbike.0" speed="12.24" length="2.20" type="motorbike" occupancy="0.18"/>
+    <instantOut id="wassen_exit_A" time="66783.44" state="enter" vehID="r_and_alt_1_18_car_aggr2.1" speed="12.45" length="5.00" type="car_aggr2" gap="5.58"/>
+    <instantOut id="wassen_exit_A" time="66783.84" state="leave" vehID="r_and_alt_1_18_car_aggr2.1" speed="12.45" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="66860.73" state="enter" vehID="r_and_alt_1_18_motorbike.1" speed="13.45" length="2.20" type="motorbike" gap="76.89"/>
+    <instantOut id="wassen_exit_A" time="66860.89" state="leave" vehID="r_and_alt_1_18_motorbike.1" speed="13.45" length="2.20" type="motorbike" occupancy="0.16"/>
+    <instantOut id="wassen_exit_A" time="66868.48" state="enter" vehID="r_and_alt_1_18_car_aggr3.2" speed="12.63" length="5.00" type="car_aggr3" gap="7.59"/>
+    <instantOut id="wassen_exit_A" time="66868.88" state="leave" vehID="r_and_alt_1_18_car_aggr3.2" speed="12.63" length="5.00" type="car_aggr3" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="66872.41" state="enter" vehID="r_and_alt_1_18_small_truck.1" speed="12.80" length="6.50" type="small_truck" gap="3.53"/>
+    <instantOut id="wassen_exit_A" time="66872.92" state="leave" vehID="r_and_alt_1_18_small_truck.1" speed="12.80" length="6.50" type="small_truck" occupancy="0.51"/>
+    <instantOut id="wassen_exit_A" time="66877.97" state="enter" vehID="r_and_alt_1_18_car_aggr2.2" speed="13.06" length="5.00" type="car_aggr2" gap="5.05"/>
+    <instantOut id="wassen_exit_A" time="66878.00" state="stay" vehID="r_and_alt_1_18_car_aggr2.2" speed="13.06" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="66878.36" state="leave" vehID="r_and_alt_1_18_car_aggr2.2" speed="12.65" length="5.00" type="car_aggr2" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="66961.25" state="enter" vehID="r_and_alt_1_18_car_aggr3.3" speed="14.48" length="5.00" type="car_aggr3" gap="82.89"/>
+    <instantOut id="wassen_exit_A" time="66961.60" state="leave" vehID="r_and_alt_1_18_car_aggr3.3" speed="14.48" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="66965.05" state="enter" vehID="r_and_alt_1_18_car_aggr4.2" speed="13.71" length="5.00" type="car_aggr4" gap="3.45"/>
+    <instantOut id="wassen_exit_A" time="66965.41" state="leave" vehID="r_and_alt_1_18_car_aggr4.2" speed="13.71" length="5.00" type="car_aggr4" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="66969.50" state="enter" vehID="r_and_alt_1_18_car_aggr3.4" speed="13.90" length="5.00" type="car_aggr3" gap="4.08"/>
+    <instantOut id="wassen_exit_A" time="66969.85" state="leave" vehID="r_and_alt_1_18_car_aggr3.4" speed="13.90" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="66972.67" state="enter" vehID="r_and_alt_1_18_car_aggr5.2" speed="13.86" length="5.00" type="car_aggr5" gap="2.82"/>
+    <instantOut id="wassen_exit_A" time="66973.00" state="stay" vehID="r_and_alt_1_18_car_aggr5.2" speed="13.86" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="66973.03" state="leave" vehID="r_and_alt_1_18_car_aggr5.2" speed="12.90" length="5.00" type="car_aggr5" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="67133.18" state="enter" vehID="r_and_alt_1_18_car_aggr1.0" speed="12.82" length="5.00" type="car_aggr1" gap="160.15"/>
+    <instantOut id="wassen_exit_A" time="67133.57" state="leave" vehID="r_and_alt_1_18_car_aggr1.0" speed="12.82" length="5.00" type="car_aggr1" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="67137.02" state="enter" vehID="r_and_alt_1_18_car_aggr4.3" speed="13.07" length="5.00" type="car_aggr4" gap="3.45"/>
+    <instantOut id="wassen_exit_A" time="67137.40" state="leave" vehID="r_and_alt_1_18_car_aggr4.3" speed="13.07" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="67142.97" state="enter" vehID="r_and_alt_1_18_car_aggr2.3" speed="13.21" length="5.00" type="car_aggr2" gap="5.56"/>
+    <instantOut id="wassen_exit_A" time="67143.00" state="stay" vehID="r_and_alt_1_18_car_aggr2.3" speed="13.21" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="67143.34" state="leave" vehID="r_and_alt_1_18_car_aggr2.3" speed="13.52" length="5.00" type="car_aggr2" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="67147.26" state="enter" vehID="r_and_alt_1_18_car_aggr3.5" speed="13.72" length="5.00" type="car_aggr3" gap="3.92"/>
+    <instantOut id="wassen_exit_A" time="67147.62" state="leave" vehID="r_and_alt_1_18_car_aggr3.5" speed="13.72" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="67388.36" state="enter" vehID="r_and_alt_1_18_car_aggr1.1" speed="13.23" length="5.00" type="car_aggr1" gap="240.74"/>
+    <instantOut id="wassen_exit_A" time="67388.74" state="leave" vehID="r_and_alt_1_18_car_aggr1.1" speed="13.23" length="5.00" type="car_aggr1" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="67394.23" state="enter" vehID="r_and_alt_1_18_car_aggr1.2" speed="13.15" length="5.00" type="car_aggr1" gap="5.50"/>
+    <instantOut id="wassen_exit_A" time="67394.61" state="leave" vehID="r_and_alt_1_18_car_aggr1.2" speed="13.15" length="5.00" type="car_aggr1" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="67398.50" state="enter" vehID="r_and_alt_1_18_car_aggr3.6" speed="13.11" length="5.00" type="car_aggr3" gap="3.89"/>
+    <instantOut id="wassen_exit_A" time="67398.88" state="leave" vehID="r_and_alt_1_18_car_aggr3.6" speed="13.11" length="5.00" type="car_aggr3" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="67402.30" state="enter" vehID="r_and_alt_1_18_car_aggr4.4" speed="12.35" length="5.00" type="car_aggr4" gap="3.42"/>
+    <instantOut id="wassen_exit_A" time="67402.71" state="leave" vehID="r_and_alt_1_18_car_aggr4.4" speed="12.35" length="5.00" type="car_aggr4" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="67569.85" state="enter" vehID="r_and_alt_1_18_car_aggr3.7" speed="14.91" length="5.00" type="car_aggr3" gap="167.14"/>
+    <instantOut id="wassen_exit_A" time="67570.00" state="stay" vehID="r_and_alt_1_18_car_aggr3.7" speed="14.91" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="67570.18" state="leave" vehID="r_and_alt_1_18_car_aggr3.7" speed="14.97" length="5.00" type="car_aggr3" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="67697.27" state="enter" vehID="r_and_alt_1_18_small_truck.2" speed="12.80" length="6.50" type="small_truck" gap="127.09"/>
+    <instantOut id="wassen_exit_A" time="67697.78" state="leave" vehID="r_and_alt_1_18_small_truck.2" speed="12.80" length="6.50" type="small_truck" occupancy="0.51"/>
+    <instantOut id="wassen_exit_A" time="67887.72" state="enter" vehID="r_and_alt_1_18_car_aggr2.4" speed="12.49" length="5.00" type="car_aggr2" gap="189.94"/>
+    <instantOut id="wassen_exit_A" time="67888.00" state="stay" vehID="r_and_alt_1_18_car_aggr2.4" speed="12.49" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="67888.11" state="leave" vehID="r_and_alt_1_18_car_aggr2.4" speed="13.39" length="5.00" type="car_aggr2" occupancy="0.39"/>
+    <instantOut id="wassen_exit_A" time="67927.78" state="enter" vehID="r_and_alt_1_18_motorbike.2" speed="12.07" length="2.20" type="motorbike" gap="39.67"/>
+    <instantOut id="wassen_exit_A" time="67927.96" state="leave" vehID="r_and_alt_1_18_motorbike.2" speed="12.07" length="2.20" type="motorbike" occupancy="0.18"/>
+    <instantOut id="wassen_exit_A" time="68055.65" state="enter" vehID="r_and_alt_1_18_car_aggr2.5" speed="13.26" length="5.00" type="car_aggr2" gap="127.69"/>
+    <instantOut id="wassen_exit_A" time="68056.00" state="stay" vehID="r_and_alt_1_18_car_aggr2.5" speed="13.26" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="68056.03" state="leave" vehID="r_and_alt_1_18_car_aggr2.5" speed="12.83" length="5.00" type="car_aggr2" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="68060.03" state="enter" vehID="r_and_alt_1_18_car_aggr3.8" speed="13.63" length="5.00" type="car_aggr3" gap="4.01"/>
+    <instantOut id="wassen_exit_A" time="68060.40" state="leave" vehID="r_and_alt_1_18_car_aggr3.8" speed="13.63" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="68125.80" state="enter" vehID="r_and_alt_1_18_car_aggr2.6" speed="12.40" length="5.00" type="car_aggr2" gap="65.40"/>
+    <instantOut id="wassen_exit_A" time="68126.00" state="stay" vehID="r_and_alt_1_18_car_aggr2.6" speed="12.40" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="68126.19" state="leave" vehID="r_and_alt_1_18_car_aggr2.6" speed="12.92" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="68163.65" state="enter" vehID="r_and_alt_1_18_car_aggr3.9" speed="12.54" length="5.00" type="car_aggr3" gap="37.46"/>
+    <instantOut id="wassen_exit_A" time="68164.00" state="stay" vehID="r_and_alt_1_18_car_aggr3.9" speed="12.54" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="68164.06" state="leave" vehID="r_and_alt_1_18_car_aggr3.9" speed="12.01" length="5.00" type="car_aggr3" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="68225.44" state="enter" vehID="r_and_alt_1_18_car_aggr2.7" speed="12.38" length="5.00" type="car_aggr2" gap="61.38"/>
+    <instantOut id="wassen_exit_A" time="68225.84" state="leave" vehID="r_and_alt_1_18_car_aggr2.7" speed="12.38" length="5.00" type="car_aggr2" occupancy="0.40"/>
+    <instantOut id="wassen_exit_A" time="68228.79" state="enter" vehID="r_and_alt_1_18_car_aggr5.3" speed="11.69" length="5.00" type="car_aggr5" gap="2.95"/>
+    <instantOut id="wassen_exit_A" time="68229.00" state="stay" vehID="r_and_alt_1_18_car_aggr5.3" speed="11.69" length="5.00" type="car_aggr5"/>
+    <instantOut id="wassen_exit_A" time="68229.21" state="leave" vehID="r_and_alt_1_18_car_aggr5.3" speed="11.97" length="5.00" type="car_aggr5" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="68314.01" state="enter" vehID="r_and_alt_1_18_car_aggr3.10" speed="14.09" length="5.00" type="car_aggr3" gap="84.79"/>
+    <instantOut id="wassen_exit_A" time="68314.36" state="leave" vehID="r_and_alt_1_18_car_aggr3.10" speed="14.09" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="68399.50" state="enter" vehID="r_and_alt_1_18_car_aggr3.11" speed="14.74" length="5.00" type="car_aggr3" gap="85.14"/>
+    <instantOut id="wassen_exit_A" time="68399.84" state="leave" vehID="r_and_alt_1_18_car_aggr3.11" speed="14.74" length="5.00" type="car_aggr3" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="68536.76" state="enter" vehID="r_and_alt_1_18_car_aggr2.8" speed="14.30" length="5.00" type="car_aggr2" gap="136.92"/>
+    <instantOut id="wassen_exit_A" time="68537.00" state="stay" vehID="r_and_alt_1_18_car_aggr2.8" speed="14.30" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="68537.12" state="leave" vehID="r_and_alt_1_18_car_aggr2.8" speed="13.49" length="5.00" type="car_aggr2" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="68812.31" state="enter" vehID="r_and_alt_1_18_car_aggr3.12" speed="14.21" length="5.00" type="car_aggr3" gap="275.19"/>
+    <instantOut id="wassen_exit_A" time="68812.66" state="leave" vehID="r_and_alt_1_18_car_aggr3.12" speed="14.21" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="68945.17" state="enter" vehID="r_and_alt_1_18_car_aggr5.4" speed="14.51" length="5.00" type="car_aggr5" gap="132.50"/>
+    <instantOut id="wassen_exit_A" time="68945.51" state="leave" vehID="r_and_alt_1_18_car_aggr5.4" speed="14.51" length="5.00" type="car_aggr5" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="69085.88" state="enter" vehID="r_and_alt_1_18_car_aggr2.9" speed="14.02" length="5.00" type="car_aggr2" gap="140.37"/>
+    <instantOut id="wassen_exit_A" time="69086.00" state="stay" vehID="r_and_alt_1_18_car_aggr2.9" speed="14.02" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="69086.25" state="leave" vehID="r_and_alt_1_18_car_aggr2.9" speed="13.19" length="5.00" type="car_aggr2" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="69212.25" state="enter" vehID="r_and_alt_1_18_motorbike.3" speed="12.48" length="2.20" type="motorbike" gap="126.00"/>
+    <instantOut id="wassen_exit_A" time="69212.43" state="leave" vehID="r_and_alt_1_18_motorbike.3" speed="12.48" length="2.20" type="motorbike" occupancy="0.18"/>
+    <instantOut id="wassen_exit_A" time="69216.07" state="enter" vehID="r_and_alt_1_18_car_aggr4.5" speed="13.07" length="5.00" type="car_aggr4" gap="3.64"/>
+    <instantOut id="wassen_exit_A" time="69216.45" state="leave" vehID="r_and_alt_1_18_car_aggr4.5" speed="13.07" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="69219.99" state="enter" vehID="r_and_alt_1_18_car_aggr4.6" speed="12.31" length="5.00" type="car_aggr4" gap="3.54"/>
+    <instantOut id="wassen_exit_A" time="69220.00" state="stay" vehID="r_and_alt_1_18_car_aggr4.6" speed="12.31" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="69220.37" state="leave" vehID="r_and_alt_1_18_car_aggr4.6" speed="13.32" length="5.00" type="car_aggr4" occupancy="0.38"/>
+    <instantOut id="wassen_exit_A" time="69256.85" state="enter" vehID="r_and_alt_1_19_motorbike.0" speed="15.54" length="2.20" type="motorbike" gap="36.48"/>
+    <instantOut id="wassen_exit_A" time="69256.99" state="leave" vehID="r_and_alt_1_19_motorbike.0" speed="15.54" length="2.20" type="motorbike" occupancy="0.14"/>
+    <instantOut id="wassen_exit_A" time="69462.17" state="enter" vehID="r_and_alt_1_19_car_aggr3.0" speed="16.22" length="5.00" type="car_aggr3" gap="205.17"/>
+    <instantOut id="wassen_exit_A" time="69462.47" state="leave" vehID="r_and_alt_1_19_car_aggr3.0" speed="16.22" length="5.00" type="car_aggr3" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="69519.46" state="enter" vehID="r_and_alt_1_19_car_aggr5.0" speed="14.89" length="5.00" type="car_aggr5" gap="56.98"/>
+    <instantOut id="wassen_exit_A" time="69519.79" state="leave" vehID="r_and_alt_1_19_car_aggr5.0" speed="14.89" length="5.00" type="car_aggr5" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="69523.52" state="enter" vehID="r_and_alt_1_19_car_aggr4.0" speed="14.15" length="5.00" type="car_aggr4" gap="3.72"/>
+    <instantOut id="wassen_exit_A" time="69523.87" state="leave" vehID="r_and_alt_1_19_car_aggr4.0" speed="14.15" length="5.00" type="car_aggr4" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="69811.66" state="enter" vehID="r_and_alt_1_19_car_aggr3.1" speed="14.10" length="5.00" type="car_aggr3" gap="287.79"/>
+    <instantOut id="wassen_exit_A" time="69812.00" state="stay" vehID="r_and_alt_1_19_car_aggr3.1" speed="14.10" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="69812.02" state="leave" vehID="r_and_alt_1_19_car_aggr3.1" speed="14.51" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="69902.29" state="enter" vehID="r_and_alt_1_19_car_aggr3.2" speed="17.73" length="5.00" type="car_aggr3" gap="90.27"/>
+    <instantOut id="wassen_exit_A" time="69902.57" state="leave" vehID="r_and_alt_1_19_car_aggr3.2" speed="17.73" length="5.00" type="car_aggr3" occupancy="0.28"/>
+    <instantOut id="wassen_exit_A" time="70161.78" state="enter" vehID="r_and_alt_1_19_car_aggr2.0" speed="16.31" length="5.00" type="car_aggr2" gap="259.21"/>
+    <instantOut id="wassen_exit_A" time="70162.00" state="stay" vehID="r_and_alt_1_19_car_aggr2.0" speed="16.31" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="70162.09" state="leave" vehID="r_and_alt_1_19_car_aggr2.0" speed="16.86" length="5.00" type="car_aggr2" occupancy="0.30"/>
+    <instantOut id="wassen_exit_A" time="70440.54" state="enter" vehID="r_and_alt_1_19_car_aggr3.3" speed="17.05" length="5.00" type="car_aggr3" gap="278.45"/>
+    <instantOut id="wassen_exit_A" time="70440.83" state="leave" vehID="r_and_alt_1_19_car_aggr3.3" speed="17.05" length="5.00" type="car_aggr3" occupancy="0.29"/>
+    <instantOut id="wassen_exit_A" time="70740.41" state="enter" vehID="r_and_alt_1_19_car_aggr3.4" speed="14.20" length="5.00" type="car_aggr3" gap="299.58"/>
+    <instantOut id="wassen_exit_A" time="70740.77" state="leave" vehID="r_and_alt_1_19_car_aggr3.4" speed="14.20" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="71003.72" state="enter" vehID="r_and_alt_1_19_car_aggr3.5" speed="18.12" length="5.00" type="car_aggr3" gap="262.96"/>
+    <instantOut id="wassen_exit_A" time="71004.00" state="stay" vehID="r_and_alt_1_19_car_aggr3.5" speed="18.12" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="71004.00" state="leave" vehID="r_and_alt_1_19_car_aggr3.5" speed="17.89" length="5.00" type="car_aggr3" occupancy="0.28"/>
+    <instantOut id="wassen_exit_A" time="71518.51" state="enter" vehID="r_and_alt_1_19_car_aggr2.1" speed="14.57" length="5.00" type="car_aggr2" gap="514.51"/>
+    <instantOut id="wassen_exit_A" time="71518.85" state="leave" vehID="r_and_alt_1_19_car_aggr2.1" speed="14.57" length="5.00" type="car_aggr2" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="72212.54" state="enter" vehID="r_and_alt_1_19_car_aggr5.1" speed="16.17" length="5.00" type="car_aggr5" gap="693.68"/>
+    <instantOut id="wassen_exit_A" time="72212.84" state="leave" vehID="r_and_alt_1_19_car_aggr5.1" speed="16.17" length="5.00" type="car_aggr5" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="72235.24" state="enter" vehID="r_and_alt_1_19_car_aggr3.6" speed="15.13" length="5.00" type="car_aggr3" gap="22.39"/>
+    <instantOut id="wassen_exit_A" time="72235.57" state="leave" vehID="r_and_alt_1_19_car_aggr3.6" speed="15.13" length="5.00" type="car_aggr3" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="72474.96" state="enter" vehID="r_and_alt_1_19_car_aggr2.2" speed="12.06" length="5.00" type="car_aggr2" gap="239.40"/>
+    <instantOut id="wassen_exit_A" time="72475.00" state="stay" vehID="r_and_alt_1_19_car_aggr2.2" speed="12.06" length="5.00" type="car_aggr2"/>
+    <instantOut id="wassen_exit_A" time="72475.38" state="leave" vehID="r_and_alt_1_19_car_aggr2.2" speed="11.91" length="5.00" type="car_aggr2" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="72998.65" state="enter" vehID="r_and_alt_1_20_big_truck.0" speed="12.25" length="12.00" type="big_truck" gap="523.26"/>
+    <instantOut id="wassen_exit_A" time="72999.00" state="stay" vehID="r_and_alt_1_20_big_truck.0" speed="12.25" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="72999.60" state="leave" vehID="r_and_alt_1_20_big_truck.0" speed="12.71" length="12.00" type="big_truck" occupancy="0.96"/>
+    <instantOut id="wassen_exit_A" time="73134.25" state="enter" vehID="r_and_alt_1_20_car_aggr2.0" speed="14.03" length="5.00" type="car_aggr2" gap="134.65"/>
+    <instantOut id="wassen_exit_A" time="73134.60" state="leave" vehID="r_and_alt_1_20_car_aggr2.0" speed="14.03" length="5.00" type="car_aggr2" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="74640.34" state="enter" vehID="r_and_alt_1_20_car_aggr3.0" speed="13.98" length="5.00" type="car_aggr3" gap="1505.73"/>
+    <instantOut id="wassen_exit_A" time="74640.70" state="leave" vehID="r_and_alt_1_20_car_aggr3.0" speed="13.98" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="74790.51" state="enter" vehID="r_and_alt_1_20_car_aggr3.1" speed="14.80" length="5.00" type="car_aggr3" gap="149.81"/>
+    <instantOut id="wassen_exit_A" time="74790.85" state="leave" vehID="r_and_alt_1_20_car_aggr3.1" speed="14.80" length="5.00" type="car_aggr3" occupancy="0.34"/>
+    <instantOut id="wassen_exit_A" time="75257.47" state="enter" vehID="r_and_alt_1_20_car_aggr4.0" speed="15.16" length="5.00" type="car_aggr4" gap="466.62"/>
+    <instantOut id="wassen_exit_A" time="75257.80" state="leave" vehID="r_and_alt_1_20_car_aggr4.0" speed="15.16" length="5.00" type="car_aggr4" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="75321.37" state="enter" vehID="r_and_alt_1_20_car_aggr4.1" speed="17.33" length="5.00" type="car_aggr4" gap="63.58"/>
+    <instantOut id="wassen_exit_A" time="75321.66" state="leave" vehID="r_and_alt_1_20_car_aggr4.1" speed="17.33" length="5.00" type="car_aggr4" occupancy="0.29"/>
+    <instantOut id="wassen_exit_A" time="75622.71" state="enter" vehID="r_tun_axs_KS_____20_car_aggr5.0" speed="22.25" length="5.00" type="car_aggr5" gap="301.05"/>
+    <instantOut id="wassen_exit_A" time="75622.93" state="leave" vehID="r_tun_axs_KS_____20_car_aggr5.0" speed="22.25" length="5.00" type="car_aggr5" occupancy="0.22"/>
+    <instantOut id="wassen_exit_A" time="76303.95" state="enter" vehID="r_and_alt_1_20_car_aggr3.2" speed="16.30" length="5.00" type="car_aggr3" gap="681.02"/>
+    <instantOut id="wassen_exit_A" time="76304.00" state="stay" vehID="r_and_alt_1_20_car_aggr3.2" speed="16.30" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="76304.26" state="leave" vehID="r_and_alt_1_20_car_aggr3.2" speed="16.20" length="5.00" type="car_aggr3" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="76586.64" state="enter" vehID="r_and_alt_1_21_car_aggr3.0" speed="13.80" length="5.00" type="car_aggr3" gap="282.38"/>
+    <instantOut id="wassen_exit_A" time="76587.00" state="stay" vehID="r_and_alt_1_21_car_aggr3.0" speed="13.80" length="5.00" type="car_aggr3"/>
+    <instantOut id="wassen_exit_A" time="76587.00" state="leave" vehID="r_and_alt_1_21_car_aggr3.0" speed="13.50" length="5.00" type="car_aggr3" occupancy="0.36"/>
+    <instantOut id="wassen_exit_A" time="76831.01" state="enter" vehID="r_and_alt_1_21_car_aggr3.1" speed="14.34" length="5.00" type="car_aggr3" gap="244.01"/>
+    <instantOut id="wassen_exit_A" time="76831.36" state="leave" vehID="r_and_alt_1_21_car_aggr3.1" speed="14.34" length="5.00" type="car_aggr3" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="76834.19" state="enter" vehID="r_and_alt_1_21_car_aggr5.0" speed="15.08" length="5.00" type="car_aggr5" gap="2.83"/>
+    <instantOut id="wassen_exit_A" time="76834.52" state="leave" vehID="r_and_alt_1_21_car_aggr5.0" speed="15.08" length="5.00" type="car_aggr5" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="77579.09" state="enter" vehID="r_and_alt_1_21_car_aggr2.0" speed="15.03" length="5.00" type="car_aggr2" gap="744.56"/>
+    <instantOut id="wassen_exit_A" time="77579.42" state="leave" vehID="r_and_alt_1_21_car_aggr2.0" speed="15.03" length="5.00" type="car_aggr2" occupancy="0.33"/>
+    <instantOut id="wassen_exit_A" time="77606.53" state="enter" vehID="r_tun_axs_KS_____21_car_aggr3.0" speed="13.66" length="5.00" type="car_aggr3" gap="27.11"/>
+    <instantOut id="wassen_exit_A" time="77606.89" state="leave" vehID="r_tun_axs_KS_____21_car_aggr3.0" speed="13.66" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="77786.80" state="enter" vehID="r_tun_axs_KS_____21_small_truck.0" speed="13.18" length="6.50" type="small_truck" gap="179.91"/>
+    <instantOut id="wassen_exit_A" time="77787.00" state="stay" vehID="r_tun_axs_KS_____21_small_truck.0" speed="13.18" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="77787.28" state="leave" vehID="r_tun_axs_KS_____21_small_truck.0" speed="13.91" length="6.50" type="small_truck" occupancy="0.48"/>
+    <instantOut id="wassen_exit_A" time="78081.58" state="enter" vehID="r_and_alt_1_21_car_aggr2.1" speed="14.39" length="5.00" type="car_aggr2" gap="294.30"/>
+    <instantOut id="wassen_exit_A" time="78081.93" state="leave" vehID="r_and_alt_1_21_car_aggr2.1" speed="14.39" length="5.00" type="car_aggr2" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="78650.08" state="enter" vehID="r_tun_axs_KS_____21_car_aggr3.1" speed="13.50" length="5.00" type="car_aggr3" gap="568.15"/>
+    <instantOut id="wassen_exit_A" time="78650.45" state="leave" vehID="r_tun_axs_KS_____21_car_aggr3.1" speed="13.50" length="5.00" type="car_aggr3" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="78653.93" state="enter" vehID="r_tun_axs_KS_____21_car_aggr4.0" speed="13.52" length="5.00" type="car_aggr4" gap="3.48"/>
+    <instantOut id="wassen_exit_A" time="78654.00" state="stay" vehID="r_tun_axs_KS_____21_car_aggr4.0" speed="13.52" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="78654.30" state="leave" vehID="r_tun_axs_KS_____21_car_aggr4.0" speed="13.42" length="5.00" type="car_aggr4" occupancy="0.37"/>
+    <instantOut id="wassen_exit_A" time="79046.71" state="enter" vehID="r_and_alt_1_21_small_truck.0" speed="14.91" length="6.50" type="small_truck" gap="392.40"/>
+    <instantOut id="wassen_exit_A" time="79047.00" state="stay" vehID="r_and_alt_1_21_small_truck.0" speed="14.91" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="79047.14" state="leave" vehID="r_and_alt_1_21_small_truck.0" speed="15.01" length="6.50" type="small_truck" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="79421.29" state="enter" vehID="r_tun_axs_KS_____21_car_aggr4.1" speed="11.54" length="5.00" type="car_aggr4" gap="374.15"/>
+    <instantOut id="wassen_exit_A" time="79421.73" state="leave" vehID="r_tun_axs_KS_____21_car_aggr4.1" speed="11.54" length="5.00" type="car_aggr4" occupancy="0.43"/>
+    <instantOut id="wassen_exit_A" time="80212.44" state="enter" vehID="r_and_alt_1_22_car_aggr4.0" speed="16.30" length="5.00" type="car_aggr4" gap="790.71"/>
+    <instantOut id="wassen_exit_A" time="80212.74" state="leave" vehID="r_and_alt_1_22_car_aggr4.0" speed="16.30" length="5.00" type="car_aggr4" occupancy="0.31"/>
+    <instantOut id="wassen_exit_A" time="80751.52" state="enter" vehID="r_and_alt_1_22_small_truck.0" speed="13.01" length="6.50" type="small_truck" gap="538.78"/>
+    <instantOut id="wassen_exit_A" time="80752.00" state="stay" vehID="r_and_alt_1_22_small_truck.0" speed="13.01" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="80752.02" state="leave" vehID="r_and_alt_1_22_small_truck.0" speed="12.81" length="6.50" type="small_truck" occupancy="0.50"/>
+    <instantOut id="wassen_exit_A" time="81431.88" state="enter" vehID="r_and_alt_1_22_big_truck.0" speed="12.98" length="12.00" type="big_truck" gap="679.85"/>
+    <instantOut id="wassen_exit_A" time="81432.00" state="stay" vehID="r_and_alt_1_22_big_truck.0" speed="12.98" length="12.00" type="big_truck"/>
+    <instantOut id="wassen_exit_A" time="81432.81" state="leave" vehID="r_and_alt_1_22_big_truck.0" speed="12.75" length="12.00" type="big_truck" occupancy="0.94"/>
+    <instantOut id="wassen_exit_A" time="82603.47" state="enter" vehID="r_and_alt_1_22_small_truck.1" speed="13.84" length="6.50" type="small_truck" gap="1170.65"/>
+    <instantOut id="wassen_exit_A" time="82603.94" state="leave" vehID="r_and_alt_1_22_small_truck.1" speed="13.84" length="6.50" type="small_truck" occupancy="0.47"/>
+    <instantOut id="wassen_exit_A" time="82725.80" state="enter" vehID="r_and_alt_1_22_car_aggr4.1" speed="13.75" length="5.00" type="car_aggr4" gap="121.86"/>
+    <instantOut id="wassen_exit_A" time="82726.00" state="stay" vehID="r_and_alt_1_22_car_aggr4.1" speed="13.75" length="5.00" type="car_aggr4"/>
+    <instantOut id="wassen_exit_A" time="82726.15" state="leave" vehID="r_and_alt_1_22_car_aggr4.1" speed="14.95" length="5.00" type="car_aggr4" occupancy="0.35"/>
+    <instantOut id="wassen_exit_A" time="83011.05" state="enter" vehID="r_and_alt_1_22_car_aggr5.0" speed="11.80" length="5.00" type="car_aggr5" gap="284.90"/>
+    <instantOut id="wassen_exit_A" time="83011.47" state="leave" vehID="r_and_alt_1_22_car_aggr5.0" speed="11.80" length="5.00" type="car_aggr5" occupancy="0.42"/>
+    <instantOut id="wassen_exit_A" time="85542.73" state="enter" vehID="r_was_ams_23_small_truck.0" speed="14.46" length="6.50" type="small_truck" gap="2531.26"/>
+    <instantOut id="wassen_exit_A" time="85543.00" state="stay" vehID="r_was_ams_23_small_truck.0" speed="14.46" length="6.50" type="small_truck"/>
+    <instantOut id="wassen_exit_A" time="85543.19" state="leave" vehID="r_was_ams_23_small_truck.0" speed="14.01" length="6.50" type="small_truck" occupancy="0.46"/>
+</instantE1>

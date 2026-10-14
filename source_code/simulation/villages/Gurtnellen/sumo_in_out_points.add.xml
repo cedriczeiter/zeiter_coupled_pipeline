@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-08 20:41:04 by Eclipse SUMO netedit Version 1.23.1
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Shapes -->
+    <poly id="po_0" color="red" fill="0" layer="0.00" shape="16500.000000,27000.000000 16500.000000,24700.000000 15400.000000,24700.000000 15400.000000,27000.000000 16500.000000,27000.000000"/>
+    <poi id="poi_0" color="255,0,227" layer="202.00" x="16523.83" y="26298.91" width="20.00" height="10.00"/>
+    <poi id="poi_1" color="255,0,227" layer="202.00" x="15361.17" y="24696.01" width="20.00" height="10.00"/>
+    <poi id="poi_2" color="green" layer="202.00" x="15379.60" y="24714.44" width="20.00" height="10.00"/>
+    <poi id="poi_3" color="green" layer="202.00" x="16506.10" y="26284.13" width="20.00" height="10.00"/>
+</additional>

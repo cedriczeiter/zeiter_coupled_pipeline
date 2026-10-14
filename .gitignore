@@ -1,0 +1,41 @@
+# Paper source (not versioned)
+*.tex
+*.bib
+
+# Python / IDE
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+*.py[cod]
+*.spyproject/
+
+# Large or restricted input data
+source_code/data/ASTRA/
+source_code/data/STATPOP_POPULATION/
+source_code/data/SWISSBASE_POPULATION/
+source_code/data/URI_TIEFBAUAMT/
+source_code/data/map_data/
+
+# Real resident population data and anything derived from it
+source_code/data_cleaned/
+source_code/simulation/output/temp/cached_people_data_*.pkl
+
+# Simulation output, caches, runs
+output_*/
+cache/
+runs/
+source_code/simulation/output/
+archive/
+
+# Curated paper data stays tracked
+!reproducibility/data/output_*_curated/
+
+# Toy example (generated files)
+toy_example/fake_population.csv
+toy_example/toy_output/
+toy_example/output/
+toy_example/_workdir/
+
+# Misc
+source_code/experiment/
+reproducibility/data/study_area_basemap/dem/

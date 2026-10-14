@@ -1,0 +1,13 @@
+numpy
+scipy
+pandas
+matplotlib
+# SUMO and its Python interfaces (traci, sumolib); the version should match the installed SUMO
+eclipse-sumo==1.27.0
+traci==1.27.0
+sumolib==1.27.0
+# only for the house outlines (houses.py: reverse geocoding and Overpass API)
+requests
+geopy
+# only for the tests in method_testing/
+pytest

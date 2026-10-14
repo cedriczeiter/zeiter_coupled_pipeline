@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-11 22:40:57 by Eclipse SUMO netedit Version 1.23.1
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Shapes -->
+    <poly id="po_0" color="red" fill="0" layer="0.00" shape="18632.409984,34999.619966 18637.361799,37747.877100 16854.708523,37752.828914 16864.612152,35098.656259 16869.563967,35009.523595 18627.458169,35004.571781"/>
+    <poi id="poi_0" icon="pin" color="74,255,0" layer="202.00" x="17082.02" y="37255.52" width="20.00" height="10.00"/>
+    <poi id="poi_1" icon="pin" color="74,255,0" layer="202.00" x="16988.54" y="37711.47" width="20.00" height="10.00"/>
+    <poi id="poi_2" icon="pin" color="255,0,227" layer="202.00" x="17025.82" y="37232.46" width="20.00" height="10.00"/>
+    <poi id="poi_3" icon="pin" color="63,255,0" layer="202.00" x="17588.29" y="37702.17" width="20.00" height="10.00"/>
+    <poi id="poi_4" icon="pin" color="255,0,227" layer="202.00" x="17635.31" y="37711.59" width="20.00" height="10.00"/>
+    <poi id="poi_5" icon="pin" color="221,0,255" layer="202.00" x="18609.05" y="35130.97" width="20.00" height="10.00"/>
+    <poi id="poi_6" icon="pin" color="44,255,0" layer="202.00" x="18557.45" y="35097.75" width="20.00" height="10.00"/>
+</additional>

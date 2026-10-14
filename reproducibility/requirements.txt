@@ -1,0 +1,10 @@
+numpy
+scipy
+pandas
+matplotlib
+pillow
+pyproj
+geopandas>=1.0     # study-area figure (uses GeoSeries.union_all)
+# to run Reproduce_Paper_Figures.ipynb
+jupyter
+ipykernel
